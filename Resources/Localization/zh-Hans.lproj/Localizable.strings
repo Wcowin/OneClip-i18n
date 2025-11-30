@@ -1,0 +1,2447 @@
+/*
+  Localizable.strings - 中文 (简体)
+  OneClip
+
+  Created by Localization System
+*/
+
+// MARK: - 应用基础
+"app.name" = "OneClip";
+"app.description" = "剪贴板管理器";
+
+// MARK: - 通用按钮
+"button.ok" = "确定";
+"button.cancel" = "取消";
+"button.save" = "保存";
+"button.close" = "关闭";
+"button.reset" = "重置";
+"button.delete" = "删除";
+"button.edit" = "编辑";
+"button.copy" = "复制";
+"button.paste" = "粘贴";
+"button.search" = "搜索";
+"button.settings" = "设置";
+"button.next" = "下一步";
+"button.previous" = "上一步";
+"button.finish" = "完成";
+"button.start" = "开始";
+
+// MARK: - 通用操作
+"common.copy" = "复制";
+"common.paste" = "粘贴";
+
+// MARK: - 文本选词功能
+"text_selection.title" = "选择文本";
+"text_selection.hint" = "拖动鼠标选择需要的部分文本";
+"text_selection.selected_count" = "已选择 %d 个字符（共 %d 字符）";
+"text_selection.no_selection" = "未选择任何文本";
+"text_selection.copy_selected" = "复制选中";
+"text_selection.paste_selected" = "粘贴选中";
+"text_selection.only_text_supported" = "仅支持文本类型进行选词";
+"text_selection.empty_text" = "文本内容为空";
+
+// MARK: - 状态栏菜单
+"statusbar.tooltip" = "OneClip - 剪贴板管理器";
+
+// ⚠️ DEPRECATED (2025-11-05) - 菜单栏已优化为固定标题，不再动态显示/隐藏
+"statusbar.menu.show_window" = "显示主窗口";
+"statusbar.menu.hide_window" = "隐藏窗口";
+
+// ✅ 当前使用
+"statusbar.menu.browse_categories" = "浏览分类";
+"statusbar.menu.toggle_window" = "主窗口";
+"statusbar.menu.quick_reply" = "快捷回复";
+
+// ⚠️ DEPRECATED (2025-11-05) - 使用 statusbar.menu.toggle_quick_reply 代替
+"statusbar.menu.show_quick_reply" = "显示快捷回复";
+"statusbar.menu.hide_quick_reply" = "隐藏快捷回复";
+
+// ✅ 当前使用
+"statusbar.menu.toggle_quick_reply" = "快捷回复";
+"statusbar.menu.clear_all" = "清空历史记录";
+"statusbar.menu.clear_all.tooltip" = "删除所有剪贴板历史记录";
+"statusbar.menu.settings" = "设置";
+"statusbar.menu.about" = "关于 OneClip";
+"statusbar.menu.check_updates" = "检查更新…";
+"statusbar.menu.quit" = "退出 OneClip";
+"statusbar.menu.empty_state" = "剪贴板历史为空";
+"statusbar.menu.add_content" = "复制一些内容以开始使用";
+"statusbar.menu.hotkey_hint" = "⌨️ 快捷键打开窗口";
+"statusbar.menu.pause_monitoring" = "暂停监控剪贴板";
+"statusbar.menu.pause_monitoring.now" = "立即暂停";
+"statusbar.menu.pause_monitoring.15min" = "暂停 15 分钟";
+"statusbar.menu.pause_monitoring.30min" = "暂停 30 分钟";
+"statusbar.menu.pause_monitoring.1hour" = "暂停 1 小时";
+"statusbar.menu.pause_monitoring.3hours" = "暂停 3 小时";
+"statusbar.menu.pause_monitoring.8hours" = "暂停 8 小时";
+"statusbar.menu.resume_monitoring" = "恢复监控剪贴板";
+"statusbar.menu.pause_monitoring.tooltip" = "暂时停止监听剪贴板变化";
+"statusbar.menu.resume_monitoring.tooltip" = "恢复监听剪贴板变化";
+"statusbar.menu.manage_favorites" = "管理收藏夹";
+"statusbar.menu.manage_favorites.tooltip" = "查看并管理收藏的项目";
+"statusbar.menu.manage_favorites.empty" = "管理收藏夹（无收藏项）";
+"statusbar.menu.manage" = "管理";
+"statusbar.menu.help_and_about" = "帮助与关于";
+"statusbar.menu.show_onboarding" = "显示引导";
+"statusbar.menu.show_onboarding.tooltip" = "重新显示应用引导页面";
+"statusbar.menu.join_qq_group" = "加入QQ群";
+"statusbar.menu.join_qq_group.tooltip" = "加入 OneClip 用户交流群：1060157293";
+"statusbar.menu.quit_confirmation" = "退出时需要确认";
+"statusbar.menu.quit_confirmation.tooltip" = "开启后，退出应用时会显示确认对话框";
+"statusbar.menu.settings.tooltip" = "打开应用设置 (⌘,)";
+"statusbar.menu.about.tooltip" = "关于 OneClip";
+"statusbar.menu.check_updates.tooltip" = "检查应用更新";
+
+// MARK: - 操作按钮悬浮提示
+"tooltip.copy" = "复制";
+"tooltip.paste_to_cursor" = "直接粘贴到光标位置";
+"tooltip.paste_to_cursor_full" = "粘贴到光标位置";
+"tooltip.favorite_add" = "添加收藏";
+"tooltip.favorite_remove" = "取消收藏";
+"tooltip.favorite_click_to_remove" = "点击取消收藏";
+"tooltip.delete" = "删除";
+"tooltip.delete_favorite_protected" = "已收藏无法删除，取消收藏即可删除";
+"tooltip.clear_history" = "清空历史记录";
+"tooltip.toggle_pin" = "窗口置顶";
+"tooltip.toggle_unpin" = "取消置顶";
+"tooltip.pin_disabled_horizontal" = "横排模式下窗口始终置顶";
+"tooltip.switch_to_grid" = "切换到卡片视图";
+"tooltip.switch_to_list" = "切换到列表视图";
+"tooltip.copy_item" = "复制此项";
+"tooltip.delete_item" = "删除此项";
+"tooltip.copy_to_clipboard" = "复制到剪贴板";
+"tooltip.remove_item" = "移除";
+"tooltip.accessibility_permission" = "点击申请辅助功能权限";
+"tooltip.clear_all_history" = "清空所有剪贴板内容";
+
+// MARK: - 菜单栏图标样式
+"menubar.icon.style" = "菜单栏图标样式";
+"menubar.icon.clipboard" = "剪贴板";
+"menubar.icon.stack" = "堆叠";
+"menubar.icon.tray" = "托盘";
+"menubar.icon.archive" = "归档";
+"menubar.icon.folder" = "文件夹";
+"menubar.icon.doc" = "文档";
+"menubar.icon.paperclip" = "回形针";
+"menubar.icon.custom" = "自定义";
+"menubar.icon.select_title" = "选择菜单栏图标";
+"menubar.icon.current_selection" = "当前选择：";
+
+// MARK: - 内容分类
+"category.all" = "全部";
+"category.favorites" = "收藏";
+"category.quickReply" = "快捷回复";
+"category.text" = "文本";
+"category.image" = "图片";
+"category.file" = "文件夹";
+"category.video" = "视频";
+"category.audio" = "音频";
+"category.document" = "文档";
+"category.code" = "代码";
+"category.archive" = "压缩包";
+"category.executable" = "应用程序";
+"category.executable_short" = "应用";
+"category.unknown" = "未知";
+"category.custom" = "自定义";
+
+// MARK: - 图标分类标签
+"icon.category.all" = "全部";
+"icon.category.clipboard" = "剪贴板";
+"icon.category.file" = "文件";
+"icon.category.symbol" = "符号";
+"icon.category.decoration" = "装饰";
+"icon.category.nature" = "自然";
+
+// MARK: - 菜单栏预览设置
+"menubar.preview.count.description" = "设置在菜单栏中显示的剪贴板项目数量（1-50项）";
+"menubar.preview.count.custom" = "自定义";
+"menubar.preview.count.items" = "项";
+"menubar.preview.count.range" = "范围: 1-50 项";
+
+// MARK: - 菜单栏分类设置
+"menubar.categories.empty_state" = "暂无分类内容";
+"menubar.categories.no_items" = "暂无项目";
+"menubar.categories.show_only_non_empty" = "只显示有内容的分类";
+"menubar.categories.show_only_non_empty.subtitle" = "隐藏空分类，让菜单更简洁";
+
+// MARK: - 快捷键设置
+"shortcut.show_hints" = "显示快捷键序号标签";
+"shortcut.show_hints.subtitle" = "在前 9 项右侧显示快速复制的快捷键标签";
+"shortcut.click_to_record" = "点击按键区域开始录制";
+"shortcut.click_above_to_record" = "点击上方区域开始录制";
+"shortcut.start_recording" = "开始录制";
+"shortcut.stop_recording" = "停止录制";
+"shortcut.reset_default" = "重置默认";
+"shortcut.recording_hint" = "正在录制... 按下您想要的快捷键（ESC取消）";
+"shortcut.conflict.critical" = "⚠️ 此快捷键已被占用，请选择其他组合";
+"shortcut.conflict.high" = "⚠️ 此快捷键可能与其他应用冲突";
+"shortcut.conflict.medium" = "⚠️ 此快捷键可能与其他应用冲突";
+"shortcut.conflict.low" = "💡 建议添加修饰键以获得更好的体验";
+"shortcut.enable_hotkey" = "启用此快捷键";
+"shortcut.enable_hotkey.subtitle" = "禁用后其他应用可使用相同快捷键";
+"shortcut.double_click_modifier" = "双击修饰键";
+"shortcut.disable" = "禁用";
+
+// MARK: - 语言名称
+"language.name.zh-Hans" = "中文（简体）";
+"language.name.en" = "English";
+
+// MARK: - 存储清理
+"storage.deep_cleanup" = "深度清理";
+"storage.deep_cleanup.description" = "清理历史记录、图片缓存和临时文件（保护收藏项目）";
+"storage.deep_cleanup.confirm.title" = "深度清理确认";
+"storage.deep_cleanup.confirm.start" = "开始清理";
+"storage.deep_cleanup.confirm.no_data" = "当前没有数据需要清理";
+"storage.deep_cleanup.confirm.with_favorites" = "将清理历史记录、图片缓存和临时文件\n自动保护 %d 个收藏项目";
+"storage.deep_cleanup.confirm.no_favorites" = "将清理历史记录、图片缓存和临时文件\n此操作不可恢复";
+
+// MARK: - 辅助功能常见问题
+"accessibility.faq.title" = "常见问题";
+"accessibility.faq.auth_failed" = "❓ 授权失败怎么办？";
+
+// MARK: - 云同步
+"cloud_sync.title" = "云同步";
+"cloud_sync.icloud_feature" = "iCloud 云同步";
+"cloud_sync.icloud_description" = "苹果生态无缝同步";
+
+// MARK: - 菜单栏预览
+"menubar.preview.title" = "菜单栏预览项目数量";
+
+// MARK: - 菜单栏点击行为
+"menubar.click_behavior.title" = "菜单栏点击行为";
+"menubar.click_behavior.description" = "点击菜单栏项目时的操作";
+"menubar.left_click" = "左键点击";
+"menubar.right_click" = "右键点击";
+
+// MARK: - 设置界面
+"settings.title" = "设置";
+"settings.tab.general" = "通用设置";
+"settings.tab.interface" = "界面设置";
+"settings.tab.monitoring" = "监控设置";
+"settings.tab.categories" = "自定义分类";
+"settings.tab.storage" = "存储";
+"settings.tab.shortcuts" = "快捷键";
+"settings.tab.accessibility" = "辅助功能";
+"settings.tab.advanced" = "高级功能";
+"settings.tab.about" = "关于";
+"settings.tab.test" = "测试功能";
+
+// 设置界面标题
+"settings.header.general" = "常规设置";
+"settings.header.interface" = "界面设置";
+"settings.header.monitoring" = "监控设置";
+"settings.header.categories" = "自定义分类管理";
+"settings.header.storage" = "存储管理";
+"settings.header.shortcuts" = "快捷键配置";
+"settings.header.accessibility" = "辅助功能权限";
+"settings.header.advanced" = "高级选项";
+"settings.header.about" = "关于 OneClip";
+"settings.header.feedback" = "反馈";
+"settings.header.test" = "测试功能";
+
+// 设置侧边栏
+"settings.sidebar.general" = "通用设置";
+"settings.sidebar.interface" = "界面设置";
+"settings.sidebar.monitoring" = "监控设置";
+"settings.sidebar.categories" = "自定义分类";
+"settings.sidebar.storage" = "存储";
+"settings.sidebar.shortcuts" = "快捷键";
+"settings.sidebar.accessibility" = "辅助功能";
+"settings.sidebar.advanced" = "高级功能";
+"settings.sidebar.about" = "关于";
+"settings.sidebar.feedback" = "反馈";
+"settings.sidebar.test" = "测试功能";
+"settings.sidebar.reset_all" = "重置所有设置";
+
+// MARK: - 权限相关
+"permission.unauthorized" = "未授权";
+"permission.authorized" = "已授权";
+"permission.tooltip" = "点击直接打开系统设置的辅助功能页面";
+
+// MARK: - 窗口管理
+"window.pin.enabled" = "已置顶";
+"window.pin.disabled" = "置顶窗口";
+"window.pin.tooltip.enable" = "将设置面板置顶";
+"window.pin.tooltip.disable" = "关闭置顶";
+
+// MARK: - 警告和确认对话框
+"alert.reset.title" = "重置设置";
+"alert.reset.message" = "确定要重置所有设置吗？此操作无法撤销。";
+"alert.reset.completed.title" = "重置完成";
+"alert.reset.completed.message" = "所有设置已重置为默认值";
+
+"alert.cleanup.title" = "确认清理";
+"alert.cleanup.message" = "这将删除所有历史剪贴板内容和相关临时文件，此操作不可撤销。";
+"alert.cleanup.completed.title" = "清理完成";
+"alert.cleanup.completed.message" = "已成功清理所有历史内容和临时文件";
+
+"alert.deactivate.title" = "确认取消激活";
+"alert.deactivate.message" = "取消激活后将失去所有付费功能，并完全恢复为免费版状态。";
+"alert.deactivate.completed.title" = "已取消激活";
+"alert.deactivate.completed.message" = "付费功能已取消激活，已完全恢复为免费版状态。";
+
+"alert.storage_cleanup.title" = "确认清理";
+"alert.storage_cleanup.message" = "这将删除所有历史剪贴板内容和相关文件，此操作不可撤销。";
+
+// MARK: - 撤销横幅
+"revoke_banner.message.suspected" = "检测到许可证异常，已进入短宽限期（约%d 分钟）。";
+"revoke_banner.message.multiple" = "多次确认异常，宽限期剩余约 %d 分钟。";
+"revoke_banner.message.waiting" = "检测到许可证异常，正在等待服务器确认。";
+"revoke_banner.description" = "我们会再次自动验证，若确认撤销或宽限到期将自动失效。";
+"revoke_banner.button.verify" = "重新验证";
+"revoke_banner.button.support" = "联系支持";
+
+// MARK: - 引导界面
+"onboarding.welcome.title" = "让我们快速设置，为你提供最佳的剪贴板管理体验";
+"onboarding.button.start" = "开始设置";
+"onboarding.button.next" = "下一步";
+"onboarding.button.authorize" = "授权辅助功能权限";
+"onboarding.button.finish" = "完成设置";
+"onboarding.button.experience" = "开始体验";
+
+// MARK: - 分隔符设置
+"separator.usage_info" = "使用说明";
+"separator.usage_description" = "选择多个文本片段后点击复制按钮即可合并复制";
+
+// MARK: - 错误和状态信息
+"error.status_bar_creation_failed" = "状态栏项目创建失败";
+"error.status_bar_button_failed" = "状态栏按钮创建失败";
+
+// MARK: - 日志信息
+"log.creating_status_bar" = "开始创建状态栏项目...";
+"log.status_bar_icon" = "使用系统状态栏图标: %@";
+
+// MARK: - 更多行提示
+"text.more_lines" = "...";
+
+// MARK: - 编辑控件
+"edit.set_to" = "设置为：";
+
+// MARK: - 语言设置
+"language.chinese" = "中文";
+"language.english" = "English";
+"language.setting.title" = "语言设置";
+"language.setting.subtitle" = "选择应用显示语言";
+"language.setting.description" = "选择应用界面语言";
+
+// MARK: - 通用设置
+"general.startup_behavior.title" = "启动与行为";
+"general.startup_behavior.subtitle" = "配置应用启动和通知行为";
+"general.auto_start.title" = "开机自动启动";
+"general.auto_start.subtitle" = "系统启动时自动运行 OneClip";
+"general.show_window_on_startup.title" = "启动时显示主窗口";
+"general.show_window_on_startup.subtitle" = "应用启动时自动显示主窗口，关闭则静默启动";
+"general.notifications.title" = "启用通知";
+"general.notifications.subtitle" = "复制新内容时显示通知";
+"general.menu_preview.title" = "菜单栏预览";
+"general.menu_preview.subtitle" = "悬浮菜单项时显示图片和文件预览（文本通过子菜单展示）";
+"general.sound_effects.title" = "操作音效";
+"general.sound_effects.subtitle" = "为复制、粘贴、删除等操作添加音效反馈，开启时会播放预览音效";
+"general.custom_tooltips.title" = "按钮悬浮提示";
+"general.custom_tooltips.subtitle" = "鼠标悬停在按钮上时显示功能说明，熟悉功能后可关闭";
+"general.history.title" = "历史记录";
+"general.history.subtitle" = "管理剪贴板历史记录的数量和存储";
+"general.merge_copy.title" = "合并复制设置";
+"general.merge_copy.subtitle" = "配置多选文本的合并方式";
+
+// 🆕 优化后的设置卡片标题
+"settings.startup.title" = "启动行为";
+"settings.startup.subtitle" = "配置应用启动方式";
+"settings.feedback.title" = "交互反馈";
+"settings.feedback.subtitle" = "配置通知、音效和预览提示";
+"settings.operation.title" = "主窗口操作行为";
+"settings.operation.subtitle" = "自定义主窗口的双击、回车和粘贴行为";
+"settings.operation.help" = "双击/回车执行对应操作，粘贴后可选择保留或隐藏窗口";
+"settings.content.title" = "内容管理";
+"settings.content.subtitle" = "管理历史记录数量限制";
+
+// 操作行为设置（已移至主窗口操作行为）
+"settings.double_tap.title" = "双击行为";
+"settings.double_tap.subtitle" = "双击列表项时的操作";
+"settings.enter_key.title" = "回车键行为";
+"settings.enter_key.subtitle" = "按下回车键时的操作";
+"settings.action.none" = "无";
+"settings.action.copy" = "复制";
+"settings.action.paste" = "粘贴到光标";
+"settings.action_behavior.help.title" = "功能说明";
+"settings.action_behavior.help.copy" = "• 复制：将内容复制到剪贴板";
+"settings.action_behavior.help.paste" = "• 粘贴到光标：自动插入到当前光标位置（需要辅助功能权限）";
+
+// MARK: - 设置描述文本
+"settings.items_count" = "项目";
+"settings.unlimited" = "无限";
+"settings.quick_select" = "快速选择";
+"settings.custom_input" = "自定义输入";
+"settings.never" = "永不";
+"settings.days" = "天";
+
+// MARK: - 使用量级别
+"usage.light" = "适合轻度使用";
+"usage.normal" = "适合日常使用";
+"usage.heavy" = "适合重度使用";
+"usage.professional" = "适合专业使用";
+"usage.unlimited" = "不限制历史记录";
+
+// MARK: - 清理频率
+"cleanup.never" = "永不清理";
+"cleanup.frequent" = "频繁清理";
+"cleanup.regular" = "定期清理";
+"cleanup.longterm" = "长期保存";
+"cleanup.custom" = "自定义设置";
+
+// MARK: - 清理选项
+"cleanup.option.never" = "永不清理";
+"cleanup.option.week" = "1周后清理";
+"cleanup.option.half_month" = "2周后清理";
+"cleanup.option.month" = "1个月后清理";
+"cleanup.option.two_months" = "2个月后清理";
+"cleanup.option.three_months" = "3个月后清理";
+
+// MARK: - 历史记录设置
+"history.max_items.title" = "显示数量";
+"history.max_items.description" = "在列表中显示的历史记录数量，磁盘存储由清理天数决定";
+"history.premium_subtitle" = "已解锁：最多显示无限条";
+"history.free_subtitle" = "免费版限制：最多显示 50 条";
+"history.trial_subtitle" = "试用中：最多显示无限条";
+"history.promo_subtitle" = "限时体验：最多显示无限条";
+"history.free_limit_message" = "免费版最多显示 50 条记录，升级后可显示无限条。磁盘上的历史记录由清理天数管理";
+"history.upgrade_button" = "升级解锁";
+
+// MARK: - 重复内容处理设置
+"duplicate_handling.title" = "重复内容处理";
+"duplicate_handling.subtitle" = "选择再次复制已有内容时的行为";
+"duplicate_handling.strategy.title" = "处理策略";
+"duplicate_handling.strategy.subtitle" = "再次复制已存在的内容时";
+"duplicate_handling.move_to_top" = "移到最前面";
+"duplicate_handling.add_new" = "再次捕获";
+"duplicate_handling.info.title" = "策略说明";
+"duplicate_handling.info.move_to_top_desc" = "• 移到最前面：将已存在的内容移到列表顶部，保持列表清洁";
+"duplicate_handling.info.add_new_desc" = "• 再次捕获：创建新的历史记录，保留完整复制时间线";
+
+// MARK: - 合并复制设置
+"merge_copy.title" = "合并复制设置";
+"merge_copy.subtitle" = "配置多选文本的合并方式";
+"merge_copy.separator_title" = "文本片段分隔符";
+"merge_copy.separator_description" = "选择多个文本片段合并时的分隔方式";
+"merge_copy.newline_separator" = "换行";
+"merge_copy.space_separator" = "空格";
+
+// MARK: - 关于界面
+"about.description" = "智能剪贴板管理器";
+"about.version" = "版本 1.3.7";
+"about.version_display" = "版本 %@ (%@)";
+"about.tooltip.website" = "访问官方网站";
+"about.tooltip.email" = "发送反馈邮件";
+"about.tooltip.qq_group" = "加入 QQ 群";
+"about.tooltip.github" = "访问开发者主页";
+"about.privacy_policy" = "隐私政策";
+"about.terms_of_use" = "使用条款";
+"about.disclaimer" = "免责声明";
+"about.copyright" = "© 2015-2025 OneClip Team. All rights reserved.";
+"about.main_features.title" = "主要功能";
+"about.main_features.subtitle" = "了解 OneClip 的核心功能特性";
+"about.feature.clipboard_management" = "智能剪贴板管理";
+"about.feature.clipboard_description" = "自动保存和分类剪贴板内容";
+"about.feature.quick_search" = "快速搜索";
+"about.feature.search_description" = "即时搜索和过滤历史记录";
+"about.feature.multimedia_support" = "多媒体支持";
+"about.feature.multimedia_description" = "支持文本、图片、文件等多种格式";
+"about.feature.global_shortcuts" = "全局快捷键";
+"about.feature.shortcuts_description" = "随时随地快速访问";
+
+// MARK: - 辅助功能权限
+"accessibility.title" = "辅助功能权限";
+"permission.granted.title" = "权限已授予";
+"permission.granted.message" = "OneClip 现在可以正常工作了";
+"accessibility.permission_granted" = "权限已授权";
+"accessibility.permission_denied" = "权限未授权";
+"accessibility.description_granted" = "OneClip 可以正常监控剪贴板";
+"accessibility.description_denied" = "需要授权才能使用完整功能";
+"accessibility.open_settings" = "打开系统设置";
+"accessibility.features.title" = "功能说明";
+"accessibility.privacy_protection" = "隐私保护";
+"accessibility.privacy_protection_desc" = "OneClip 仅监控剪贴板内容，不会记录键盘输入或访问其他无关数据。所有数据仅存储在本地，不会上传到服务器。";
+"accessibility.setup_guide" = "设置指南";
+
+// 辅助功能特性
+"accessibility.feature.realtime_monitoring" = "实时监控";
+"accessibility.feature.monitoring_description" = "自动记录剪贴板历史变化";
+"accessibility.feature.quick_search" = "快速搜索";
+"accessibility.feature.search_description" = "支持全文搜索和智能筛选";
+"accessibility.feature.auto_categorize" = "自动分类";
+"accessibility.feature.categorize_description" = "智能识别内容类型并分组显示";
+"accessibility.feature.shortcuts" = "快捷键操作";
+"accessibility.feature.shortcuts_description" = "一键复制粘贴和批量操作";
+
+// 设置指南步骤
+"accessibility.guide.open_settings" = "打开系统设置";
+"accessibility.guide.open_settings_description" = "点击上方的\"打开系统设置\"按钮";
+"accessibility.guide.privacy_security" = "进入隐私与安全性";
+"accessibility.guide.privacy_description" = "在系统设置中找到\"隐私与安全性\"选项";
+"accessibility.guide.select_accessibility" = "选择辅助功能";
+"accessibility.guide.accessibility_description" = "在左侧菜单中选择\"辅助功能\"";
+
+// MARK: - 监控设置
+"monitoring.title" = "剪贴板监控";
+"monitoring.current_interval" = "当前检查间隔";
+"monitoring.interval.title" = "检查频率";
+"monitoring.interval.description" = "剪贴板内容检查间隔时间（秒）";
+"monitoring.manual_mode" = "手动模式";
+"monitoring.manual_mode_description" = "使用固定间隔检查剪贴板变化";
+"monitoring.log_management.title" = "日志管理";
+"monitoring.enable_logging" = "启用日志记录";
+"monitoring.log_level" = "日志级别";
+
+// MARK: - 快捷键设置
+"shortcuts.global.title" = "全局快捷键";
+"shortcuts.global.subtitle" = "在任何应用中唤起 OneClip 窗口";
+"shortcuts.main_window.title" = "主窗口快捷键";
+"shortcuts.quick_reply.title" = "快捷回复";
+"shortcuts.stack_mode.title" = "剪贴板堆栈";
+"shortcuts.drop_container.title" = "拖拽容器";
+"shortcuts.in_app.title" = "应用内快捷键";
+"shortcuts.in_app.subtitle" = "OneClip 主窗口内可用的键盘快捷键";
+"shortcuts.space_key" = "空格键";
+"shortcuts.space_description" = "快速预览选中项";
+"shortcuts.arrow_keys" = "↑↓";
+"shortcuts.arrow_description" = "上下选择项目";
+"shortcuts.tab_key" = "Tab";
+"shortcuts.tab_description" = "切换到下一个分类标签";
+"shortcuts.shift_tab_key" = "⇧ + Tab";
+"shortcuts.shift_tab_description" = "切换到上一个分类标签";
+"shortcuts.cmd_numbers" = "⌘ + 1...9";
+"shortcuts.cmd_numbers_description" = "快速复制对应序号的项目";
+"shortcuts.quick_copy.title" = "快速操作（1~9 数字键）";
+"shortcuts.quick_copy.description" = "快速复制或粘贴对应序号的项目，支持自定义修饰键组合";
+"shortcuts.quick_action.behavior" = "快捷键操作";
+"action.copy" = "复制";
+"action.paste_to_cursor" = "粘贴到光标";
+"shortcuts.quick_action.scope" = "作用域";
+"shortcuts.scope.local" = "仅窗口内";
+"shortcuts.scope.global" = "全局生效";
+"shortcuts.esc_key" = "Esc";
+"shortcuts.esc_description" = "关闭窗口";
+"shortcuts.enter_key" = "Enter";
+"shortcuts.enter_description" = "复制选中项目";
+
+// MARK: - 界面设置
+"interface.display_options.title" = "显示选项";
+"interface.display_options.subtitle" = "自定义界面显示效果";
+"interface.preview_size.title" = "预览尺寸";
+"interface.preview_size.description" = "调整图片和内容预览的大小";
+"interface.preview_size.small" = "小";
+"interface.preview_size.medium" = "中";
+"interface.preview_size.large" = "大";
+"interface.show_line_numbers.title" = "显示行号";
+"interface.show_line_numbers.description" = "在文本内容中显示行号";
+"interface.show_tool_buttons.title" = "显示工具按钮";
+"interface.show_tool_buttons.description" = "在列表项右侧显示操作按钮(收藏、删除、复制等)";
+
+// 窗口管理
+"interface.window_management.title" = "窗口管理";
+"interface.window_management.subtitle" = "配置窗口显示和交互行为";
+"interface.show_in_menubar.title" = "菜单栏图标";
+"interface.show_in_menubar.description" = "在系统菜单栏显示 OneClip 图标";
+"interface.pin_window.title" = "窗口置顶";
+"interface.pin_window.description" = "保持窗口始终在其他应用前面";
+"interface.feature_description" = "功能说明";
+
+// 主题与外观
+"interface.theme_appearance.title" = "主题与外观";
+"interface.theme_appearance.subtitle" = "个性化应用外观主题";
+"interface.interface_theme.title" = "界面主题";
+"interface.theme_description_available" = "选择应用的外观主题";
+"interface.theme_description_premium" = "主题自定义需要付费版";
+"interface.theme.system" = "跟随系统";
+"interface.theme.light" = "浅色";
+"interface.theme.dark" = "深色";
+"interface.upgrade_unlock" = "升级解锁";
+"interface.animation_effects.title" = "界面动画效果";
+"interface.animation_effects.description" = "开启后界面切换、悬停、搜索等操作将显示流畅的过渡动画";
+"interface.auto_clear_search.title" = "关闭窗口时清空搜索";
+"interface.auto_clear_search.subtitle" = "窗口关闭后自动清空搜索框内容，下次打开时显示全部内容";
+"interface.remember_category.title" = "记住分类选择";
+"interface.remember_category.subtitle" = "窗口打开时保持上次选择的分类，关闭后默认显示'全部'分类";
+"interface.scroll_to_top_on_open.title" = "打开窗口时滚动到顶部";
+"interface.scroll_to_top_on_open.subtitle" = "每次打开窗口时自动滚动到当前分类的最前面，方便查看最新内容";
+
+// 配色强度设置
+"interface.color_intensity.title" = "配色强度";
+"interface.color_intensity.description" = "调整界面配色的鲜艳度和视觉强度";
+"interface.color_intensity.soft_hint" = "柔和模式已启用，略微降低色彩强度，减少视觉刺激";
+
+// 🆕 优化后的界面设置卡片标题
+"interface.style.title" = "界面风格";
+"interface.style.subtitle" = "自定义界面模式和显示选项";
+"interface.window_settings.title" = "窗口设置";
+"interface.window_settings.subtitle" = "管理窗口行为和显示位置";
+
+// 界面模式
+"interface.interface_mode.title" = "界面模式";
+"interface.interface_mode.subtitle" = "选择适合的界面布局模式";
+"interface.interface_mode.description" = "选择主窗口的显示模式";
+"interface.mode.rich" = "丰富模式";
+"interface.mode.minimal" = "极简模式";
+"interface.mode_description" = "模式说明";
+"interface.mode.rich_description" = "• 丰富模式：显示完整的界面元素和功能按钮";
+"interface.mode.minimal_description" = "• 极简模式：简化界面，只显示核心功能";
+
+// 视图布局模式
+"interface.view_layout.title" = "视图布局";
+"interface.view_layout.description" = "选择内容的显示方式";
+"view.layout.list" = "列表视图";
+"view.layout.list.description" = "紧凑排列，一目了然";
+"view.layout.grid" = "网格视图";
+"view.layout.grid.description" = "多列卡片，上下滚动浏览";
+"view.layout.horizontal_grid" = "横向卡片";
+"view.layout.horizontal_grid.description" = "单行展示，左右滑动切换";
+"tooltip.switch_view_layout" = "切换视图布局";
+
+// MARK: - 性能设置
+"performance.load_time_optimization.title" = "加载时间优化";
+"performance.load_time_optimization.subtitle" = "优化应用启动和运行性能";
+"performance.prefer_plain_text.title" = "快速文本捕捉";
+"performance.prefer_plain_text.description" = "优先捕捉纯文本，提升响应速度";
+"performance.lazy_thumbnail.title" = "按需生成缩略图";
+"performance.lazy_thumbnail.description" = "仅在显示时生成缩略图，减少资源占用";
+"performance.advanced_parameters_info" = "性能参数已由系统智能优化，无需手动调节。";
+
+// 图片预加载
+"performance.image_preload.title" = "图片预加载设置";
+"performance.preload_delay.title" = "预加载延迟时间";
+"performance.key_image_count.title" = "关键图片预加载数量";
+"performance.key_image_count.description" = "优先预加载的图片数量";
+"performance.max_preload_count.title" = "最大预加载数量";
+"performance.max_preload_count.description" = "同时预加载的最大图片数量";
+
+// 内存管理
+"performance.memory_management.title" = "内存管理";
+"performance.memory_management.title_premium" = "内存管理（付费功能）";
+"performance.memory_management.subtitle" = "自动清理和管理内存使用";
+"performance.memory_management.subtitle_premium" = "升级解锁自动内存管理功能";
+"performance.optimize_memory.title" = "优化内存";
+"performance.optimize_memory.description" = "清理不必要的缓存数据";
+"performance.optimization_complete" = "优化完成";
+"performance.memory_optimization_complete" = "内存优化完成";
+"performance.auto_cleanup.title" = "自动清理和优化";
+"performance.upgrade_unlock" = "升级解锁";
+
+
+// MARK: - 主界面
+"main.search_placeholder" = "搜索内容";
+"main.unauthorized" = "未授权";
+
+// MARK: - 新建分类
+"new_category.title" = "新建分类";
+"new_category.name_label" = "分类名称";
+"new_category.name_placeholder" = "输入分类名称";
+"new_category.icon_label" = "图标";
+"new_category.color_label" = "颜色";
+"new_category.rules_label" = "分类规则";
+"new_category.add_rule_button" = "添加规则";
+"new_category.add_rule_description" = "点击\"添加规则\"来设置分类条件";
+"new_category.cancel_button" = "取消";
+"new_category.create_button" = "创建";
+"new_category.error.name_empty" = "分类名称不能为空";
+"new_category.error.name_exists" = "分类名称已存在";
+
+// MARK: - 编辑分类
+"edit_category.title" = "编辑分类";
+"edit_category.basic_info" = "基本信息";
+
+// MARK: - 空状态页面
+"empty_state.title" = "准备好管理您的剪贴板了";
+"empty_state.subtitle" = "一切都在您的掌控之中";
+
+// MARK: - 时间问候（空状态）
+"greeting.morning.title" = "早上好";
+"greeting.morning.message" = "喝杯水，开启新的一天 ☀️";
+"greeting.morning.tip" = "";
+
+"greeting.noon.title" = "中午好";
+"greeting.noon.message" = "午休一下，劳逸结合 ☕️";
+"greeting.noon.tip" = "";
+
+"greeting.afternoon.title" = "下午好";
+"greeting.afternoon.message" = "别忘了喝水 🌤️";
+"greeting.afternoon.tip" = "";
+
+"greeting.evening.title" = "晚上好";
+"greeting.evening.message" = "辛苦了，放松一下吧 🌙";
+"greeting.evening.tip" = "";
+
+"greeting.night.title" = "夜深了";
+"greeting.night.message" = "早点休息吧 ✨";
+"greeting.night.tip" = "";
+
+// MARK: - 欢迎页面
+"welcome.title" = "欢迎使用 OneClip！";
+"welcome.subtitle" = "智能剪贴板管理器";
+"welcome.feature.auto_save.title" = "自动保存";
+"welcome.feature.auto_save.description" = "复制的内容会自动保存到历史记录";
+"welcome.feature.shortcuts.title" = "快捷键";
+"welcome.feature.shortcuts.description" = "使用 ⌘⇧V 快速显示/隐藏窗口";
+"welcome.feature.menubar.title" = "菜单栏";
+"welcome.feature.menubar.description" = "点击菜单栏图标快速访问剪贴板";
+"welcome.get_started.title" = "开始使用";
+"welcome.get_started.description" = "复制任何内容到剪贴板，它会自动出现在这里。";
+
+// MARK: - 首次启动示例项目
+"welcome.sample1.content" = "🎉 欢迎使用 OneClip\n智能剪贴板管理工具\n自动保存·智能分类·快速搜索\n现在开始复制内容试试吧！";
+"welcome.sample2.content" = "⌨️ 主窗口快捷键\nCmd⇧V 唤出主窗口\nCmd1-9 快速粘贴前9项\nCmdF 搜索 | CmdD 删除\nSpace 预览文件图片";
+"welcome.sample3.content" = "📥 栈粘贴板 - 效率神器\n^⇧C 激活堆栈模式\n复制多个内容加入队列\n^⇧V 依次自动粘贴\n表单填写批量编辑必备！";
+"welcome.sample4.content" = "💬 快捷回复 - 一键输入\nCmd⇧R 呼出快捷回复\n预设常用文本图片文件\n支持自定义快捷键\n大幅提升沟通效率！";
+"welcome.sample5.content" = "🖱️ 拖拽与预览\n拖拽项目到其他应用\n支持文本/图片/文件\n^⇧D 呼出拖拽容器\nSpace 键快速预览内容";
+"welcome.sample6.content" = "⭐ 收藏与分类\n点击星标收藏重要内容\n收藏项目永不自动清理\n支持自定义分类规则\n菜单栏快速访问最近项";
+"welcome.sample7.content" = "🚀 探索更多功能\n🤖 AI助手：OCR/翻译/摘要\n☁️ 云同步：多设备数据同步\n⚙️ 设置中心：个性化定制\n📖 查看设置了解更多功能";
+
+// MARK: - 测试功能
+"test_features.server_status.title" = "服务器状态";
+"test_features.check_connection" = "检查连接";
+"test_features.connection_status" = "连接状态";
+"test_features.server_normal" = "服务器连接正常";
+"test_features.server_error" = "服务器连接异常";
+"test_features.online" = "在线";
+"test_features.offline" = "离线";
+"test_features.last_check" = "最后检查";
+"test_features.offline_verification.title" = "离线验证";
+"test_features.offline_verification.description" = "当服务器不可用时启用离线验证";
+"test_features.current_status" = "当前状态";
+"test_features.enabled" = "已启用";
+"test_features.disabled" = "已禁用";
+"test_features.remaining_time" = "剩余";
+"test_features.manual_disable" = "手动禁用";
+
+// 离线验证对话框
+"test_features.enable_offline_title" = "启用离线验证";
+"test_features.enable_offline_message" = "服务器当前不可用，是否启用离线验证？\n\n离线验证将允许您：\n• 使用已激活的许可证\n• 有效期：7天\n• 服务器恢复后自动禁用\n\n注意：离线验证仅作为临时备用方案。";
+"test_features.confirm_enable" = "确认启用";
+
+// MARK: - 高级设置
+"advanced.premium_unlocked" = "高级功能已解锁";
+"advanced.limited_trial_active" = "限时体验中";
+"advanced.limited_trial_paused" = "限时体验已暂停";
+"advanced.trial_paused" = "试用已暂停";
+"advanced.trial_active" = "试用中";
+"advanced.upgrade_to_premium" = "升级到付费版";
+"advanced.lifetime_user" = "终身用户";
+"advanced.monthly_user" = "月卡用户";
+"advanced.yearly_user" = "年卡用户";
+"advanced.expires_on" = "到期";
+"advanced.activated_pending" = "已激活 · 待校验";
+"advanced.free_version" = "免费版";
+"advanced.remaining_days" = "剩余";
+
+// 功能激活状态
+"advanced.premium_activated" = "高级功能已激活";
+"advanced.deactivate" = "取消激活";
+"advanced.reset_keychain" = "重置钥匙串偏好";
+"advanced.settings_reset" = "设置已重置";
+"advanced.limited_free_trial" = "限时免费体验中";
+"advanced.activity_unlocked_all" = "活动期间已解锁全部高级功能";
+"advanced.activate_premium" = "激活高级版";
+"advanced.other_payment_methods" = "其他支付方式";
+"advanced.trial_paused_state" = "限时体验已暂停";
+"advanced.can_restore_or_activate" = "您可以恢复限时体验或激活高级版";
+"advanced.trial_restored" = "限时体验已恢复";
+"advanced.restore_failed" = "恢复失败";
+"advanced.restore_trial" = "恢复限时体验";
+"advanced.trial_in_progress" = "试用中";
+"advanced.trial_paused_message" = "试用已暂停";
+"advanced.pause_trial" = "暂停试用";
+"advanced.choose_payment" = "选择支付方式";
+
+// 管理功能
+"advanced.manage_paid_features" = "管理付费功能";
+"advanced.can_deactivate_anytime" = "您可以随时取消激活";
+"advanced.trial_period_management" = "试用期管理";
+"advanced.can_pause_or_activate" = "您可以暂停体验或激活高级版";
+"advanced.restore_or_activate" = "恢复限时体验或激活高级版";
+
+// 高级功能特性 - 已简化
+"advanced.premium_features" = "高级功能（试用或付费）";
+"advanced.feature_unlocked" = "已解锁";
+"advanced.feature_unlocked_trial" = "已解锁（试用）";
+"advanced.feature_trial_or_upgrade" = "试用或升级可解锁";
+
+// 限时免费试用
+"advanced.limited_time_activity" = "限时活动";
+"advanced.before_2025_dec_31" = "2025年12月31号之前";
+"advanced.free_use_all_premium_features" = "免费使用高级版所有功能";
+"advanced.limited_time_activated" = "限时体验已激活";
+"advanced.start_free_trial_now" = "立即开启免费体验";
+"advanced.already_premium_user" = "您已是高级版用户";
+"advanced.limited_time_included_in_premium" = "限时体验功能已包含在您的高级版中，无需重复激活。";
+"advanced.activity_description" = "活动说明";
+"advanced.activity_description_1" = "• 活动期间开启即可免费使用所有高级功能";
+"advanced.activity_description_2" = "• 活动结束后将恢复免费版限制";
+"advanced.activity_description_3" = "• 如需永久使用，可购买正式版";
+"advanced.remaining_time" = "剩余时间";
+"advanced.days_remaining" = "%d天";
+"advanced.hours_remaining" = "%d小时";
+
+// 功能对比
+"advanced.feature_comparison" = "功能对比";
+"advanced.free_version_features" = "免费版功能";
+"advanced.basic_clipboard_management" = "基础剪贴板管理";
+"advanced.complete_clipboard_functionality" = "完整的剪贴板功能";
+"advanced.twenty_history_records" = "20条历史记录";
+"advanced.meets_daily_needs" = "满足日常使用需求";
+
+// 更新设置
+"advanced.update_settings" = "更新设置";
+"advanced.receive_beta_updates" = "接收测试版更新";
+"advanced.receive_beta_updates_desc" = "第一时间体验新功能，可能不稳定";
+"advanced.beta_warning" = "测试版可能包含未完善的功能，建议技术用户使用";
+"advanced.check_for_updates" = "检查更新";
+
+// 反馈
+"advanced.serious_feedback_reward" = "认真反馈有奖";
+"advanced.your_feedback_important" = "您的反馈对我们很重要";
+"advanced.valuable_feedback_reward" = "• 提交有价值的反馈可获得奖励";
+"advanced.help_improve_product" = "• 帮助我们改进产品体验";
+"advanced.qq_group_prefix" = "• QQ群：";
+
+// QQ群
+"advanced.join_qq_group" = "加入QQ群";
+"advanced.qq_group_desc" = "加入官方QQ群，与其他用户交流使用心得";
+"advanced.click_to_join_group" = "点击链接加入QQ群";
+
+// QQ频道
+"advanced.join_qq_channel" = "加入QQ频道";
+"advanced.qq_channel_desc" = "加入官方频道，获取最新动态和技术支持";
+"advanced.click_to_join_channel" = "点击链接加入腾讯频道【OneClip交流反馈频道】";
+
+// 未来功能
+"advanced.future_features" = "未来更多功能";
+"advanced.future_features_desc" = "我们正在打磨更多增强能力，敬请期待：";
+"advanced.future.privacy_space" = "隐私空间";
+"advanced.future.privacy_space_desc" = "敏感内容加密与隐藏展示";
+"advanced.future.ai_cloud_model" = "AI 云端模型";
+"advanced.future.ai_cloud_model_desc" = "更强大的 AI 处理能力";
+"advanced.future.usage_statistics" = "使用统计";
+"advanced.future.usage_statistics_desc" = "了解你的复制粘贴习惯";
+"advanced.future.shortcuts_integration" = "快捷指令集成";
+"advanced.future.shortcuts_integration_desc" = "与 macOS 快捷指令联动";
+"advanced.future.contact_prefix" = "欢迎发邮件到";
+"advanced.future.suggest_features" = "提交您希望的功能";
+"advanced.more_capabilities" = "我们正在打磨更多增强能力，敬请期待：";
+"advanced.smart_dedup" = "智能去重/聚合";
+"advanced.smart_dedup_desc" = "自动合并重复内容，提升效率";
+"advanced.full_text_search" = "全文检索与标签";
+"advanced.full_text_search_desc" = "更强的搜索与自定义标签管理";
+"advanced.privacy_space" = "隐私空间";
+"advanced.privacy_space_desc" = "敏感内容加密与隐藏展示";
+"advanced.github_feedback" = "欢迎在GitHub 提交你的想法与需求，我们会优先考虑高票功能。";
+
+// 购买和恢复按钮
+"advanced.restore_purchase" = "恢复购买";
+"advanced.buy_monthly" = "去购买月卡(¥5)";
+"advanced.buy_lifetime" = "去购买终身卡(¥29.9)";
+"advanced.export_data" = "导出数据";
+"advanced.import_data" = "导入数据";
+"advanced.open_logs" = "打开日志";
+
+// 对话框消息
+"advanced.keychain_reset_message" = "钥匙串访问偏好已重置，下次恢复购买时会重新询问。";
+
+// MARK: - 快捷键配置
+"hotkey.global_window_title" = "主窗口快捷键";
+"hotkey.global_window_description" = "设置显示/隐藏主窗口的快捷键组合";
+"hotkey.quick_reply_title" = "快捷回复快捷键";
+"hotkey.quick_reply_description" = "设置显示/隐藏快捷回复窗口的快捷键组合";
+"hotkey.start_recording" = "开始录制";
+"hotkey.reset_to_default" = "重置为默认";
+"hotkey.recording_hint" = "提示：录制过程中按 ESC 键可取消录制";
+"hotkey.conflict_warning" = "快捷键冲突警告";
+"hotkey.save_changes" = "保存更改";
+"hotkey.recommended_combination" = "推荐组合";
+"hotkey.current_combination" = "当前组合";
+"hotkey.conflicting_apps" = "冲突应用";
+"hotkey.press_keys" = "按下按键组合";
+"hotkey.release_to_confirm" = "松开以确认";
+"hotkey.cancelled" = "已取消";
+
+// MARK: - 存储设置
+"storage.cleanup_options.title" = "数据清理";
+"storage.clipboard_history" = "剪贴板历史记录";
+"storage.image_cache" = "图片预览缓存";
+"storage.all_data" = "全部数据";
+
+// MARK: - 数据导入导出
+"storage.data_import_export" = "数据导入导出";
+"storage.history_export" = "历史记录导出";
+"storage.history_export_desc" = "导出剪贴板历史记录为 JSON 或 CSV 格式";
+"storage.history_record" = "历史记录";
+"storage.history_record_desc" = "备份或恢复剪贴板历史记录";
+"storage.import" = "导入";
+"storage.export" = "导出";
+"storage.export_json" = "导出 JSON";
+"storage.export_csv" = "导出 CSV";
+"storage.app_settings" = "应用设置";
+"storage.app_settings_desc" = "导出或导入应用的所有配置设置";
+"storage.export_settings" = "导出设置";
+"storage.import_settings" = "导入设置";
+"storage.export_success" = "导出成功";
+"storage.export_failed" = "导出失败";
+"storage.import_success" = "导入成功";
+"storage.import_failed" = "导入失败";
+"storage.history_exported_to" = "历史记录已导出到";
+"storage.settings_exported_to" = "设置已导出到";
+"storage.cannot_export_history" = "无法导出历史记录，请重试";
+"storage.cannot_export_settings" = "无法导出设置，请重试";
+"storage.settings_imported_successfully" = "设置导入成功";
+"storage.cannot_import_check_format" = "无法导入文件，请检查文件格式";
+"storage.select_import_file" = "选择导入文件";
+"storage.select_exported_json" = "选择之前导出的设置 JSON 文件";
+"storage.keep_favorites" = "保留收藏";
+"storage.export_history_title" = "导出历史记录";
+"storage.select_save_location" = "选择保存位置";
+"storage.export_settings_title" = "导出应用设置";
+"storage.exported_records_to" = "已导出 %d 条记录到：\n%@";
+"storage.settings_exported_to_file" = "设置已导出到：\n%@";
+"storage.export_failed_with_error" = "导出失败：%@";
+
+// MARK: - 数据库视图
+"storage.database_view" = "数据库视图";
+"storage.database_view_desc" = "查看和浏览剪贴板数据库的详细内容";
+"storage.view_database" = "查看数据库";
+"storage.database_view_title" = "剪贴板数据库";
+"storage.db.search_placeholder" = "搜索内容或标题...";
+"storage.db.sort_by" = "排序";
+"storage.db.sort_time_desc" = "时间降序";
+"storage.db.sort_time_asc" = "时间升序";
+"storage.db.sort_length" = "文本长度";
+"storage.db.sort_type" = "类型";
+"storage.db.total_items" = "共 %d 条";
+"storage.db.column_type" = "类型";
+"storage.db.column_content" = "内容";
+"storage.db.column_time" = "时间";
+"storage.db.column_length" = "长度";
+"storage.db.column_source" = "来源";
+"storage.db.column_category" = "分类";
+"storage.db.column_status" = "状态";
+"storage.db.select_item_hint" = "选择一条记录查看详情";
+"storage.db.detail_title" = "详细信息";
+"storage.db.basic_info" = "基本信息";
+"storage.db.type" = "类型";
+"storage.db.created_time" = "创建时间";
+"storage.db.updated_time" = "更新时间";
+"storage.db.status_info" = "状态信息";
+"storage.db.is_favorite" = "收藏";
+"storage.db.is_pinned" = "置顶";
+"storage.db.custom_title" = "自定义标题";
+"storage.db.category" = "分类";
+"storage.db.source_info" = "来源信息";
+"storage.db.source_app" = "来源应用";
+"storage.db.bundle_id" = "Bundle ID";
+"storage.db.content_info" = "内容信息";
+"storage.db.content_length" = "内容长度";
+"storage.db.data_size" = "数据大小";
+"storage.db.file_path" = "文件路径";
+"storage.db.content_preview" = "内容预览";
+"storage.db.records_count" = "条记录";
+"storage.db.filter_all_types" = "全部类型";
+"storage.db.no_data_to_export" = "没有数据可导出";
+"storage.db.export_count_hint" = "导出 %d 条数据";
+"storage.db.action.copy" = "复制";
+"storage.db.action.favorite" = "收藏";
+"storage.db.action.delete" = "删除";
+"storage.db.detail.basic_info" = "基本信息";
+"storage.db.detail.type" = "类型";
+"storage.db.detail.created_time" = "创建时间";
+"storage.db.detail.updated_time" = "更新时间";
+"storage.db.detail.title" = "标题";
+"storage.db.detail.category" = "分类";
+"storage.db.detail.source_info" = "来源信息";
+"storage.db.detail.app" = "应用";
+"storage.db.detail.bundle_id" = "Bundle ID";
+"storage.db.detail.content_info" = "内容信息";
+"storage.db.detail.content_length" = "内容长度";
+"storage.db.detail.characters_count" = "%d 字符";
+"storage.db.detail.data_size" = "数据大小";
+"storage.db.detail.file_path" = "文件路径";
+"storage.db.detail.content_preview" = "内容预览";
+"storage.db.copied" = "已复制";
+"storage.db.copied_to_clipboard" = "内容已复制到剪贴板";
+"storage.db.deleted" = "已删除";
+"storage.db.deleted_from_history" = "项目已从历史记录中删除";
+"storage.db.delete_confirm_title" = "确认删除";
+"storage.db.delete_action" = "删除";
+"storage.db.delete_confirm_message" = "确定要删除这条记录吗？此操作不可撤销。";
+"storage.db.menu.copy_content" = "复制内容";
+"storage.db.menu.copy_id" = "复制 ID";
+"storage.db.menu.toggle_favorite" = "切换收藏";
+"storage.db.menu.toggle_pin" = "切换置顶";
+"storage.db.menu.delete" = "删除";
+"storage.db.image_load_failed" = "图片加载失败";
+"storage.cleanup_history_desc" = "清理所有历史剪贴板内容";
+"storage.cleanup_cache_desc" = "清理图片缓存文件";
+"storage.cleanup_logs_desc" = "清理应用日志文件";
+"storage.cleanup_all_desc" = "清理所有类型的数据";
+"storage.storage_info" = "存储信息";
+"storage.total_items" = "总条目数";
+"storage.cache_size" = "缓存大小";
+"storage.log_size" = "日志大小";
+"storage.cleanup_now" = "立即清理";
+"storage.detailed_cleanup" = "详细清理";
+"storage.auto_cleanup" = "自动清理";
+"storage.cleanup_interval" = "清理间隔";
+"storage.refresh_info" = "刷新信息";
+
+// Interface Settings
+"interface.show_in_dock.title" = "Dock栏常驻";
+"interface.show_in_dock.subtitle" = "应用图标始终显示在 Dock 栏中";
+"interface.show_in_dock.description" = "开启后应用图标将始终显示在 Dock 栏中,关闭则仅在使用时显示。⚠️ 不建议开启,可能影响窗口定位。";
+
+// 拖拽容器
+"interface.drop_container.title" = "启用拖拽容器";
+"interface.drop_container.description" = "用于临时存放和批量拖拽文件、图片等内容）";
+
+// Loading States
+"loading.initializing_oneclip" = "正在初始化 OneClip";
+"loading.please_wait" = "稍等片刻...";
+
+// Shortcuts Help
+"shortcuts.help_title" = "快捷键帮助";
+"shortcuts.tip_message" = "提示：大部分快捷键在窗口激活时可用";
+"shortcut.spacebar" = "空格键";
+"shortcut.spacebar.description" = "快速预览选中项";
+"shortcut.arrow_keys.description" = "上下选择";
+"shortcut.enter.description" = "复制选中项";
+"shortcut.cmd_numbers.description" = "快速复制当前可见项 (按住⌘查看标签)";
+"shortcut.cmd_f.description" = "聚焦搜索框";
+"shortcut.cmd_slash.description" = "显示快捷键帮助";
+"shortcut.cmd_comma.description" = "打开设置";
+"shortcut.cmd_p.description" = "切换窗口置顶";
+"shortcut.cmd_b.description" = "切换批量操作模式";
+"shortcut.cmd_delete.description" = "删除选中项";
+"shortcut.cmd_z.description" = "撤销删除";
+"shortcut.cmd_shift_delete.description" = "清空历史记录";
+"shortcut.show_hide_window.description" = "显示/隐藏主窗口";
+"shortcut.menubar_left_click" = "复制选中项到剪贴板（可自行设置）";
+"shortcut.menubar_right_click" = "粘贴剪贴板内容（可自行设置）";
+"shortcut.show_hide_quick_reply.description" = "显示/隐藏快捷回复";
+"shortcut.quit_app.description" = "退出应用";
+"shortcut.close_window.description" = "关闭窗口";
+"shortcut.drag_to_desktop" = "拖拽到桌面";
+"shortcut.drag_to_desktop.description" = "拖拽项目到桌面或其他应用";
+"shortcut.drag_to_window" = "拖入主窗口";
+"shortcut.drag_to_window.description" = "拖拽文件/图片到窗口添加";
+"shortcut.drag_to_menubar" = "拖拽到菜单栏图标";
+"shortcut.drag_to_menubar.description" = "拖拽到菜单栏，创建快速访问按钮";
+
+// Monitoring Settings
+"monitoring.polling_monitoring" = "轮询监控";
+"monitoring.interval_label" = "监控间隔";
+"monitoring.interval_description" = "⚡ 轮询剪贴板的频率，间隔越短响应越快，但占用更多CPU资源";
+"monitoring.speed_fast" = "极速 0.1秒";
+"monitoring.speed_slow" = "2.0秒 省电";
+"monitoring.current_interval_label" = "当前间隔";
+"monitoring.interval_fast" = "（极速）";
+"monitoring.interval_recommended" = "（推荐）";
+"monitoring.interval_balanced" = "（平衡）";
+"monitoring.interval_power_saving" = "（省电）";
+"monitoring.interval_ultra_power_saving" = "极省电";
+"monitoring.interval_warning_large" = "较大的监控间隔可能导致复制延迟";
+"monitoring.interval_recommended_hint" = "推荐使用 0.3 秒以获得最佳响应速度";
+"monitoring.restore_default" = "恢复默认 0.3秒";
+"monitoring.log_level_warning" = "当前级别会产生较多日志";
+"monitoring.log_level_warning_description" = "建议仅在需要排查问题时使用，日常使用推荐「警告及以上」";
+"monitoring.file_management" = "文件管理";
+"monitoring.current_log_size" = "当前日志文件大小";
+"monitoring.total_log_usage" = "总日志占用";
+"monitoring.clean_logs" = "清理日志";
+"monitoring.compress_logs" = "压缩日志";
+"monitoring.compress_and_cleanup" = "清理日志";
+"monitoring.view_logs" = "查看日志";
+"monitoring.log_rotation_info" = "日志文件会自动轮转和清理，3天前的文件会被自动删除";
+"monitoring.cleanup_confirm_title" = "确认清理日志";
+"monitoring.cleanup_confirm_message" = "此操作将删除超过3天的过期日志，无法撤销。是否继续？";
+"monitoring.cleanup_confirm_button" = "清理日志";
+"monitoring.cleanup_result_title" = "清理完成";
+"monitoring.cleanup_success_message" = "已清理 %d 个文件，节省空间 %@";
+"monitoring.cleanup_nothing_message" = "没有需要清理的文件";
+"monitoring.exclusion_rules" = "排除规则";
+"monitoring.ignore_ios_clipboard" = "忽略来自 iOS 设备的剪贴板数据";
+"monitoring.ignore_ios_clipboard.description" = "通过Universal Clipboard从iPhone、iPad等iOS设备同步的剪贴板内容将被忽略。";
+"monitoring.exclude_images" = "忽略图片";
+"monitoring.exclude_files" = "忽略文件";
+"monitoring.exclude_folders" = "忽略文件夹";
+"monitoring.exclude_whitespace_only" = "忽略只包含空格的记录";
+"monitoring.exclude_large_data" = "忽略大于指定大小的数据";
+"monitoring.exclude_large_data_size" = "大小阈值";
+"monitoring.file_handling" = "文件处理";
+"monitoring.merge_multiple_files" = "合并多个文件为一条记录";
+"monitoring.merge_multiple_files.description" = "开启后，复制多个文件时将合并为一条记录；关闭则分别保存（默认行为）。";
+"monitoring.excluded_apps_list" = "排除应用列表";
+"monitoring.add_app" = "添加应用";
+"monitoring.no_excluded_apps" = "暂无排除的应用";
+"monitoring.add_app_instruction" = "点击\"添加应用\"来排除特定应用的剪贴板监控";
+"monitoring.log_level.error" = "仅错误";
+"monitoring.log_level.warning" = "警告及以上";
+"monitoring.log_level.info" = "信息及以上";
+"monitoring.log_level.debug" = "全部日志";
+"monitoring.log_level.description" = "级别越低占用空间越少。推荐使用「警告及以上」，避免产生过多日志";
+
+// Dialog & Confirmation
+"dialog.total_items" = "共 %d 项";
+"dialog.category_items" = "%@: %d 项";
+"dialog.delete_item_confirm" = "确定要删除这个剪贴板项目吗？删除后可在 5 秒内撤销。";
+
+// About
+"about.developer_label" = "开发者：";
+"about.feedback_label" = "问题反馈：";
+
+// Excluded Apps
+"excluded_apps.title" = "选择要排除的应用";
+"excluded_apps.search_placeholder" = "搜索应用...";
+"excluded_apps.type_picker" = "应用类型";
+"excluded_apps.running" = "正在运行";
+"excluded_apps.all_apps" = "所有应用";
+"excluded_apps.loading" = "正在加载应用...";
+"excluded_apps.no_match" = "没有找到匹配的应用";
+
+// Category Management
+"category.icon_label" = "图标";
+"category.color_label" = "颜色";
+"category.rules_title" = "分类规则";
+"category.preset_rules_button" = "预设规则";
+"category.add_rule_button" = "添加规则";
+"category.no_rules" = "还没有添加规则";
+"category.no_rules_hint" = "添加规则来定义哪些内容属于这个分类";
+"category.preview_label" = "预览";
+"category.disabled_status" = "已禁用";
+"category.delete_rule_confirm" = "确定要删除这个规则吗？";
+"category.total_count" = "共 %d 个分类";
+"category.rules_count" = "%d 个规则";
+"category.match_label" = "匹配";
+"category.rules_preview" = "规则预览";
+"category.recent_label" = "最近使用";
+"category.running_label" = "运行中";
+"category.select_rule_type" = "选择规则类型";
+"category.enable_category" = "启用此分类";
+"category.reorder_hint" = "拖动三横线可调整分类顺序";
+"category.rename_title" = "重命名分类";
+"category.name_label" = "分类名称";
+
+// Rule Management
+"rule.type_label" = "规则类型";
+"rule.value_label" = "规则值";
+"rule.preset_values" = "预设值";
+"rule.custom_value" = "自定义值";
+"rule.advanced_options" = "高级选项";
+
+// Preset Rules
+"preset_rules.subtitle" = "快速添加常用的分类规则";
+"preset_rules.hint" = "选择预设规则后，您可以在编辑页面中进一步自定义";
+
+// Storage Settings
+"storage.history_limit_title" = "历史存储容量限制";
+"storage.history_limit_subtitle" = "设置历史数据最大存储容量（MB），0表示不限制（推荐）";
+"storage.upgrade_unlock" = "升级解锁";
+"storage.manual_cleanup" = "手动清理";
+"storage.manual_cleanup_subtitle" = "立即或选择性清理数据";
+"storage.manual_cleanup_description" = "手动清理历史内容、缓存文件和临时数据";
+"storage.cleanup_with_favorites" = "将清理历史记录，但会保留 %d 个收藏项目";
+"storage.cache_hit_rate" = "命中率";
+"storage.expired_items" = "过期项目";
+"storage.optimization_suggestions" = "优化建议";
+"storage.recommendation_prefix" = "建议: %@";
+"storage.unlimited_storage" = "🔒 不限制历史存储容量（推荐设置，保护用户数据）";
+"storage.unlimited" = "无限制";
+"storage.cleanup.estimated_space" = "预计可释放空间";
+"storage.cleanup.selected_items" = "已选择 %d 个清理项";
+"storage.auto_cleanup_warning" = "⚠️ 当存储超过 %d MB 时将自动清理最旧的历史数据";
+"storage.immediate_cleanup" = "立即清理";
+"storage.quick_cleanup" = "快速清理";
+"storage.quick_cleanup_description" = "立即清理所有历史内容、缓存文件和临时数据";
+"storage.cache_cleanup_hint" = "💡 即使没有显示的项目，也可能存在缓存文件需要清理";
+"storage.clear_all" = "清理全部";
+"storage.selective_cleanup" = "选择性清理";
+"storage.selective_cleanup_description" = "选择性地清理特定类型的数据";
+
+// MARK: - 辅助功能缺失键值
+"accessibility.needs_permission_description" = "OneClip 需要辅助功能权限来监控剪贴板变化";
+"accessibility.after_authorization_description" = "授权\"辅助功能\"权限后，OneClip 将能够：";
+"accessibility.how_to_enable_permission" = "如何启用辅助功能权限：";
+"accessibility.guide.enable_oneclip" = "启用 OneClip";
+"accessibility.guide.enable_oneclip_description" = "找到 OneClip 并打开开关";
+"accessibility.faq.authorization_failed" = "授权失败？";
+"accessibility.faq.no_response_desc" = "如果点击授权按钮后没有反应，或者授权后仍显示未授权，请按以下步骤操作：";
+"accessibility.faq.step1" = "打开「系统设置」→「隐私与安全性」→「辅助功能」";
+"accessibility.faq.step2" = "找到 OneClip，点击减号（-）删除";
+"accessibility.faq.step3" = "回到 OneClip，点击授权按钮";
+"accessibility.faq.step4" = "在弹出的系统授权窗口中点击「打开系统设置」";
+"accessibility.faq.step5" = "在辅助功能列表中找到 OneClip 并勾选";
+
+// MARK: - 关于页面键值
+"about.check_updates" = "检查更新";
+"about.keep_app_updated" = "保持应用为最新版本";
+"about.current_version" = "当前版本";
+"about.version_status_indicator" = "版本状态指示器";
+"about.show_current_update_status" = "显示当前更新状态";
+"about.update_status" = "更新状态";
+"about.current_app_update_status" = "当前应用的更新状态";
+"about.new_version_found" = "发现新版本";
+"about.latest_version_format" = "最新版本：v%@";
+"about.click_button_to_download" = "点击下方按钮前往下载页面获取最新版本";
+"about.checking_updates" = "检查中...";
+"about.check_for_updates" = "检查更新";
+"about.checking_for_updates" = "正在检查更新";
+"about.click_to_check_updates" = "点击检查应用是否有新版本可用";
+"about.checking" = "检查中";
+"about.new_version_available" = "发现新版本 %@";
+"about.up_to_date" = "已是最新版本";
+"about.goto_download" = "前往下载";
+"about.view_releases" = "查看发布";
+"about.goto_download_page" = "前往下载页面";
+"about.view_releases_page" = "查看发布页面";
+"about.click_to_download" = "点击前往下载最新版本";
+"about.click_to_view_releases" = "点击查看应用发布页面";
+"about.new_version_available_short" = "有新版本可用";
+"about.developer_info" = "开发者：Wcowin";
+"about.contact_info" = "问题反馈：vip@oneclip.cloud";
+"about.copyright" = "© 2025 OneClip. All rights reserved.";
+
+// MARK: - 存储设置键值
+"storage.title" = "存储管理";
+"storage.items" = "项";
+"storage.files" = "文件";
+"storage.view_cache_and_history_usage" = "查看缓存与历史的占用";
+"storage.refresh" = "刷新";
+"storage.refresh_help" = "点击刷新按钮更新存储信息，包括项目数量和占用空间";
+"storage.location" = "存储位置：";
+"storage.open_folder" = "打开文件夹";
+"storage.item_count" = "存储项目数量";
+"storage.used_space" = "占用空间";
+"storage.total_size" = "总大小";
+"storage.minutes" = "分钟";
+
+// MARK: - 分类管理键值
+"categories.new" = "新建";
+"categories.search_placeholder" = "搜索分类...";
+"categories.no_custom_categories" = "还没有自定义分类";
+"categories.confirm_delete" = "确认删除";
+"categories.confirm_delete_message" = "确定要删除「%@」吗？";
+"categories.management_title" = "自定义分类管理";
+"categories.management_description" = "创建智能分类规则，自动整理剪贴板内容";
+"categories.new_category" = "新建分类";
+"categories.search_name_or_rules" = "搜索分类名称或规则...";
+"categories.create_smart_rules" = "创建智能分类规则，让 OneClip 自动整理您的剪贴板内容";
+"categories.create_first_category" = "创建第一个分类";
+"categories.management" = "分类管理";
+"categories.custom_categories" = "自定义分类";
+"categories.rules_count" = "%d个规则";
+"categories.category_rules" = "分类规则";
+"categories.add_rule" = "添加规则";
+"categories.add_rule_description" = "点击\"添加规则\"来设置分类条件";
+
+// 内容类型
+"categories.link" = "链接";
+"categories.markdown" = "Markdown";
+"categories.rich_text" = "富文本";
+"categories.table" = "表格";
+
+// 日期选项
+"categories.is_today" = "是今天";
+"categories.is_yesterday" = "是昨天";
+"categories.is_this_week" = "是本周";
+"categories.is_this_month" = "是本月";
+"categories.is_this_year" = "是今年";
+
+// MARK: - 分类类型和文件类型
+"category.all" = "全部";
+"category.favorites" = "收藏";
+"category.text" = "文本";
+"category.image" = "图片";
+"category.file" = "文件夹";
+"category.video" = "视频";
+"category.audio" = "音频";
+"category.document" = "文档";
+"category.code" = "代码";
+"category.archive" = "压缩包";
+"category.executable" = "应用程序";
+"category.unknown" = "未知";
+"category.unknown_file" = "未知类型文件";
+"category.frequently_used" = "常用";
+
+// MARK: - 智能分类标签
+"smartcategory.text" = "文本";
+"smartcategory.code" = "代码";
+"smartcategory.link" = "链接";
+"smartcategory.email" = "邮箱";
+"smartcategory.phone" = "电话";
+
+// 文件类型描述
+"category.gif_animation" = "动画";
+"category.vector_image" = "矢量图";
+"category.raw_image" = "原片";
+"category.image_file" = "图片文件";
+"category.video_file" = "视频文件";
+"category.lossless_audio" = "无损音频";
+"category.audio_file" = "音频文件";
+"category.spreadsheet" = "表格";
+"category.presentation" = "演示";
+"category.text_file" = "文本文件";
+"category.document_file" = "文档文件";
+"category.code_file" = "代码文件";
+"category.stylesheet" = "样式";
+"category.data" = "数据";
+"category.disk_image" = "磁盘映像";
+"category.installer" = "安装包";
+"category.archive_file" = "压缩文件";
+"category.application" = "应用";
+"category.program" = "程序";
+"category.executable_file" = "可执行文件";
+
+// 存储附加键值
+"storage.confirm_cleanup" = "确认清理";
+"storage.cleanup_action" = "清理";
+"storage.confirm_cleanup_message" = "确定要清理选中的 %d 项数据吗？此操作不可撤销。";
+"storage.log_files" = "日志文件";
+"storage.log_space_usage" = "日志占用空间";
+"storage.log_cleanup_instruction" = "日志清理请前往 监控设置 → 日志管理";
+"storage.cleanup_options" = "清理选项";
+"storage.auto_and_capacity" = "自动与容量";
+"storage.auto_cleanup_and_history_limit" = "自动清理与历史容量限制";
+"storage.auto_cleanup_cycle" = "自动清理周期";
+"storage.auto_cleanup_cycle_description" = "设置自动清理过期数据的天数，0表示永不清理";
+"storage.auto_cleanup_premium_feature" = "自动清理是高级功能，需要试用或付费版本";
+"storage.start_cleanup" = "开始清理";
+"storage.cleanup_empty_warning" = "即使没有显示的项目，也将清理所有缓存文件、临时数据和历史记录。此操作不可撤销。";
+"storage.cleanup_warning" = "这将删除所有历史剪贴板内容和相关文件，此操作不可撤销。";
+
+// 按钮标签
+"button.select_all" = "全选";
+"button.deselect_all" = "取消全选";
+"button.favorite" = "收藏";
+"button.unfavorite" = "取消收藏";
+"button.add" = "添加";
+"button.drag_export" = "可拖拽导出";
+"button.done" = "完成";
+"button.quit" = "退出";
+"button.clear" = "清空";
+"button.continue" = "继续";
+"button.go_to_download" = "前往下载";
+
+// 弹窗消息
+"alert.quit.title" = "确认退出 OneClip？";
+"alert.quit.message" = "退出后将停止剪贴板监控，您确定要退出应用吗？";
+"alert.update_check.title" = "检查更新";
+"alert.update_check.message" = "当前环境未能加载自动更新模块。您可以点击'前往下载'打开最新版本下载页面。";
+"alert.restore_premium.title" = "确认恢复到付费版？";
+"alert.restore_premium.message" = "这将尝试恢复到付费版，试用入口将隐藏，您可以先体验试用版。是否继续？";
+
+// MARK: - 帮助和工具提示
+"help.keyboard_shortcuts" = "快捷键帮助";
+"help.settings" = "设置";
+"help.batch_mode_enter" = "批量操作";
+"help.batch_mode_exit" = "退出批量模式";
+"help.pin_window" = "置顶窗口";
+"help.unpin_window" = "取消置顶";
+"help.clear_history" = "清理粘贴板历史记录";
+"help.close" = "关闭";
+"help.edit_category" = "编辑分类";
+"help.delete_category" = "删除分类";
+"help.add_custom_category" = "添加自定义分类";
+"help.add_quick_reply" = "添加快捷回复";
+"help.import_export" = "导入导出";
+"help.add_category" = "添加分类";
+"help.manage_categories" = "管理分类";
+"help.preferences" = "偏好设置";
+"help.copy_to_clipboard" = "复制到剪贴板";
+"help.edit_content" = "编辑内容";
+"help.remove_app" = "移除此应用";
+"help.add_to_exclusion_list" = "添加到排除列表";
+
+// MARK: - UI元素
+"ui.esc_to_close" = "ESC关闭";
+"ui.csv_format_utf8" = "CSV 格式 · UTF-8";
+
+// MARK: - 右键菜单
+"context_menu.copy" = "复制";
+"context_menu.copy_content" = "复制内容";
+"context_menu.copy_id" = "复制 ID";
+"context_menu.toggle_favorite" = "切换收藏";
+"context_menu.toggle_pin" = "切换置顶";
+"context_menu.direct_paste" = "直接粘贴";
+"context_menu.save_image" = "保存图片";
+"context_menu.preview" = "预览";
+"context_menu.quick_preview" = "快速预览";
+"context_menu.edit_text" = "编辑文本";
+"context_menu.edit_code" = "编辑代码";
+"context_menu.edit_image" = "编辑图片";
+"context_menu.search" = "搜索";
+"context_menu.open_link" = "打开链接";
+"context_menu.sticky_note" = "便签窗口";
+"context_menu.pin" = "置顶";
+"context_menu.unpin" = "取消置顶";
+"context_menu.add_title" = "添加标题";
+"context_menu.edit_title" = "编辑标题";
+"context_menu.push_to_iphone" = "推送到 iPhone";
+"context_menu.reveal_in_finder" = "在访达中显示";
+"context_menu.favorite" = "收藏";
+"context_menu.unfavorite" = "取消收藏";
+"context_menu.share" = "分享…";
+"context_menu.delete" = "删除";
+"context_menu.switch_to_category" = "切换到此分类";
+"context_menu.copy_name" = "复制名称";
+"context_menu.hide_category" = "隐藏此分类";
+"context_menu.show_category" = "显示此分类";
+"context_menu.edit_category" = "编辑分类";
+"context_menu.delete_category" = "删除分类";
+"context_menu.refresh_permission" = "刷新权限状态";
+"context_menu.view_permission_help" = "查看权限说明";
+"context_menu.keyboard_diagnostics" = "快捷键诊断";
+"context_menu.add_to_quick_reply" = "添加到快捷回复";
+"context_menu.add_to_stack" = "添加到粘贴堆栈";
+"context_menu.add_to_drop_container" = "添加到拖拽容器";
+"context_menu.generate_qr_code" = "生成二维码";
+"context_menu.more" = "更多...";
+"context_menu.batch_operations" = "批量操作";
+"context_menu.pin_image" = "钉图";
+
+// MARK: - 文本编辑窗口
+"text_edit.title" = "编辑文本内容";
+"text_edit.subtitle" = "支持多行编辑、实时预览";
+"text_edit.edit_area" = "编辑区域";
+"text_edit.editing" = "编辑中";
+"text_edit.cancel" = "取消";
+"text_edit.replace_original" = "替换原项";
+"text_edit.save_as_new" = "保存为新项";
+"text_edit.replace_success" = "替换成功";
+"text_edit.replace_success_message" = "原项目内容已更新";
+"text_edit.edit_complete" = "编辑完成";
+"text_edit.edit_complete_message" = "文本已编辑并复制到剪贴板";
+
+// MARK: - 标题编辑器
+"title_editor.title" = "编辑标题";
+"title_editor.subtitle" = "为这个项目添加自定义标题";
+"title_editor.placeholder" = "输入标题...";
+"title_editor.delete_title" = "删除标题";
+"title_editor.cancel" = "取消";
+"title_editor.save" = "保存";
+"title_editor.cancel_hint" = "取消编辑 (Esc)";
+"title_editor.save_hint" = "保存标题 (⌘↩)";
+"title_editor.delete_hint" = "删除当前标题";
+
+// MARK: - 文本编辑窗口按钮
+"text_edit.save_and_copy" = "保存并复制";
+"text_edit.save_and_copy_hint" = "保存并复制到剪贴板 (⌘S)";
+"text_edit.cancel_hint" = "取消编辑 (Esc)";
+"text_edit.replace_hint" = "替换原项目 (⌘R)";
+"text_edit.save_as_new_hint" = "保存为新项目 (⌘N)";
+
+// MARK: - 快捷回复窗口
+"quickreply.import_export" = "导入导出";
+"quickreply.add_category" = "添加分类";
+"quickreply.manage" = "管理";
+"quickreply.select_all" = "全选";
+"quickreply.deselect_all" = "取消全选";
+
+// MARK: - 快捷键描述
+"shortcut.toggle_layout" = "切换视图布局（列表/卡片）";
+"shortcut.toggle_favorite" = "收藏/取消收藏选中项";
+"shortcut.text_selection" = "文本选词（从选中项中选择部分文本）";
+"shortcut.toggle_paste_stack" = "显示/隐藏剪贴板堆栈";
+"shortcut.toggle_drop_container" = "显示/隐藏拖拽容器";
+
+// MARK: - 功能互通反馈消息
+"feedback.added_to_stack" = "已添加到粘贴堆栈";
+"feedback.stack_queue_count" = "当前队列: %d 项";
+"feedback.added_to_drop_container" = "已添加到拖拽容器";
+"feedback.can_drag_to_apps" = "可拖拽到其他应用使用";
+"context_menu.check_permission_status" = "检查权限状态";
+"context_menu.open_system_preferences" = "打开系统偏好设置";
+"context_menu.copy_text" = "复制文本";
+"context_menu.smart_insert" = "智能插入";
+"context_menu.add_to_favorites" = "添加到收藏";
+"context_menu.remove_from_favorites" = "取消收藏";
+"context_menu.edit" = "编辑";
+
+// MARK: - AI 功能菜单
+"ai.ocr_with_provider" = "OCR (%@)";
+"ai.translate_with_provider" = "翻译 (%@)";
+"ai.translate_to_chinese" = "翻译为中文";
+"ai.translate_to_english" = "翻译为英文";
+"ai.generate_summary" = "生成摘要";
+"ai.format_text" = "格式化";
+
+// MARK: - 快捷回复对话框
+"quick_reply.confirm_delete.title" = "确认删除";
+"quick_reply.confirm_delete.single_message" = "确定要删除这个快捷回复吗？\n\n内容：%@\n\n⚠️ 此操作无法撤销！";
+"quick_reply.confirm_delete.multiple_message" = "确定要删除选中的 %d 个快捷回复吗？\n\n⚠️ 此操作无法撤销！\n\n💡 建议：删除前可以先导出备份";
+
+// MARK: - 提示消息
+"toast.text_copied" = "已复制文本";
+"toast.image_copied" = "已复制图片";
+"toast.file_copied" = "已复制文件";
+"toast.image_load_failed" = "无法加载图片";
+"toast.image_not_found" = "图片文件不存在";
+"toast.file_not_found" = "文件不存在";
+"toast.copied_need_permission" = "已复制（需要辅助功能权限才能自动粘贴）";
+"toast.pasted_to_cursor" = "已粘贴到光标位置";
+"toast.image_pasted_to_cursor" = "已粘贴图片到光标位置";
+"toast.file_pasted_to_cursor" = "已粘贴文件到光标位置";
+
+// MARK: - 引导界面
+"onboarding.button_title.start_setup" = "开始设置";
+"onboarding.button_title.next" = "下一步";
+"onboarding.button_title.finish_setup" = "完成设置";
+"onboarding.button_title.start_experience" = "开始体验";
+"onboarding.welcome_title" = "欢迎使用 OneClip！";
+"onboarding.welcome_subtitle" = "智能剪贴板管理器";
+"onboarding.permission_required_message" = "为了让应用正常工作，我们需要设置一些必要的权限";
+"onboarding.accessibility_permission" = "辅助功能权限";
+"onboarding.accessibility_description" = "用于监控剪贴板变化";
+"onboarding.usage_instructions" = "使用方法";
+"onboarding.previous_step" = "上一步";
+"onboarding.setup_message" = "让我们快速设置，为你提供最佳的剪贴板管理体验";
+"onboarding.setup_complete" = "设置完成!";
+"onboarding.ready_message" = "一切准备就绪，开始享受智能剪贴板管理吧！";
+"onboarding.disable_auto_show" = "关闭此选项后，后续不会自动显示引导页面";
+"onboarding.auto_show_toggle" = "下次无权限时自动显示引导页面";
+"onboarding.instruction_step_1" = "点击下方按钮授权辅助功能权限";
+"onboarding.instruction_step_2" = "返回此页面后会自动检测是否已授权";
+"onboarding.instruction_step_3" = "如果没有成功授权，等待2～3秒后重新点击授权按钮";
+
+// MARK: - 引导界面 - 个性化设置
+"onboarding.settings.title" = "个性化设置";
+"onboarding.settings.subtitle" = "让我们为你的使用习惯定制一些基础设置";
+"onboarding.settings.preview_size" = "预览尺寸";
+"onboarding.settings.preview_size_subtitle" = "预览大小";
+"onboarding.settings.tool_buttons" = "工具按钮";
+"onboarding.settings.tool_buttons_subtitle" = "显示操作按钮";
+"onboarding.settings.animations" = "动画效果";
+"onboarding.settings.animations_subtitle" = "界面动画";
+"onboarding.settings.size_small" = "小";
+"onboarding.settings.size_medium" = "中";
+"onboarding.settings.size_large" = "大";
+
+// MARK: - 高级设置 - 新增键值
+// 试用和激活状态
+"advanced.cannot_start_trial" = "无法开启试用";
+"advanced.already_premium_no_trial" = "您已是高级版用户，无需开启试用";
+"advanced.trial_started" = "试用已开始";
+"advanced.trial_started_message" = "恭喜！您已开始7天免费试用，尽情体验付费功能吧！";
+"advanced.trial_resumed" = "试用已恢复";
+"advanced.trial_resumed_message" = "试用已恢复，您可以继续使用全部高级功能。";
+"advanced.trial_resumed_time_saved" = "已恢复试用，剩余时间已为您保留。";
+"advanced.trial_start_failed" = "试用启动失败";
+"advanced.trial_start_failed_message" = "试用功能暂时无法启动，请稍后重试。";
+"advanced.storage_permission_required" = "需要存储权限";
+"advanced.storage_permission_message" = "为了安全保存试用信息，需要存储访问权限。请检查应用权限设置。";
+
+// 激活和恢复
+"advanced.activate" = "激活";
+"advanced.activation_failed" = "激活失败";
+"advanced.activation_success_toast" = "🎉 激活成功！高级功能已解锁";
+"advanced.activation_code_revoked" = "此激活码已被撤销，请联系客服。";
+"advanced.activation_code_invalid_format" = "激活码格式错误或签名无效，请检查后重试。";
+"advanced.activation_code_expired" = "激活码已过期，请购买新的激活码。";
+"advanced.network_connection_failed" = "网络连接失败，请检查网络后重试。";
+"advanced.invalid_email_format" = "邮箱格式无效，请检查后重试。";
+"advanced.activation_unknown_error" = "激活码验证过程中发生未知错误。\n\n建议操作：\n• 检查激活码是否完整\n• 重新尝试激活\n• 或使用\"恢复购买\"功能";
+"advanced.please_enter_email" = "请输入邮箱地址";
+"advanced.activation_sync_failed" = "激活状态同步失败，请重试。";
+"advanced.restore_success_toast" = "🎉 已恢复购买，已解锁高级功能";
+"advanced.restore_unknown_error" = "恢复过程中发生未知错误，请稍后重试。";
+
+// 邮箱和激活码验证
+"advanced.enter_email_address" = "请输入您的邮箱地址";
+"advanced.enter_activation_code" = "请输入激活码";
+"advanced.email_format_correct" = "邮箱格式正确";
+"advanced.email_format_incorrect" = "邮箱格式不正确";
+"advanced.activation_code_valid" = "激活码有效";
+"advanced.activation_code_format_incorrect" = "激活码格式不正确";
+"advanced.activation_code_invalid_or_signature_error" = "激活码无效或签名错误，请确认后重试。";
+
+// 激活提示
+"advanced.have_activation_code" = "已有激活码？";
+"advanced.activation_tips" = "激活提示";
+"advanced.activation_tip_1" = "• 输入激活码可激活付费版功能";
+"advanced.activation_tip_2" = "• 激活码可以点击恢复购买按钮购买";
+"advanced.activation_tip_3" = "• 激活后立即享受所有付费功能";
+
+
+// 数据操作
+"advanced.export_success" = "导出成功";
+"advanced.data_exported_to" = "数据已导出到";
+"advanced.export_failed" = "导出失败";
+"advanced.cannot_export_data" = "无法导出数据，请重试";
+"advanced.select_import_settings_file" = "选择导入的设置文件";
+"advanced.select_exported_settings_json" = "请选择之前导出的 settings_export.json 文件";
+"advanced.import_success" = "导入成功";
+"advanced.settings_imported_successfully" = "设置已成功导入";
+"advanced.import_failed" = "导入失败";
+"advanced.cannot_import_file_check_format" = "无法导入所选文件，请确认文件格式正确";
+
+// 试用按钮文本
+"advanced.start_7_day_free_trial" = "开始7天免费试用";
+"advanced.resume_trial" = "恢复试用";
+"advanced.activity_ended" = "活动已结束";
+
+// 试用错误信息
+"advanced.trial_finalized_cannot_restart" = "试用期已最终确定，无法再次开启。如需使用高级功能，请购买正式版。";
+"advanced.trial_already_used_buy_full_version" = "您已经使用过试用功能。如需继续使用高级功能，请购买正式版。";
+"advanced.system_time_abnormal" = "检测到系统时间异常，无法开启试用。请确保系统时间正确。";
+"advanced.limited_time_cannot_start_reasons" = "限时体验功能暂时无法启动，可能的原因：\n• 试用期已使用过\n• 系统时间异常\n• 存储权限问题\n\n请稍后重试，或联系客服获取帮助。";
+
+// 启用限时体验
+"advanced.cannot_enable" = "无法开启";
+"advanced.already_premium_limited_time_included" = "您已是高级版用户，限时体验功能已包含在您的高级版中，无需重复激活。";
+"advanced.already_premium_no_limited_time" = "您已是高级版用户，无需开启限时体验。";
+"advanced.trial_active_pause_first" = "您正在7天试用中，请先暂停/结束试用后再开启限时体验。";
+"advanced.limited_time_already_active" = "您已经在限时体验中，无需重复开启。";
+"advanced.limited_time_paused_restore_first" = "您的限时体验已暂停，请先恢复或等待活动结束后再开启。";
+"advanced.limited_time_ended_buy_full_version" = "限时免费体验活动已于2025年12月31日结束。如需使用高级功能，请购买正式版。";
+"advanced.already_premium_title" = "已是高级用户";
+"advanced.limited_time_enabled" = "限时体验已开启";
+"advanced.limited_time_enabled_message" = "恭喜！您已开启限时免费体验，在2025年12月31日之前可以免费使用所有高级功能！";
+"advanced.enable_failed" = "开启失败";
+"advanced.limited_time_cannot_start_retry" = "限时体验功能暂时无法启动，请稍后重试。";
+
+// MARK: - 快捷回复窗口
+"quickreply.window_title" = "快捷回复";
+"quickreply.search_placeholder" = "搜索快捷回复...";
+"quickreply.empty_state_title" = "暂无快捷回复";
+"quickreply.empty_state_message" = "双击条目复制内容，点击右上角的 + 按钮添加快捷回复";
+"quickreply.add_button" = "添加";
+"quickreply.batch_button" = "批量";
+"quickreply.finish_button" = "完成";
+"quickreply.double_tap_copy" = "双击复制";
+"quickreply.double_tap_insert" = "双击插入";
+"quickreply.category_all" = "全部";
+"quickreply.category_common" = "常用";
+"quickreply.content_type_text" = "文本";
+"quickreply.content_type_image" = "图片";
+"quickreply.content_type_file" = "文件";
+"quickreply.default_welcome_message" = "欢迎使用OneClip快捷回复功能";
+"quick_reply.add_button" = "添加";
+"quick_reply.add_help" = "添加快捷回复到当前分类";
+"quick_reply.manage_button" = "管理";
+"quick_reply.manage_categories_button" = "管理分类";
+"quick_reply.add_window_title" = "添加快捷回复";
+"quick_reply.edit_window_title" = "编辑快捷回复";
+"quick_reply.current_category" = "当前分类";
+"quick_reply.content_type" = "内容类型";
+"quick_reply.content" = "内容";
+"quick_reply.category" = "分类";
+"quick_reply.placeholder" = "输入快捷回复内容...";
+"quick_reply.clear" = "清空";
+"quick_reply.select_image" = "选择图片";
+"quick_reply.image_format_hint" = "支持 PNG、JPEG、GIF、WebP 等格式";
+"quick_reply.select_file" = "选择文件";
+"quick_reply.file_format_hint" = "支持任意文件类型";
+"quick_reply.add_category_title" = "添加分类";
+"quick_reply.add_category_subtitle" = "创建新的快捷回复分类";
+"quick_reply.category_name" = "分类名称";
+"quick_reply.category_name_placeholder" = "输入分类名称";
+"quick_reply.color_label" = "颜色";
+"common.create" = "创建";
+"common.save" = "保存";
+"common.cancel" = "取消";
+
+// MARK: - 成功通知
+"notification.copied_to_clipboard" = "已复制到剪贴板";
+"notification.copied" = "已复制";
+
+// MARK: - 操作帮助文本
+"help.delete_item" = "删除项目";
+
+// MARK: - 反馈消息
+"feedback.copied_selected_item" = "已复制选中项";
+"feedback.pasted_to_cursor" = "已粘贴到光标位置";
+"feedback.deleted_item" = "已删除项目";
+"feedback.cleared_history" = "已清空历史记录";
+"feedback.copied_item_number" = "已复制第 %d 项";
+"feedback.deleted_items_count" = "已删除 %d 项";
+"feedback.selected_items_count" = "已选择 %d 项";
+"feedback.too_many_selected" = "选择过多，最多支持 %d 项";
+"feedback.preparing_batch_copy" = "正在准备批量复制 %d 项...";
+"feedback.copy_failed_retry" = "复制失败，请重试";
+"feedback.merged_copy_text_single" = "已复制 1 个文本片段";
+"feedback.merged_copy_text_multiple" = "已合并复制 %d 个文本片段";
+"feedback.cannot_merge_selected" = "选中的项目无法合并复制";
+"feedback.cannot_read_selected_data" = "无法读取选中的数据";
+"feedback.no_selected_item" = "没有选中的项目";
+"feedback.no_selected_item_preview" = "没有选中的项目可预览";
+"feedback.deleted_quick_reply" = "已删除快捷回复";
+"feedback.added_single_item" = "已添加 1 个项目";
+"feedback.added_multiple_items" = "已添加 %d 个项目";
+"feedback.window_pinned" = "📌 窗口已置顶";
+"feedback.window_unpinned" = "📍 窗口已取消置顶";
+
+// MARK: - 权限消息
+"permission.need_accessibility_paste" = "需要辅助功能权限才能粘贴";
+"permission.cannot_create_event_source" = "无法创建事件源";
+"permission.cannot_create_keyboard_event" = "无法创建键盘事件";
+"permission.ready" = "已就绪";
+"permission.need_permission" = "需要权限";
+"permission.accessibility_enabled" = "已获得辅助功能权限，快捷键已启用";
+
+// MARK: - 监控消息
+"monitoring.resumed" = "已恢复监控";
+"monitoring.paused" = "已暂停监控";
+"monitoring.paused.15min" = "已暂停监控 15 分钟";
+"monitoring.paused.30min" = "已暂停监控 30 分钟";
+"monitoring.paused.1hour" = "已暂停监控 1 小时";
+"monitoring.paused.3hours" = "已暂停监控 3 小时";
+"monitoring.paused.8hours" = "已暂停监控 8 小时";
+
+// MARK: - 卡号消息
+"card.copied_masked" = "已复制脱敏卡号：****%@";
+"card.copied_time_text" = "已复制时间文本，打开日历进行创建";
+
+// MARK: - 快捷回复消息
+"quickreply.copied_image_need_permission" = "已复制图片（需要辅助功能权限才能自动粘贴）";
+"quickreply.copied_file_need_permission" = "已复制文件（需要辅助功能权限才能自动粘贴）";
+"quickreply.pasted_image_to_cursor" = "已粘贴图片到光标位置";
+"quickreply.pasted_file_to_cursor" = "已粘贴文件到光标位置";
+"quickreply.copied_image" = "已复制图片";
+"quickreply.copied_file" = "已复制文件";
+"quickreply.copied_text" = "已复制文本";
+"quickreply.copy_image_failed" = "复制图片失败";
+"quickreply.copy_file_failed" = "复制文件失败";
+"quickreply.copy_failed_with_error" = "复制失败: %@";
+
+// MARK: - 导入导出消息
+"import_export.import_success" = "导入成功";
+"import_export.import_failed" = "导入失败";
+"import_export.export_success" = "导出成功";
+"import_export.export_failed" = "导出失败";
+"import_export.csv_format_incorrect" = "CSV文件格式不正确，请检查文件内容";
+"import_export.cannot_read_file" = "无法读取文件：%@";
+"import_export.file_selection_failed" = "选择文件失败：%@";
+"import_export.export_file_failed" = "导出文件失败：%@";
+"import_export.quick_replies_imported" = "快捷回复已成功导入";
+"import_export.quick_replies_exported" = "快捷回复已成功导出";
+
+// MARK: - 错误消息
+"error.json_parse_failed" = "JSON 解析失败或内容无效";
+// 已删除：error.comment_generation_in_development（功能已移除）
+"error.duplicate_quick_reply_exists" = "已存在相同的快捷回复";
+
+
+// MARK: - 付费功能 - 免费版功能列表
+"premium.free.basic_clipboard" = "基础剪贴板管理";
+"premium.free.basic_clipboard_desc" = "完整的剪贴板功能";
+"premium.free.fifty_history" = "50条历史记录";
+"premium.free.fifty_history_desc" = "满足日常使用需求";
+"premium.free.twenty_favorites" = "20个收藏";
+"premium.free.twenty_favorites_desc" = "保存重要内容";
+"premium.free.six_categories" = "6个自定义分类";
+"premium.free.six_categories_desc" = "个性化内容管理";
+"premium.free.quick_reply" = "快捷回复功能";
+"premium.free.quick_reply_desc" = "快速回复常用内容";
+"premium.free.clipboard_stack" = "粘贴板堆栈";
+"premium.free.clipboard_stack_desc" = "批量复制粘贴";
+"premium.free.drop_container" = "拖拽容器";
+"premium.free.drop_container_desc" = "拖拽收集内容";
+"premium.free.ai_local_model" = "AI 本地模型";
+"premium.free.ai_local_model_desc" = "本地 AI 智能处理";
+"premium.free.data_export" = "数据导入导出";
+"premium.free.data_export_desc" = "自由管理你的数据";
+"premium.free.smart_classification" = "复制内容智能分类";
+"premium.free.smart_classification_desc" = "准确的分类算法";
+"premium.free.basic_shortcuts" = "基础快捷键";
+"premium.free.basic_shortcuts_desc" = "基本的快捷键操作";
+
+// MARK: - 付费功能 - 专业版功能列表
+"premium.pro.unlimited_history" = "扩展历史记录（无限存储）";
+"premium.pro.unlimited_favorites" = "无限收藏";
+"premium.pro.unlimited_categories" = "无限自定义分类";
+"premium.pro.auto_cleanup" = "自动清理与存储优化";
+"premium.pro.advanced_settings" = "高级设置";
+"premium.pro.theme_customization" = "主题完全自定义";
+"premium.pro.unlocked" = "已解锁";
+"premium.pro.unlocked_trial" = "试用中";
+"premium.pro.locked" = "试用或升级解锁";
+
+// MARK: - 付费功能 - 升级提示
+"premium.alert.category_limit_title" = "升级到专业版";
+"premium.alert.category_limit_message" = "免费版最多创建6个自定义分类\n\n升级到专业版享受：\n• 无限自定义分类\n• 无限收藏\n• 无限历史记录\n• 更多高级功能";
+"premium.alert.favorite_limit_title" = "收藏已达上限";
+"premium.alert.favorite_limit_message" = "免费版最多收藏20个\n\n升级到专业版享受：\n• 无限收藏\n• 无限自定义分类\n• 无限历史记录\n• 更多高级功能";
+"premium.alert.start_trial" = "开始7天免费试用";
+"premium.alert.view_pricing" = "查看定价";
+"premium.alert.manage_favorites" = "管理收藏";
+"premium.button.upgrade" = "升级解锁";
+"premium.category.limit_reached" = "免费版最多6个";
+"premium.category.limit_message" = "免费版还可以创建%d个分类";
+
+// MARK: - 菜单栏本地化
+"menu.edit.clear_history" = "清空剪贴板历史";
+"menu.edit.pause_monitoring" = "暂停监控";
+"menu.edit.resume_monitoring" = "恢复监控";
+"menu.window.main" = "主窗口";
+"menu.window.quick_reply" = "快捷回复";
+"menu.window.favorites" = "收藏夹";
+"menu.window.ai_history" = "AI 历史";
+"menu.window.minimize" = "最小化";
+"menu.window.zoom" = "缩放";
+"menu.help.oneclip_help" = "OneClip 帮助";
+"menu.help.quick_start" = "快速开始";
+"menu.help.check_updates" = "检查更新...";
+"menu.help.feedback" = "反馈与建议";
+"menu.help.github" = "GitHub 仓库";
+
+// 窗口位置模式
+"window.position.mode.title" = "窗口位置模式";
+"window.position.mode.subtitle" = "选择主窗口唤出时的显示位置";
+"window.position.cursor" = "跟随光标";
+"window.position.cursor.description" = "窗口在光标位置附近显示";
+"window.position.remember" = "记住位置";
+"window.position.remember.description" = "窗口显示在上次关闭的位置";
+"window.position.center" = "固定居中";
+"window.position.center.description" = "窗口始终在屏幕中央显示";
+
+// 列表项密度
+"list.density.title" = "列表项高度";
+"list.density.subtitle" = "调整列表项和图片预览的大小";
+"list.density.compact" = "紧凑";
+"list.density.compact.description" = "更紧密的行距";
+"list.density.standard" = "标准";
+"list.density.standard.description" = "平衡的显示密度（推荐）";
+"list.density.relaxed" = "宽松";
+"list.density.relaxed.description" = "更宽松的间距，易于查看";
+"list.density.height_slider" = "列表项高度";
+
+// MARK: - 堆栈功能（顺序粘贴）
+"stack_panel_title" = "粘贴队列";
+"stack_active" = "堆栈模式激活中";
+"stack_inactive" = "堆栈模式未激活";
+"stack_items_count" = "队列中有 %d 项";
+"stack_press_to_activate" = "按快捷键激活堆栈";
+"stack_clear" = "清空堆栈";
+"stack_activate" = "激活堆栈模式";
+"stack_deactivate" = "关闭堆栈模式";
+"stack_empty_active" = "堆栈为空，开始复制内容吧";
+"stack_empty_inactive" = "堆栈未激活";
+"stack_hint" = "使用快捷键激活堆栈模式\n然后用 Cmd+C 复制内容到队列\n使用 Cmd+V 依次粘贴";
+"stack_press_to_activate_ctrl" = "按快捷键激活堆栈";
+"stack_hint_ctrl" = "使用快捷键激活堆栈模式\n然后用 Cmd+C 复制内容到队列\n使用 Cmd+V 依次粘贴";
+
+// 剪贴板堆栈菜单
+// ✅ 当前使用
+"statusbar.menu.stack_panel" = "剪贴板堆栈";
+"statusbar.menu.stack_panel.tooltip" = "激活/关闭剪贴板堆栈 (⌘⇧C)";
+
+// ⚠️ DEPRECATED (2025-11-05) - 使用 statusbar.menu.stack_panel 代替
+"statusbar.menu.show_stack_panel" = "显示剪贴板堆栈";
+"statusbar.menu.hide_stack_panel" = "关闭剪贴板堆栈";
+
+// 拖拽容器菜单
+// ✅ 当前使用
+"statusbar.menu.drop_container" = "拖拽容器";
+"statusbar.menu.drop_container.tooltip" = "显示/隐藏拖拽容器 (⌘⇧D)";
+
+// ⚠️ DEPRECATED (2025-11-05) - 使用 statusbar.menu.drop_container 代替
+"statusbar.menu.show_drop_container" = "显示拖拽容器";
+"statusbar.menu.hide_drop_container" = "隐藏拖拽容器";
+"statusbar.menu.toggle_drop_container" = "显示/隐藏拖拽容器";
+
+// AI 历史记录菜单
+"statusbar.menu.ai_history" = "AI 历史记录";
+"statusbar.menu.ai_history.empty" = "AI 历史记录 (暂无)";
+"statusbar.menu.ai_history.count" = "AI 历史记录 (%d)";
+"statusbar.menu.ai_history.tooltip" = "查看AI处理历史记录";
+
+// MARK: - 通知文本
+"notification.sync_complete.title" = "云同步完成";
+"notification.sync_complete.body" = "已同步 %d 个新项目";
+"notification.device_paired.title" = "设备配对成功";
+"notification.device_paired.body" = "已成功连接到 %@，剪贴板数据将自动同步";
+"notification.folder_shared.title" = "文件夹共享已接受";
+"notification.folder_shared.body" = "已自动接受 %@ 文件夹共享，数据将自动同步";
+
+// MARK: - 拖拽容器
+"drop_container.title" = "拖拽容器";
+"drop_container.window_title" = "拖拽容器";
+"drop_container.header" = "拖拽容器";
+"drop_container.item_count" = "已暂存 %d 个项目";
+"drop_container.empty_title" = "拖拽暂存区";
+"drop_container.empty_subtitle" = "拖拽文件、图片或文本到这里";
+"drop_container.clear_button" = "清空";
+"drop_container.clear_confirm_title" = "确认清空";
+"drop_container.clear_confirm_message" = "确定要清空拖拽容器中的所有项目吗？此操作无法撤销。";
+
+// MARK: - 快捷回复
+"quick_reply.batch_mode" = "批量";
+"quick_reply.delete" = "删除";
+"quick_reply.done" = "完成";
+"quick_reply.settings_title" = "快捷回复 · 偏好设置";
+"quick_reply.restore_default" = "恢复默认";
+"quick_reply.save" = "保存";
+"quick_reply.favorite" = "收藏";
+"quick_reply.copy" = "复制";
+"quick_reply.manage_categories" = "管理分类";
+"quick_reply.add_category" = "添加分类";
+"quick_reply.category_hint" = "拖拽调整顺序，系统分类不可编辑";
+"quick_reply.delete_category_confirm" = "确定要删除分类 \"%@\" 吗？\n\n删除后该分类下的所有快捷回复将移动到\"常用\"分类。\n\n⚠️ 此操作无法撤销！";
+"quick_reply.system_category" = "系统分类";
+"quick_reply.content_type" = "内容类型";
+"quick_reply.content" = "内容";
+"quick_reply.category" = "分类";
+
+// MARK: - 通用按钮和对话框
+"common.cancel" = "取消";
+"common.confirm" = "确认";
+"common.delete" = "删除";
+"common.save" = "保存";
+"common.add" = "添加";
+"common.edit" = "编辑";
+"common.retry" = "重试";
+"common.close" = "关闭";
+"common.ok" = "确定";
+"common.export" = "导出";
+"common.import" = "导入";
+"common.reset_default" = "重置为默认";
+
+// MARK: - 确认对话框
+"alert.clear_history.title" = "确认清空所有历史记录？";
+"alert.clear_history.button" = "全部清空";
+"alert.delete_item.title" = "确认删除";
+"alert.batch_delete.title" = "确认批量删除";
+"alert.delete_category.title" = "删除分类";
+"alert.delete_category.message" = "确定要删除「%@」分类吗？此操作无法撤销。";
+"alert.cancel_activation.title" = "取消设备激活";
+"alert.cancel_activation.confirm" = "确认取消";
+"alert.deactivate_device" = "停用";
+"alert.cancel_activation.message" = "确定要取消设备 \"%@\" 的激活吗？\n\n取消后，该设备将无法继续使用此许可证。";
+
+// MARK: - 对话框消息
+"dialog.delete_all_warning" = "此操作将清空所有历史记录，无法撤销。";
+"dialog.delete_item_warning" = "确定要删除这个剪贴板项目吗？删除后可在 5 秒内撤销。";
+"dialog.delete_items_confirm" = "确定要删除选中的 %d 个项目吗？删除后可在 5 秒内撤销。";
+"dialog.delete_quick_reply_warning" = "确定要删除这个快捷回复项目吗？删除后无法撤销。";
+
+// MARK: - 拖拽容器扩展
+"drop_container.clear_all_items" = "清空全部 %d 个项目";
+
+// MARK: - 规则管理
+"rule.add_title" = "添加规则";
+"rule.edit_title" = "编辑规则";
+
+// MARK: - 导入导出
+"import_export.title" = "导入与导出";
+"import_export.export_csv" = "导出为 CSV";
+"import_export.export_description" = "将所有快捷回复导出到 CSV 文件";
+"import_export.import_csv" = "从 CSV 导入";
+"import_export.import_description" = "将 CSV 文件中的条目追加导入";
+"import_export.format_info" = "格式说明";
+
+// MARK: - 快捷回复窗口
+"quick_reply.window_title" = "快捷回复";
+"quick_reply.current_category" = "当前分类";
+"quick_reply.select" = "选择";
+"quick_reply.favorite_toggle" = "收藏";
+"quick_reply.placeholder" = "输入快捷回复内容...";
+"quick_reply.clear" = "清空";
+"quick_reply.select_image" = "选择图片";
+"quick_reply.image_format_hint" = "支持 JPG、PNG、GIF 等格式";
+"quick_reply.select_file" = "选择文件";
+"quick_reply.file_format_hint" = "支持 PDF、文档、压缩包等格式";
+"quick_reply.add_category_title" = "添加分类";
+"quick_reply.add_category_subtitle" = "为快捷回复创建新的分类标签";
+"quick_reply.category_name" = "名称";
+"quick_reply.image_label" = "图片";
+
+// MARK: - 删除撤销
+"undo.deleted" = "已删除";
+"undo.undo" = "撤销";
+
+// MARK: - 批量操作反馈
+"feedback.favoriting" = "收藏中";
+"feedback.favoriting_items" = "正在收藏 %d 项...";
+
+// MARK: - 设备管理
+"device.not_set" = "未设置";
+"device.cannot_deactivate" = "无法停用或删除";
+
+// MARK: - 堆栈面板
+"stack.title" = "剪贴板堆栈";
+"stack.empty_title" = "堆栈为空";
+"stack.empty_subtitle" = "复制内容会自动加入队列";
+"stack.activate_shortcut" = "激活/关闭堆栈";
+"stack.paste_shortcut" = "依次粘贴";
+"stack.image" = "图片";
+"stack.pasted" = "已粘贴";
+"stack.remaining_items" = "剩余 %d 项";
+"stack.clear" = "清空";
+"stack.restart" = "重新开始";
+"stack.paste_next" = "粘贴下一项 (%d/%d)";
+"stack.all_pasted" = "已全部粘贴完成";
+"stack.skip" = "跳过";
+"stack.paste_all" = "粘贴全部";
+
+// MARK: - 试用横幅
+"trial.expiring_soon" = "试用即将到期，剩余%d小时";
+"trial.purchase_now" = "立即购买";
+
+// MARK: - 设备激活信息
+"device.current_activation" = "当前激活信息";
+"device.refresh" = "刷新";
+"device.email_address" = "邮箱地址";
+"device.activation_code" = "激活码";
+
+// MARK: - AI 功能
+"ai.features" = "AI 功能";
+"ai.enable" = "启用 AI 功能";
+"ai.enable_subtitle" = "OCR、翻译、摘要等智能功能";
+"ai.use_cloud_service" = "使用云端 AI 服务";
+"ai.use_cloud_subtitle" = "在线 API 服务·稳定可靠";
+"ai.service_type" = "AI 服务类型";
+"ai.service_type_subtitle" = "选择使用云端 API 或本地模型";
+"ai.cloud_service" = "云端 AI 服务";
+"ai.cloud_service_subtitle" = "使用在线 API（智谱 AI、OpenAI等）";
+"ai.cloud_features" = "稳定可靠、性能强大、无需本地资源";
+"ai.local_model" = "本地 AI 模型";
+"ai.local_model_subtitle" = "使用 Ollama 等本地服务";
+"ai.local_features" = "完全免费、隐私保护、无使用限制";
+
+// MARK: - iOS 同步
+"ios_sync.title" = "iOS 同步";
+"ios_sync.enable" = "启用 iOS 同步";
+"ios_sync.enable_subtitle" = "轻松实现 Mac 与 iPhone 之间的内容推送";
+"ios_sync.enabled_status" = "已开启，可右键推送内容到 iPhone";
+"ios_sync.feature_1" = "Mac 文本/链接—键送达 iPhone";
+"ios_sync.feature_2" = "图片自动上传后推送链接到 iPhone";
+"ios_sync.feature_3" = "iPhone 收到推送后自动复制到剪贴板";
+"ios_sync.start" = "立即开启 iOS 同步";
+"ios_sync.requirement" = "需要配合免费的 Bark App 使用，完全免费无需订阅";
+"ios_sync.help_title" = "帮助资源";
+"ios_sync.help_subtitle" = "获取更多帮助信息";
+"ios_sync.bark_docs" = "Bark 官方文档";
+"ios_sync.enabled" = "已启用 iOS 同步";
+"ios_sync.enabled_hint" = "可以右键菜单推送内容到 iPhone";
+"ios_sync.download_bark" = "下载 Bark App";
+"ios_sync.download_hint" = "请前往iPhone的App Store下载Bark";
+"ios_sync.input_url" = "输入 Bark 推送地址";
+"ios_sync.test_push" = "测试推送";
+"ios_sync.url_hint" = "打开 iPhone 上的 Bark App，复制首页显示的推送地址（格式：https://api.day.app/YOUR_KEY/）";
+"ios_sync.test_hint" = "如果配置正确，iPhone 会立即收到测试推送";
+"ios_sync.image_host" = "图片上传服务";
+"ios_sync.catbox_free" = "免费无需配置";
+"ios_sync.smms_stable" = "国内直连稳定";
+"ios_sync.catbox_hint" = "Catbox 需要科学上网";
+"ios_sync.catbox_desc" = "支持最大 200MB，完全免费，无需配置";
+"ios_sync.smms_hint" = "SM.MS 国内直连";
+"ios_sync.smms_desc" = "支持最大 5MB，国内访问快，需要 API Token";
+
+// MARK: - 快捷键配置
+"shortcuts.direct_paste" = "粘贴选中项到光标位置";
+"shortcuts.delete_selected" = "删除选中的项目";
+"shortcuts.undo_delete" = "撤销上一次删除";
+"shortcuts.focus_search" = "快速定位到搜索框";
+"shortcuts.clear_search" = "清空搜索内容";
+"shortcuts.toggle_window" = "窗口置顶/取消置顶";
+"shortcuts.toggle_batch" = "进入/退出批量选择模式";
+"shortcuts.show_hide_stack" = "打开/关闭剪贴板堆栈";
+"shortcuts.show_hide_container" = "打开/关闭拖拽容器";
+"shortcuts.show_quick_help" = "查看所有快捷键";
+"shortcuts.open_settings" = "打开设置窗口";
+
+// MARK: - 分类管理
+"category.new" = "新建分类";
+"category.name" = "分类名称";
+"category.name_placeholder" = "输入分类名称";
+"category.icon" = "图标";
+"category.color" = "颜色";
+"category.select_icon" = "选择图标";
+"category.select_color" = "选择颜色";
+"category.rules" = "分类规则";
+"category.rules_hint" = "点击 “Add Rule” 设置分类条件";
+"category.management_subtitle" = "管理所有分类的显示名称、显隐与排序";
+"category.create" = "创建";
+"category.current_selection" = "当前选择:";
+"category.current_color" = "当前颜色: %@";
+"category.use_system_picker" = "使用系统颜色选择器...";
+"common.done" = "完成";
+"common.days" = "天";
+"common.hours" = "小时";
+"common.minutes" = "分钟";
+
+// MARK: - 预设规则
+"preset_rules.title" = "预设规则";
+
+// MARK: - 嵌入网页
+"web.open_in_browser" = "在浏览器中打开";
+"web.close" = "关闭";
+
+// MARK: - 界面设置
+"interface.show_rich_text" = "显示富文本(实验性)";
+"interface.show_rich_text_subtitle" = "在主窗口和编辑器中显示富文本格式（颜色、字体等），关闭后显示纯文本";
+
+// MARK: - 云同步
+"cloud_sync.uninstall_success" = "卸载成功";
+"cloud_sync.uninstall_success_body" = "同步组件已卸载，如需使用请重新下载";
+"cloud_sync.uninstall_failed" = "卸载失败";
+"cloud_sync.connect" = "连接";
+
+// MARK: - 激活说明
+"activation.help.title" = "激活说明";
+"activation.help.subtitle" = "了解激活流程和注意事项";
+"activation.help.code_format" = "激活码格式";
+"activation.help.email_binding" = "邮箱绑定";
+"activation.help.email_binding_desc" = "激活码与邮箱地址绑定，请使用购买时的邮箱";
+"activation.help.feature_unlock" = "功能解锁";
+"activation.help.feature_unlock_desc" = "激活后自动解锁所有高级功能";
+"activation.help.support" = "技术支持";
+"activation.help.support_desc" = "如遇问题，请邮件联系获取帮助";
+
+// MARK: - iOS 同步设置补充
+"ios_sync.usage_title" = "使用说明";
+"ios_sync.usage_subtitle" = "如何推送内容到 iPhone";
+"ios_sync.right_click_push" = "右键推送";
+"ios_sync.right_click_desc" = "在历史记录中右键点击文本或图片，选择「推送到 iPhone」";
+"ios_sync.image_host_title" = "图床服务选择";
+"ios_sync.image_host_subtitle" = "选择图片上传服务";
+
+// MARK: - 规则预览
+"rule.preview" = "规则预览";
+"rule.case_sensitive" = "区分大小写";
+"rule.regex" = "正则表达式";
+
+// MARK: - 激活与恢复
+"activation.title" = "激活与恢复";
+"activation.email_label" = "邮箱地址";
+"activation.email_placeholder" = "请输入您的邮箱地址";
+"activation.email_hint" = "请输入邮箱地址";
+"activation.code_label" = "激活码";
+"activation.code_placeholder" = "请输入激活码";
+"activation.code_format" = "激活码格式：XXXXX-XXXXX-XXXXX";
+"activation.activate_button" = "激活许可证";
+"activation.clear_button" = "清除授权";
+"activation.status_pro" = "当前：已解锁 Pro";
+"activation.status_free" = "当前：免费版";
+"activation.success" = "激活成功！";
+"activation.error.invalid_email" = "邮箱格式不正确";
+"activation.error.invalid_signature" = "激活码无效或已过期";
+"activation.error.revoked" = "激活码已被撤销";
+"activation.error.expired" = "激活码已过期";
+"activation.error.network" = "网络连接失败，请检查网络后重试";
+"activation.error.failed" = "激活失败：%@";
+"activation.subtitle" = "恢复您的购买或激活新设备";
+"activation.activated" = "已激活";
+"activation.current_code" = "当前激活码";
+"activation.copy" = "复制";
+"activation.reactivate" = "使用当前激活码重新激活";
+"activation.local_restore" = "本地恢复";
+"activation.local_restore_subtitle" = "从本地存储恢复之前保存的激活信息";
+"activation.auto_restore" = "自动恢复激活信息";
+"activation.auto_restore_hint" = "自动恢复将尝试从本地存储中获取您之前保存的邮箱和激活码信息。";
+"activation.manual_input" = "输入激活信息";
+"activation.manual_input_subtitle" = "已有激活码？输入邮箱和激活码进行激活";
+"activation.email_label" = "邮箱地址";
+"activation.email_placeholder" = "请输入邮箱地址";
+"activation.code_label" = "激活码";
+"activation.code_format" = "激活码格式：XXXXX-XXXXX-XXXXX";
+"activation.paste" = "粘贴";
+"activation.show" = "显示";
+"activation.hide" = "隐藏";
+"activation.restoring" = "恢复中...";
+"activation.start_restore" = "开始恢复";
+"activation.purchase_title" = "购买高级版";
+"activation.purchase_subtitle" = "还没有激活码？选择适合您的套餐";
+"activation.monthly" = "月卡";
+"activation.monthly_desc" = "适合短期使用";
+"activation.lifetime" = "终身版";
+"activation.lifetime_desc" = "一次购买，永久使用";
+
+// MARK: - 测试功能
+"test_features.refresh_status" = "刷新状态";
+"test_features.drop_container" = "拖拽容器";
+"test_features.drop_container_subtitle" = "拖拽项目时显示临时容器，便于暂存和管理";
+"test_features.feature_status" = "功能状态";
+"test_features.status_enabled" = "已启用";
+"test_features.status_disabled" = "已关闭";
+"test_features.toggle_disable_hint" = "点击关闭拖拽容器功能";
+"test_features.toggle_enable_hint" = "点击启用拖拽容器功能";
+"test_features.offline_disable_hint" = "点击禁用离线验证";
+"test_features.offline_enable_hint" = "点击启用离线验证";
+"test_features.drag_container_tip1" = "📝 拖拽项目时显示临时容器,便于暂存和管理";
+"test_features.drag_container_tip2" = "🎯 使用快捷键 ⌃⇧D 可快速显示/隐藏拖拽容器";
+"test_features.cannot_enable_title" = "无法启用离线验证";
+"test_features.cannot_enable_message" = "当前无法启用离线验证，可能原因：\n\n• 服务器连接正常，无需离线验证\n• 未找到有效的激活信息\n• 请等待服务器恢复或联系技术支持";
+
+// MARK: - AI 功能
+"ai.enable_ai" = "启用 AI 功能";
+"ai.description" = "使用智谱 AI 增强剪贴板功能";
+"ai.features_list" = "功能列表";
+"ai.features_list_description" = "提供的 AI 功能";
+
+// API Key 配置
+"ai.api_key_configuration" = "API Key 配置";
+"ai.api_key_description" = "配置智谱 AI 的 API Key 以使用 AI 功能";
+"ai.api_key_required" = "需要配置 API Key";
+"ai.api_key_prompt" = "请在下方添加智谱 AI API Key";
+"ai.api_key_configured" = "API Key 已配置";
+"ai.api_key_masked" = "API Key 已配置并保存";
+"ai.add_api_key" = "添加 API Key";
+"ai.enter_api_key" = "请输入智谱 AI API Key";
+"ai.save_api_key" = "保存";
+"ai.cancel" = "取消";
+"ai.modify_api_key" = "修改";
+"ai.delete_api_key" = "删除";
+"ai.how_to_get_api_key" = "如何获取 API Key?";
+"ai.visit_platform" = "访问智谱 AI 开放平台";
+
+// 模型配置
+"ai.model_configuration" = "模型配置";
+"ai.model_description" = "分别配置文本和视觉模型";
+"ai.text_processing_model" = "文本处理模型";
+"ai.image_recognition_model" = "图像识别模型";
+"ai.recommended_model" = "推荐";
+
+// AI 功能说明
+"ai.features_title" = "可用功能";
+"ai.feature.ocr" = "OCR 文字识别";
+"ai.feature.ocr_desc" = "从图片中提取文字内容";
+"ai.feature.translate" = "智能翻译";
+"ai.feature.translate_desc" = "支持中英文互译";
+"ai.feature.summary" = "智能摘要";
+"ai.feature.summary_desc" = "提取文本核心要点";
+"ai.feature.format" = "格式化文本";
+"ai.feature.format_desc" = "整理文本格式和排版";
+
+// 模型相关
+"ai.model.glm4flash.desc" = "快速文本处理";
+"ai.model.glm4flashx.desc" = "超快速文本处理";
+"ai.model.glm4vflash.desc" = "图片文字识别";
+"ai.model.glm45v.desc" = "高级视觉理解";
+"ai.model.rate_per_minute" = "%@次/分钟";
+"ai.model.limited_free" = "限时免费";
+"ai.use_custom_model" = "使用自定义模型";
+"ai.use_custom_text_model" = "使用自定义文本模型";
+"ai.use_custom_vision_model" = "使用自定义视觉模型";
+"ai.openai_compatible" = "支持OpenAI兼容格式";
+"ai.free_model" = "免费";
+"ai.paid_model" = "付费";
+"ai.rate_limit" = "速率限制: %@";
+
+// MARK: - AI 设置页面详细
+"ai.title" = "AI 功能";
+"ai.subtitle" = "启用智能剪贴板增强功能";
+"ai.service_type_title" = "AI 服务类型";
+"ai.ollama_config_title" = "Ollama 本地配置";
+"ai.ollama_config_subtitle" = "配置本地AI模型服务和选择模型";
+"ai.view_guide" = "查看安装配置指南";
+"ai.text_model" = "文本处理模型";
+"ai.vision_model" = "图像识别模型";
+"ai.no_text_model" = "未检测到文本模型";
+"ai.no_vision_model" = "未检测到视觉模型";
+"ai.recommend_install_text" = "推荐安装: qwen2.5:7b（2024最新、中文最强）";
+"ai.recommend_install_vision" = "推荐安装: llava:7b";
+"ai.refresh_models" = "刷新模型列表";
+"ai.quick_start" = "快速开始（三步完成）";
+"ai.download_ollama" = "下载并安装 Ollama";
+"ai.go_to_website" = "前往官网下载";
+"ai.download_model" = "下载模型（推荐 qwen2.5:7b，约 4.7GB）";
+"ai.after_install" = "安装 Ollama 后，在终端执行：";
+"ai.complete_config" = "完成配置";
+"ai.auto_run_hint" = "Ollama 会自动在后台运行，返回 OneClip 启用开关即可使用";
+"ai.more_models" = "更多模型选择";
+"ai.reasoning_model" = "推理模型：";
+"ai.image_recognition" = "图片识别：";
+"ai.lightweight_model" = "轻量模型：";
+"ai.browse_models" = "浏览 Ollama 官方模型库";
+"ai.stable_reliable" = "稳定可靠";
+"ai.powerful_performance" = "性能强大";
+"ai.no_local_resources" = "无需本地资源";
+"ai.fully_offline" = "完全离线";
+"ai.privacy_protected" = "隐私保护";
+"ai.no_usage_limits" = "无使用限制";
+
+// MARK: - 复制和粘贴后窗口行为设置
+"settings.copy_window_behavior" = "复制后窗口行为";
+"settings.copy_window_behavior.subtitle" = "复制内容后窗口是否隐藏";
+"settings.copy_window_behavior.keep_window" = "保留窗口";
+"settings.copy_window_behavior.auto_hide" = "自动隐藏";
+
+"settings.paste_window_behavior" = "粘贴后窗口行为";
+"settings.paste_window_behavior.subtitle" = "直接粘贴后窗口是否隐藏";
+"settings.paste_window_behavior.keep_window" = "保留窗口";
+"settings.paste_window_behavior.auto_hide" = "自动隐藏";
+
+"settings.move_to_top_after_paste.title" = "粘贴后移到顶部";
+"settings.move_to_top_after_paste.subtitle" = "粘贴的内容自动移到历史记录顶部";
+
+"settings.focus_search_on_open.title" = "呼出时聚焦搜索框";
+"settings.focus_search_on_open.subtitle" = "窗口打开时自动聚焦到搜索框，方便快速搜索";
+
+// MARK: - 高级设置缺失的本地化
+"advanced.trial_function_status" = "试用功能状态";
+"advanced.trial_temporarily_unavailable" = "试用功能暂时不可用";
+"advanced.have_code_restore_here" = "已有激活码？点击这里恢复购买";
+"advanced.pause_limited_time" = "暂停限时体验";
+"advanced.limited_time_management" = "限时体验管理";
+"advanced.can_pause_or_activate" = "您可以暂停体验或激活高级版";
+"advanced.purchase_activation_code" = "购买/激活码";
+"advanced.all_features_unlocked" = "所有高级功能已解锁";
+"advanced.already_premium_no_trial_text" = "您已是高级版用户，无需试用";
+"advanced.can_upgrade_during_trial" = "试用期间可随时升级";
+"advanced.ending_soon" = "即将结束";
+"advanced.experience_management" = "体验管理";
+"advanced.license_id" = "许可证ID";
+"advanced.limited_time_active" = "限时体验中";
+"advanced.limited_time_ended_message" = "限时体验已结束，请购买完整版";
+"advanced.limited_time_paused" = "限时体验已暂停";
+"advanced.limited_time_paused_message" = "限时体验已暂停，您可以随时恢复";
+"advanced.limited_time_resumed" = "限时体验已恢复";
+"advanced.limited_time_resumed_message" = "限时体验已恢复，继续享受高级功能";
+"advanced.limited_time_cancelled" = "已取消限时体验";
+"advanced.limited_time_cancelled_message" = "已回到免费版状态，您可以随时重新开启限时体验或启动7天试用";
+"advanced.payment_methods" = "支付方式";
+"advanced.remaining" = "剩余";
+"advanced.restore_limited_or_activate" = "恢复限时体验或激活高级版";
+"advanced.resume_limited_time" = "恢复限时体验";
+"advanced.resume_or_activate_message" = "您可以恢复体验或激活高级版";
+"advanced.resume_or_activate_trial" = "恢复或激活试用";
+"advanced.trial_already_active" = "试用已激活";
+"advanced.trial_expired_no_restart" = "试用已过期，无法重新开始";
+"advanced.trial_paused_title" = "试用已暂停";
+"advanced.trial_resume_failed" = "恢复试用失败";
+"advanced.upgrade_to_paid" = "升级到付费版";
+
+// MARK: - AI 功能缺失的本地化
+"ai.api_endpoint" = "API 端点";
+"ai.continue_use" = "继续使用";
+"ai.model_name" = "模型名称";
+"ai.paid_model_warning_default" = "此模型为付费模型，使用将产生费用";
+"ai.paid_model_warning_flashx" = "GLM-4-FlashX 为付费模型，使用将产生费用";
+"ai.paid_model_warning_title" = "付费模型警告";
+"ai.paid_model_warning_vision" = "GLM-4V 为付费视觉模型，使用将产生费用";
+"ai.supported_providers" = "支持的提供商";
+"ai.supported_vision_models" = "支持的视觉模型";
+
+// MARK: - 其他缺失的本地化
+"onboarding.settings.auto_start" = "开机自启动";
+"onboarding.settings.auto_start_subtitle" = "系统启动时自动运行 OneClip";
+"rule.regex_label" = "正则表达式";
+
+// MARK: - 引导页面
+"onboarding.skip" = "跳过";
+"onboarding.welcome.title" = "欢迎使用 OneClip";
+"onboarding.welcome.subtitle" = "永不丢失你复制的一切";
+"onboarding.feature.auto_save" = "自动保存";
+"onboarding.feature.auto_save_desc" = "所有复制内容\n自动保存";
+"onboarding.feature.fast_search" = "极速搜索";
+"onboarding.feature.fast_search_desc" = "秒速找到\n任何内容";
+"onboarding.feature.smart_category" = "智能分类";
+"onboarding.feature.smart_category_desc" = "自动识别\n内容类型";
+"onboarding.button.start" = "开始使用";
+"onboarding.button.continue" = "继续";
+"onboarding.button.complete" = "完成设置";
+"onboarding.button.later" = "我稍后在设置中授权";
+"onboarding.permission.title" = "需要辅助功能权限";
+"onboarding.permission.title_granted" = "授权成功！";
+"onboarding.permission.desc" = "OneClip 需要此权限来监控剪贴板变化";
+"onboarding.permission.desc_granted" = "OneClip 现在可以自动保存你的剪贴板内容了";
+"onboarding.permission.step1" = "点击下方按钮";
+"onboarding.permission.step2" = "在系统设置中勾选 OneClip";
+"onboarding.permission.step3" = "返回后自动检测";
+"onboarding.permission.tip" = "如已在列表中，先删除再重新添加";
+"onboarding.permission.button" = "开启权限";
+"onboarding.quickstart.title" = "记住这些快捷键";
+"onboarding.quickstart.subtitle" = "让你的效率翻倍";
+"onboarding.quickstart.shortcut1_keys" = "⌘ ⇧ V";
+"onboarding.quickstart.shortcut1_desc" = "唤起 OneClip 主窗口";
+"onboarding.quickstart.shortcut2_keys" = "Space";
+"onboarding.quickstart.shortcut2_desc" = "预览选中的内容";
+"onboarding.quickstart.shortcut3_keys" = "⌘ ↩︎";
+"onboarding.quickstart.shortcut3_desc" = "粘贴选中项到当前位置";
+"onboarding.quickstart.tip" = "你随时可以在设置中查看";
+"onboarding.quickstart.tip_link" = "完整快捷键列表";
+
+// MARK: - 菜单栏触发设置
+"menubar.trigger.title" = "菜单栏触发面板";
+"menubar.trigger.subtitle" = "在菜单栏向下滚动或下滑呼出面板";
+"menubar.trigger.enable" = "启用菜单栏触发";
+"menubar.trigger.description" = "在菜单栏区域向下滚动鼠标滚轮或双指下滑呼出面板";
+"menubar.trigger.how_to_use" = "使用方法";
+"menubar.trigger.step1" = "• 鼠标滚轮：在菜单栏向下滚动";
+"menubar.trigger.step2" = "• 触控板：在菜单栏双指向下滑动";
+"menubar.trigger.step3" = "• 面板会在鼠标位置下方出现";
+"menubar.trigger.step4" = "• 向上滚动或滑动可收回面板";
+
+// MARK: - Finder 剪切粘贴增强
+"finder.cut_paste.title" = "Finder 剪切粘贴增强";
+"finder.cut_paste.description" = "在 Finder 中使用 ⌘X 剪切文件，⌘V 粘贴移动";
+"finder.cut_paste.usage_method" = "使用方法";
+"finder.cut_paste.step1" = "在 Finder 中选中要移动的文件";
+"finder.cut_paste.step2" = "按 ⌘X 剪切文件";
+"finder.cut_paste.step3" = "切换到目标文件夹";
+"finder.cut_paste.step4" = "按 ⌘V 移动文件（自动使用系统剪切粘贴）";
+"finder.cut_paste.cancel_cut" = "取消剪切（文件保持原位）";
+"finder.cut_paste.features" = "功能特性";
+"finder.cut_paste.feature1" = "利用系统原生 ⌘⌥V 剪切粘贴功能";
+"finder.cut_paste.feature2" = "智能识别文本编辑场景（重命名、搜索框等）";
+"finder.cut_paste.feature3" = "仅在 Finder 中生效，不影响其他应用";
+"finder.cut_paste.feature4" = "仅需辅助功能权限，无需自动化权限";
+"finder.cut_paste.permission_status" = "权限状态";
+"finder.cut_paste.shortcut_conflict" = "快捷键冲突提醒";
+"finder.cut_paste.shortcut_conflict_desc" = "检测到您的某个全局快捷键设置为 ⌘⌥V，这可能与访达剪切粘贴功能冲突。使用 ⌘V 移动文件时，OneClip 窗口也会弹出。建议修改全局快捷键为其他组合（如 ⌘⇧V）以避免冲突。";
+"finder.cut_paste.authorization_steps" = "授权步骤：";
+"finder.cut_paste.step_open_settings" = "1. 点击「去授权」打开系统设置";
+"finder.cut_paste.step_check_oneclip" = "2. 在「辅助功能」列表中勾选 OneClip";
+"finder.cut_paste.go_authorize" = "去授权";
+"finder.cut_paste.cancel" = "取消";
+
+// MARK: - 数据恢复
+"data_restore.title" = "数据恢复";
+"data_restore.description" = "创建备份或从备份中恢复收藏和历史数据，用于测试或数据修复";
+"data_restore.backup_content_warning" = "备份仅包含项目数据和收藏信息，不包含图片文件。恢复后图片需要重新复制";
+"data_restore.available_backups" = "可用备份";
+"data_restore.create_backup" = "备份";
+"data_restore.refresh" = "刷新";
+"data_restore.no_backups" = "暂无可用备份";
+"data_restore.selected" = "已选择：";
+"data_restore.created_time" = "创建时间：";
+"data_restore.restore_backup" = "恢复此备份";
+"data_restore.confirm_restore_title" = "确认恢复备份";
+"data_restore.confirm_restore_message" = "恢复备份将导入备份中的数据到当前数据库。此操作不会删除现有数据，但可能产生重复项。确定要继续吗？";
+"data_restore.restore_success_title" = "恢复成功";
+"data_restore.restore_success_message" = "备份已成功恢复！数据已导入到当前数据库。";
+"data_restore.restore_failed_title" = "恢复失败";
+"data_restore.restore_failed_message" = "备份恢复失败，请查看日志了解详情。";
+"data_restore.cancel" = "取消";
+"data_restore.restore" = "恢复";
+"data_restore.ok" = "确定";
+
+// MARK: - 搜索框按钮配置
+"search_bar.config.title" = "搜索框右侧按钮配置";
+"search_bar.config.subtitle" = "自定义丰富模式搜索框右侧的按钮显示";
+"search_bar.config.enable_custom" = "启用自定义配置";
+"search_bar.config.enable_custom.description" = "关闭后使用默认配置";
+"search_bar.config.wide_window" = "宽窗口";
+"search_bar.config.wide_window.description" = "窗口宽度 ≥ 600 像素时显示的按钮";
+"search_bar.config.narrow_window" = "窄窗口";
+"search_bar.config.narrow_window.description" = "窗口宽度 < 600 像素时显示的按钮";
+"search_bar.config.reset" = "重置为默认配置";
+"search_bar.config.reset_confirm_title" = "确认重置";
+"search_bar.config.reset_confirm" = "重置为默认配置";
+"search_bar.config.reset_confirm_message" = "此操作将恢复所有按钮配置为默认设置";
+"search_bar.config.drag_to_reorder" = "使用上下箭头调整按钮顺序";
+"search_bar.config.preview_hint" = "实时预览";
+"search_bar.config.preview_hint.description" = "调整窗口宽度可实时查看按钮显示效果";
+
+// MARK: - 搜索框按钮类型
+"search_bar.button.view_layout" = "视图模式";
+"search_bar.button.view_layout.description" = "切换列表/卡片视图";
+"search_bar.button.batch_mode" = "批量操作";
+"search_bar.button.batch_mode.description" = "启用批量选择模式";
+"search_bar.button.help" = "帮助";
+"search_bar.button.help.description" = "显示快捷键帮助";
+"search_bar.button.pin" = "置顶";
+"search_bar.button.pin.description" = "保持窗口在最前面";
+"search_bar.button.clear" = "清空";
+"search_bar.button.clear.description" = "清空历史记录";
+"search_bar.button.settings" = "设置";
+"search_bar.button.settings.description" = "打开设置窗口";
+
+// MARK: - 横排面板方向
+"panel.direction.bottom" = "底部";
+"panel.direction.left" = "左侧";
+"panel.direction.right" = "右侧";

@@ -10,7 +10,6 @@
 "app.description" = "Clipboard Manager";
 
 // MARK: - Common Buttons
-"button.ok" = "OK";
 "button.cancel" = "Cancel";
 "button.save" = "Save";
 "button.close" = "Close";
@@ -19,7 +18,6 @@
 "button.edit" = "Edit";
 "button.copy" = "Copy";
 "button.paste" = "Paste";
-"button.clear" = "Clear";
 "button.search" = "Search";
 "button.settings" = "Settings";
 "button.next" = "Next";
@@ -27,11 +25,24 @@
 "button.finish" = "Finish";
 "button.start" = "Start";
 
+// MARK: - Text Selection Feature
+"text_selection.title" = "Select Text";
+"text_selection.hint" = "Drag to select the text you need";
+"text_selection.selected_count" = "Selected %d characters (of %d total)";
+"text_selection.no_selection" = "No text selected";
+"text_selection.copy_selected" = "Copy Selected";
+"text_selection.paste_selected" = "Paste Selected";
+"text_selection.only_text_supported" = "Only text items support text selection";
+"text_selection.empty_text" = "Text content is empty";
+
 // MARK: - Status Bar Menu
 "statusbar.tooltip" = "OneClip - Clipboard Manager";
 "statusbar.menu.show_window" = "Show Main Window";
 "statusbar.menu.hide_window" = "Hide Window";
+"statusbar.menu.browse_categories" = "Browse Categories";
+"statusbar.menu.toggle_window" = "Main Window";
 "statusbar.menu.quick_reply" = "Quick Reply";
+"statusbar.menu.toggle_quick_reply" = "Quick Reply";
 "statusbar.menu.show_quick_reply" = "Show Quick Reply";
 "statusbar.menu.hide_quick_reply" = "Hide Quick Reply";
 "statusbar.menu.clear_all" = "Clear History";
@@ -42,13 +53,150 @@
 "statusbar.menu.quit" = "Quit OneClip";
 "statusbar.menu.empty_state" = "Clipboard history is empty";
 "statusbar.menu.add_content" = "Copy something to get started";
+"statusbar.menu.hotkey_hint" = "⌨️ Hotkey to open window";
 "statusbar.menu.pause_monitoring" = "Pause Clipboard Monitoring";
+"statusbar.menu.pause_monitoring.now" = "Pause Now";
+"statusbar.menu.pause_monitoring.15min" = "Pause for 15 Minutes";
+"statusbar.menu.pause_monitoring.30min" = "Pause for 30 Minutes";
+"statusbar.menu.pause_monitoring.1hour" = "Pause for 1 Hour";
+"statusbar.menu.pause_monitoring.3hours" = "Pause for 3 Hours";
+"statusbar.menu.pause_monitoring.8hours" = "Pause for 8 Hours";
 "statusbar.menu.resume_monitoring" = "Resume Clipboard Monitoring";
 "statusbar.menu.pause_monitoring.tooltip" = "Temporarily stop listening to clipboard changes";
 "statusbar.menu.resume_monitoring.tooltip" = "Resume listening to clipboard changes";
 "statusbar.menu.manage_favorites" = "Manage Favorites";
 "statusbar.menu.manage_favorites.tooltip" = "View and manage saved favorites";
 "statusbar.menu.manage_favorites.empty" = "Manage Favorites (No items)";
+"statusbar.menu.manage" = "Manage";
+"statusbar.menu.help_and_about" = "Help & About";
+"statusbar.menu.show_onboarding" = "Show Onboarding";
+"statusbar.menu.show_onboarding.tooltip" = "Show app onboarding guide again";
+"statusbar.menu.join_qq_group" = "Join QQ Group";
+"statusbar.menu.join_qq_group.tooltip" = "Join OneClip user community: 1060157293";
+"statusbar.menu.quit_confirmation" = "Confirm Before Quit";
+"statusbar.menu.quit_confirmation.tooltip" = "Show confirmation dialog when quitting the app";
+"statusbar.menu.settings.tooltip" = "Open app settings (⌘,)";
+"statusbar.menu.about.tooltip" = "About OneClip";
+"statusbar.menu.check_updates.tooltip" = "Check for app updates";
+
+// MARK: - Action Button Tooltips
+"tooltip.copy" = "Copy";
+"tooltip.paste_to_cursor" = "Paste directly to cursor position";
+"tooltip.paste_to_cursor_full" = "Paste to cursor position";
+"tooltip.favorite_add" = "Add to Favorites";
+"tooltip.favorite_remove" = "Remove from Favorites";
+"tooltip.favorite_click_to_remove" = "Click to remove from favorites";
+"tooltip.delete" = "Delete";
+"tooltip.delete_favorite_protected" = "Cannot delete favorited item, unfavorite first";
+"tooltip.clear_history" = "Clear history (protect favorites)";
+"tooltip.toggle_pin" = "Pin window on top";
+"tooltip.toggle_unpin" = "Unpin window";
+"tooltip.pin_disabled_horizontal" = "Window always on top in horizontal mode";
+"tooltip.switch_to_grid" = "Switch to grid view";
+"tooltip.switch_to_list" = "Switch to list view";
+"tooltip.copy_item" = "Copy this item";
+"tooltip.delete_item" = "Delete this item";
+"tooltip.copy_to_clipboard" = "Copy to clipboard";
+"tooltip.remove_item" = "Remove";
+"tooltip.accessibility_permission" = "Click to request accessibility permission";
+"tooltip.clear_all_history" = "Clear all clipboard content";
+
+// MARK: - Menu Bar Icon Styles
+"menubar.icon.style" = "Menu Bar Icon Style";
+"menubar.icon.clipboard" = "Clipboard";
+"menubar.icon.stack" = "Stack";
+"menubar.icon.tray" = "Tray";
+"menubar.icon.archive" = "Archive";
+"menubar.icon.folder" = "Folder";
+"menubar.icon.doc" = "Document";
+"menubar.icon.paperclip" = "Paperclip";
+"menubar.icon.custom" = "Custom";
+
+// MARK: - Menu Bar Icon
+"menubar.icon.select_title" = "Select Menu Bar Icon";
+"menubar.icon.current_selection" = "Current Selection: ";
+
+// MARK: - Menu Bar Preview
+"menubar.preview.count.range" = "Range: 1-50 items";
+
+// MARK: - Menu Bar Categories
+"menubar.categories.empty_state" = "No category content";
+"menubar.categories.no_items" = "No items";
+"menubar.categories.show_only_non_empty" = "Show only non-empty categories";
+"menubar.categories.show_only_non_empty.subtitle" = "Hide empty categories for a cleaner menu";
+
+// MARK: - Content Categories
+"category.all" = "All";
+"category.favorites" = "Favorites";
+"category.quickReply" = "Quick Reply";
+"category.text" = "Text";
+"category.image" = "Image";
+"category.file" = "File";
+"category.video" = "Video";
+"category.audio" = "Audio";
+"category.document" = "Document";
+"category.code" = "Code";
+"category.archive" = "Archive";
+"category.executable" = "Application";
+"category.executable_short" = "App";
+"category.unknown" = "Unknown";
+
+// MARK: - Icon Category Labels
+"icon.category.all" = "All";
+"icon.category.clipboard" = "Clipboard";
+"icon.category.file" = "Files";
+"icon.category.symbol" = "Symbols";
+"icon.category.decoration" = "Decoration";
+"icon.category.nature" = "Nature";
+
+// MARK: - Menu Bar Preview Settings
+"menubar.preview.count.description" = "Set the number of clipboard items displayed in menu bar (1-50 items)";
+"menubar.preview.count.custom" = "Custom";
+"menubar.preview.count.items" = "items";
+
+// MARK: - Shortcut Settings
+"shortcut.show_hints" = "Show Shortcut Number Labels";
+"shortcut.show_hints.subtitle" = "Display quick copy shortcut labels on the right side of first 9 items";
+"shortcut.click_to_record" = "Click key area to start recording";
+"shortcut.click_above_to_record" = "Click area above to start recording";
+"shortcut.start_recording" = "Start Recording";
+"shortcut.stop_recording" = "Stop Recording";
+"shortcut.recording_hint" = "Recording... Press your desired shortcut (ESC to cancel)";
+"shortcut.reset_default" = "Reset Default";
+"shortcut.valid" = "✓ Shortcut valid";
+"shortcut.conflict.critical" = "⚠️ This shortcut is already in use, please choose another combination";
+"shortcut.conflict.high" = "⚠️ This shortcut may conflict with other apps";
+"shortcut.conflict.medium" = "⚠️ This shortcut may conflict with other apps";
+"shortcut.conflict.low" = "💡 Consider adding modifier keys for better experience";
+"shortcut.enable_hotkey" = "Enable This Shortcut";
+"shortcut.enable_hotkey.subtitle" = "When disabled, other apps can use the same shortcut";
+"shortcut.double_click_modifier" = "Double Click Modifier";
+"shortcut.disable" = "Disable";
+
+// MARK: - Language Names
+"language.name.zh-Hans" = "Chinese (Simplified)";
+"language.name.en" = "English";
+
+// MARK: - Storage Cleanup
+"storage.deep_cleanup" = "Deep Cleanup";
+"storage.deep_cleanup.description" = "Clean history, image cache and temporary files (protect favorites)";
+"storage.deep_cleanup.confirm.title" = "Confirm Deep Cleanup";
+"storage.deep_cleanup.confirm.start" = "Start Cleanup";
+"storage.deep_cleanup.confirm.no_data" = "No data to clean currently";
+"storage.deep_cleanup.confirm.with_favorites" = "Will clean history, image cache and temporary files\nAuto-protect %d favorite items";
+"storage.deep_cleanup.confirm.no_favorites" = "Will clean history, image cache and temporary files\nThis operation cannot be undone";
+
+// MARK: - Accessibility FAQ
+"accessibility.faq.title" = "FAQ";
+"accessibility.faq.auth_failed" = "❓ Authorization Failed?";
+
+// MARK: - Cloud Sync
+"cloud_sync.title" = "Cloud Sync";
+"cloud_sync.icloud_feature" = "iCloud Sync";
+"cloud_sync.icloud_description" = "Seamless sync across Apple ecosystem";
+
+// MARK: - Menu Bar Preview
+"menubar.preview.title" = "Menu Bar Preview Count";
 
 // MARK: - Settings Interface
 "settings.title" = "Settings";
@@ -73,6 +221,7 @@
 "settings.header.accessibility" = "Accessibility Permissions";
 "settings.header.advanced" = "Advanced Options";
 "settings.header.about" = "About OneClip";
+"settings.header.feedback" = "Feedback";
 "settings.header.test" = "Test Features";
 
 // Settings Sidebar
@@ -85,6 +234,7 @@
 "settings.sidebar.accessibility" = "Accessibility";
 "settings.sidebar.advanced" = "Advanced";
 "settings.sidebar.about" = "About";
+"settings.sidebar.feedback" = "Feedback";
 "settings.sidebar.test" = "Test Features";
 "settings.sidebar.reset_all" = "Reset All Settings";
 
@@ -177,7 +327,7 @@
 "language.chinese" = "中文";
 "language.english" = "English";
 "language.setting.title" = "Language";
-"language.setting.subtitle" = "Changes refresh the interface immediately";
+"language.setting.subtitle" = "Choose application display language";
 "language.setting.description" = "Choose interface language";
 
 // MARK: - General Settings
@@ -185,17 +335,45 @@
 "general.startup_behavior.subtitle" = "Configure app startup and notification behavior";
 "general.auto_start.title" = "Launch at Login";
 "general.auto_start.subtitle" = "Automatically run OneClip when system starts";
+"general.show_window_on_startup.title" = "Show Window on Startup";
+"general.show_window_on_startup.subtitle" = "Automatically show main window when app launches, disable for silent startup";
 "general.notifications.title" = "Enable Notifications";
 "general.notifications.subtitle" = "Show notifications when copying new content";
 "general.menu_preview.title" = "Menu Bar Preview";
 "general.menu_preview.subtitle" = "Show image and file previews when hovering over menu items (text shown in submenu)";
+"general.sound_effects.title" = "Sound Effects";
+"general.sound_effects.subtitle" = "Play audio feedback for copy, paste, delete and other actions. Preview sound plays when enabled";
+"general.custom_tooltips.title" = "Button Tooltips";
+"general.custom_tooltips.subtitle" = "Show helpful hints when hovering over buttons. Can be disabled once you're familiar with the features";
 "general.history.title" = "History Records";
 "general.history.subtitle" = "Manage clipboard history quantity and storage";
 "general.merge_copy.title" = "Merge Copy Settings";
 "general.merge_copy.subtitle" = "Configure multi-selection text merging";
 
+// 🆕 Optimized Settings Card Titles
+"settings.startup.title" = "Startup Behavior";
+"settings.startup.subtitle" = "Configure app launch behavior";
+"settings.feedback.title" = "Interaction Feedback";
+"settings.feedback.subtitle" = "Configure notifications, sounds and preview tips";
+"settings.operation.title" = "Main Window Operation Behavior";
+"settings.operation.subtitle" = "Customize main window double-tap, enter key and paste behavior";
+"settings.operation.help" = "Double-tap/Enter performs corresponding action, choose to keep or hide window after paste";
+"settings.content.title" = "Content Management";
+"settings.content.subtitle" = "Manage history record limit";
+
+// Action Behavior Settings (moved to Main Window Operation Behavior)
+"settings.double_tap.title" = "Double-Tap Action";
+"settings.double_tap.subtitle" = "Action when double-tapping list items";
+"settings.enter_key.title" = "Enter Key Action";
+"settings.enter_key.subtitle" = "Action when pressing Enter key";
+"settings.action.none" = "None";
+"settings.action.copy" = "Copy";
+"settings.action.paste" = "Paste to Cursor";
+"settings.action_behavior.help.title" = "Feature Description";
+"settings.action_behavior.help.copy" = "• Copy: Copy content to clipboard";
+"settings.action_behavior.help.paste" = "• Paste to Cursor: Auto-insert at current cursor position (requires accessibility permission)";
+
 // MARK: - Settings Description Text
-"settings.customize_experience" = "Personalize your user experience";
 "settings.items_count" = "items";
 "settings.unlimited" = "Unlimited";
 "settings.quick_select" = "Quick Select";
@@ -218,15 +396,16 @@
 "cleanup.custom" = "Custom settings";
 
 // MARK: - Cleanup Options
-"cleanup.option.never" = "No cleanup";
-"cleanup.option.week" = "1 week";
-"cleanup.option.half_month" = "2 weeks";
-"cleanup.option.month" = "1 month";
-"cleanup.option.two_months" = "2 months";
-"cleanup.option.three_months" = "3 months";
+"cleanup.option.never" = "Never cleanup";
+"cleanup.option.week" = "Clean after 1 week";
+"cleanup.option.half_month" = "Clean after 2 weeks";
+"cleanup.option.month" = "Clean after 1 month";
+"cleanup.option.two_months" = "Clean after 2 months";
+"cleanup.option.three_months" = "Clean after 3 months";
 
 // MARK: - History Settings
 "history.max_items.title" = "Maximum Items";
+"history.max_items.description" = "Number of history items displayed in the list, disk storage is determined by cleanup days";
 "history.premium_subtitle" = "Unlocked: Unlimited storage";
 "history.free_subtitle" = "Free version limit: Save up to 50 records";
 "history.trial_subtitle" = "Trial: Unlimited storage";
@@ -250,12 +429,21 @@
 "merge_copy.subtitle" = "Configure multi-selection text merging";
 "merge_copy.separator_title" = "Text Fragment Separator";
 "merge_copy.separator_description" = "Choose separator for merging multiple text fragments";
-"merge_copy.newline_separator" = "Newline Separator";
-"merge_copy.space_separator" = "Space Separator";
+"merge_copy.newline_separator" = "Newline";
+"merge_copy.space_separator" = "Space";
 
 // MARK: - About Interface
 "about.description" = "Smart Clipboard Manager";
-"about.version" = "Version 1.2.8";
+"about.version" = "Version 1.3.7";
+"about.version_display" = "Version %@ (%@)";
+"about.tooltip.website" = "Visit Official Website";
+"about.tooltip.email" = "Send Feedback";
+"about.tooltip.qq_group" = "Join QQ Group";
+"about.tooltip.github" = "Visit Developer Page";
+"about.privacy_policy" = "Privacy Policy";
+"about.terms_of_use" = "Terms of Use";
+"about.disclaimer" = "Disclaimer";
+"about.copyright" = "© 2015-2025 OneClip Team. All rights reserved.";
 "about.main_features.title" = "Main Features";
 "about.main_features.subtitle" = "Discover OneClip's core functionality";
 "about.feature.clipboard_management" = "Smart Clipboard Management";
@@ -267,8 +455,10 @@
 "about.feature.global_shortcuts" = "Global Shortcuts";
 "about.feature.shortcuts_description" = "Quick access anytime, anywhere";
 
-// MARK: - Accessibility
-"accessibility.title" = "Accessibility Permissions";
+// MARK: - Accessibility Permission
+"accessibility.title" = "Accessibility Permission";
+"permission.granted.title" = "Permission Granted";
+"permission.granted.message" = "OneClip is now ready to work";
 "accessibility.permission_granted" = "Permission Granted";
 "accessibility.permission_denied" = "Permission Denied";
 "accessibility.description_granted" = "OneClip can properly monitor clipboard";
@@ -276,6 +466,7 @@
 "accessibility.open_settings" = "Open System Settings";
 "accessibility.features.title" = "Feature Description";
 "accessibility.privacy_protection" = "Privacy Protection";
+"accessibility.privacy_protection_desc" = "OneClip only monitors clipboard content, does not record keyboard input or access other unrelated data. All data is stored locally only, and will not be uploaded to servers.";
 "accessibility.setup_guide" = "Setup Guide";
 
 // Accessibility Features
@@ -313,16 +504,34 @@
 
 // MARK: - Shortcut Settings
 "shortcuts.global.title" = "Global Shortcuts";
-"shortcuts.quick_reply.title" = "Quick Reply Shortcuts";
+"shortcuts.global.subtitle" = "Open OneClip windows from any app";
+"shortcuts.main_window.title" = "Main Window";
+"shortcuts.quick_reply.title" = "Quick Reply";
+"shortcuts.stack_mode.title" = "Clipboard Stack";
+"shortcuts.drop_container.title" = "Drop Container";
+"shortcuts.quick_reply.subtitle" = "Open Quick Reply window from any app";
 "shortcuts.in_app.title" = "In-App Shortcuts";
+"shortcuts.in_app.subtitle" = "Keyboard shortcuts available within OneClip window";
 "shortcuts.space_key" = "Space";
 "shortcuts.space_description" = "Quick preview selected item";
 "shortcuts.arrow_keys" = "↑↓";
 "shortcuts.arrow_description" = "Navigate up/down items";
+"shortcuts.tab_key" = "Tab";
+"shortcuts.tab_description" = "Switch to next category tab";
+"shortcuts.shift_tab_key" = "⇧ + Tab";
+"shortcuts.shift_tab_description" = "Switch to previous category tab";
 "shortcuts.cmd_numbers" = "⌘+1...9";
 "shortcuts.cmd_numbers_description" = "Quick copy corresponding numbered item";
-"shortcuts.esc_key" = "ESC";
-"shortcuts.esc_description" = "Hide window and dock icon";
+"shortcuts.quick_copy.title" = "Quick Copy (1~9 Number Keys)";
+"shortcuts.quick_copy.description" = "Quick copy corresponding numbered item, supports custom modifier keys";
+"shortcuts.quick_action.behavior" = "Action Behavior";
+"action.copy" = "Copy";
+"action.paste_to_cursor" = "Paste to Cursor";
+"shortcuts.quick_action.scope" = "Scope";
+"shortcuts.scope.local" = "Window Only";
+"shortcuts.scope.global" = "Global";
+"shortcuts.esc_key" = "Esc";
+"shortcuts.esc_description" = "Close window";
 "shortcuts.enter_key" = "Enter";
 "shortcuts.enter_description" = "Copy selected item";
 
@@ -360,11 +569,23 @@
 "interface.upgrade_unlock" = "Upgrade to Unlock";
 "interface.animation_effects.title" = "Interface Animations";
 "interface.animation_effects.description" = "Enable smooth transition animations for interface switching, hovering, searching, etc.";
+"interface.auto_clear_search.title" = "Clear Search on Close";
+"interface.auto_clear_search.subtitle" = "Automatically clear search box when window closes, showing all items next time";
+"interface.remember_category.title" = "Remember Category Selection";
+"interface.remember_category.subtitle" = "Keep the last selected category when opening window, otherwise default to 'All' category";
+"interface.scroll_to_top_on_open.title" = "Scroll to Top on Window Open";
+"interface.scroll_to_top_on_open.subtitle" = "Automatically scroll to the top of the current category when opening the window, making it easier to view the latest content";
 
 // Color Intensity Settings
 "interface.color_intensity.title" = "Color Intensity";
 "interface.color_intensity.description" = "Adjust the vibrancy and visual intensity of the interface colors";
 "interface.color_intensity.soft_hint" = "Soft mode enabled - slightly reduced color intensity for less visual stimulation";
+
+// 🆕 Optimized Interface Settings Card Titles
+"interface.style.title" = "Interface Style";
+"interface.style.subtitle" = "Customize interface mode and display options";
+"interface.window_settings.title" = "Window Settings";
+"interface.window_settings.subtitle" = "Manage window behavior and position";
 
 // Interface Mode
 "interface.interface_mode.title" = "Interface Mode";
@@ -375,6 +596,17 @@
 "interface.mode_description" = "Mode Description";
 "interface.mode.rich_description" = "• Rich Mode: Display complete interface elements and function buttons";
 "interface.mode.minimal_description" = "• Minimal Mode: Simplified interface, show only core features";
+
+// View Layout Mode
+"interface.view_layout.title" = "View Layout";
+"interface.view_layout.description" = "Choose how content is displayed";
+"view.layout.list" = "List View";
+"view.layout.list.description" = "Compact list, quick browsing";
+"view.layout.grid" = "Vertical Grid";
+"view.layout.grid.description" = "Multi-column grid, scroll vertically";
+"view.layout.horizontal_grid" = "Horizontal Grid";
+"view.layout.horizontal_grid.description" = "Single row, scroll horizontally";
+"tooltip.switch_view_layout" = "Switch View Layout";
 
 // MARK: - Performance Settings
 "performance.load_time_optimization.title" = "Load Time Optimization";
@@ -406,18 +638,6 @@
 "performance.upgrade_unlock" = "Upgrade to Unlock";
 
 // MARK: - Category Names
-"category.all" = "All";
-"category.favorites" = "Favorites";
-"category.text" = "Text";
-"category.image" = "Images";
-"category.file" = "Files";
-"category.video" = "Videos";
-"category.audio" = "Audio";
-"category.document" = "Documents";
-"category.code" = "Code";
-"category.archive" = "Archives";
-"category.executable" = "Applications";
-"category.unknown" = "Unknown Category";
 
 // MARK: - Main Interface
 "main.search_placeholder" = "Search content";
@@ -451,11 +671,20 @@
 "welcome.feature.auto_save.title" = "Auto Save";
 "welcome.feature.auto_save.description" = "Copied content is automatically saved to history";
 "welcome.feature.shortcuts.title" = "Shortcuts";
-"welcome.feature.shortcuts.description" = "Use ⌘⌥V to quickly show/hide window";
+"welcome.feature.shortcuts.description" = "Use ⌘⇧V to quickly show/hide window";
 "welcome.feature.menubar.title" = "Menu Bar";
 "welcome.feature.menubar.description" = "Click menu bar icon for quick clipboard access";
 "welcome.get_started.title" = "Get Started";
 "welcome.get_started.description" = "Copy anything to clipboard, it will automatically appear here.";
+
+// MARK: - First Launch Sample Items
+"welcome.sample1.content" = "🎉 Welcome to OneClip\nSmart Clipboard Manager\nAuto Save · Smart Classify · Quick Search\nStart copying content now!";
+"welcome.sample2.content" = "⌨️ Main Window Shortcuts\nCmd⇧V Open Main Window\nCmd1-9 Quick Paste Top 9\nCmdF Search | CmdD Delete\nSpace Preview Files";
+"welcome.sample3.content" = "📥 Clipboard Stack - Efficiency Booster\n^⇧C Activate Stack Mode\nCopy multiple items to queue\n^⇧V Paste Sequentially\nPerfect for forms & batch editing!";
+"welcome.sample4.content" = "💬 Quick Reply - One-Key Input\nCmd⇧R Open Quick Reply\nPreset text/image/file templates\nCustom hotkeys supported\nBoost communication efficiency!";
+"welcome.sample5.content" = "🖱️ Drag & Preview\nDrag items to other apps\nSupport text/image/file\n^⇧D Open Drag Container\nSpace for Quick Preview";
+"welcome.sample6.content" = "⭐ Favorites & Categories\nClick star to favorite items\nFavorites never auto-delete\nCustom category rules\nQuick access from menu bar";
+"welcome.sample7.content" = "🚀 Explore More Features\n🤖 AI Assistant: OCR/Translate/Summary\n☁️ Cloud Sync: Multi-device sync\n⚙️ Settings: Personalization\n📖 Check Settings for more";
 
 // MARK: - Test Features
 "test_features.server_status.title" = "Server Status";
@@ -473,7 +702,6 @@
 "test_features.disabled" = "Disabled";
 "test_features.remaining_time" = "Remaining";
 "test_features.manual_disable" = "Manual Disable";
-"test_features.refresh_status" = "Refresh Status";
 
 // Offline Verification Dialog
 "test_features.enable_offline_title" = "Enable Offline Verification";
@@ -488,7 +716,6 @@
 "advanced.limited_trial_active" = "Limited Trial Active";
 "advanced.limited_trial_paused" = "Limited Trial Paused";
 "advanced.trial_paused" = "Trial Paused";
-"advanced.trial_active" = "Trial Active";
 "advanced.upgrade_to_premium" = "Upgrade to Premium";
 "advanced.lifetime_user" = "Lifetime User";
 "advanced.monthly_user" = "Monthly Plan User";
@@ -501,59 +728,88 @@
 // Feature Activation Status
 "advanced.premium_activated" = "Premium Features Activated";
 "advanced.deactivate" = "Deactivate";
-"advanced.reset_keychain" = "Reset Keychain Preferences";
-"advanced.settings_reset" = "Settings Reset";
-"advanced.limited_free_trial" = "Limited Free Trial Active";
 "advanced.activity_unlocked_all" = "All premium features unlocked during the event";
-"advanced.activate_premium" = "Activate Premium";
-"advanced.other_payment_methods" = "Other Payment Methods";
 "advanced.trial_paused_state" = "Limited Trial Paused";
-"advanced.can_restore_or_activate" = "You can restore limited trial or activate premium";
 "advanced.trial_restored" = "Limited Trial Restored";
 "advanced.restore_failed" = "Restore Failed";
 "advanced.restore_trial" = "Restore Limited Trial";
-"advanced.trial_in_progress" = "Trial in Progress";
 "advanced.trial_paused_message" = "Trial Paused";
 "advanced.pause_trial" = "Pause Trial";
 "advanced.choose_payment" = "Choose Payment Method";
 
 // Management Features
 "advanced.manage_premium" = "Manage Premium Features";
-"advanced.can_deactivate_anytime" = "You can deactivate at any time";
 "advanced.limited_trial_management" = "Limited Trial Management";
-"advanced.can_pause_or_activate" = "You can pause trial or activate premium";
 "advanced.trial_feature_management" = "Trial Feature Management";
 "advanced.restore_or_activate" = "Restore limited trial or activate premium";
+"advanced.manage_paid_features" = "Manage Paid Features";
 
 // Premium Feature Details
 "advanced.premium_features" = "Premium Features (Trial or Paid)";
-"advanced.extended_history" = "Extended History (up to 200 items)";
-"advanced.data_import_export" = "Data Import & Export";
 "advanced.feature_unlocked" = "Unlocked";
 "advanced.feature_unlocked_trial" = "Unlocked (Trial)";
 "advanced.feature_trial_or_upgrade" = "Trial or upgrade to unlock";
 
+// Limited Time Trial
+"advanced.limited_time_activity" = "Limited Time Activity";
+"advanced.before_2025_dec_31" = "Before December 31, 2025";
+"advanced.free_use_all_premium_features" = "Use all premium features for free";
+"advanced.limited_time_activated" = "Limited trial activated";
+"advanced.start_free_trial_now" = "Start free trial now";
+"advanced.already_premium_user" = "You are already a premium user";
+"advanced.limited_time_included_in_premium" = "Limited trial features are included in your premium version, no need to activate again.";
+"advanced.activity_description" = "Activity Description";
+"advanced.activity_description_1" = "• Enable during activity period to use all premium features for free";
+"advanced.activity_description_2" = "• Free version restrictions will be restored after activity ends";
+"advanced.activity_description_3" = "• Purchase official version for permanent use";
+"advanced.remaining_time" = "Remaining Time";
+"advanced.days_remaining" = "%d days";
+"advanced.hours_remaining" = "%d hours";
+
+// Update Settings
+"advanced.update_settings" = "Update Settings";
+"advanced.receive_beta_updates" = "Receive Beta Updates";
+"advanced.receive_beta_updates_desc" = "Get early access to new features, may be unstable";
+"advanced.beta_warning" = "Beta versions may contain unfinished features, recommended for technical users";
+"advanced.check_for_updates" = "Check for Updates";
+
+// Feature Comparison
+"advanced.feature_comparison" = "Feature Comparison";
+"advanced.free_version_features" = "Free Version Features";
+"advanced.basic_clipboard_management" = "Basic Clipboard Management";
+"advanced.complete_clipboard_functionality" = "Complete clipboard functionality";
+"advanced.twenty_history_records" = "20 history records";
+"advanced.meets_daily_needs" = "Meets daily needs";
+
+// Feedback
+"advanced.serious_feedback_reward" = "Serious Feedback Rewards";
+"advanced.your_feedback_important" = "Your feedback is important to us";
+"advanced.valuable_feedback_reward" = "• Submit valuable feedback to get rewards";
+"advanced.help_improve_product" = "• Help us improve product experience";
+"advanced.qq_group_prefix" = "• QQ Group:";
+
+// QQ Group
+"advanced.join_qq_group" = "Join QQ Group";
+"advanced.qq_group_desc" = "Join our official QQ group to exchange experiences with other users";
+"advanced.click_to_join_group" = "Click to join QQ Group";
+
+// QQ Channel
+"advanced.join_qq_channel" = "Join QQ Channel";
+"advanced.qq_channel_desc" = "Join our official channel for latest updates and technical support";
+"advanced.click_to_join_channel" = "Click to join Tencent Channel [OneClip Communication & Feedback]";
+
 // Future Features
-"advanced.future_features" = "Future Features";
 "advanced.more_capabilities" = "We are polishing more enhanced capabilities, stay tuned:";
 "advanced.smart_dedup" = "Smart Deduplication/Aggregation";
 "advanced.smart_dedup_desc" = "Automatically merge duplicate content for efficiency";
 "advanced.full_text_search" = "Full Text Search & Tags";
 "advanced.full_text_search_desc" = "Powerful search and custom tag management";
-"advanced.privacy_space" = "Privacy Space";
 "advanced.privacy_space_desc" = "Encrypted and hidden display of sensitive content";
 "advanced.github_feedback" = "Welcome to submit your ideas and needs on GitHub, we will prioritize high-voted features.";
 
 // Purchase and Restore Buttons
-"advanced.restore_purchase" = "Restore Purchase/Change Device";
-"advanced.buy_monthly" = "Buy Monthly Plan (¥5)";
-"advanced.buy_lifetime" = "Buy Lifetime Plan (¥29.9)";
-"advanced.export_data" = "Export Data";
-"advanced.import_data" = "Import Data";
-"advanced.open_logs" = "Open Logs";
 
 // Dialog Messages
-"advanced.keychain_reset_message" = "Keychain access preferences have been reset, will prompt again on next purchase restore.";
 
 // MARK: - Hotkey Configuration
 "hotkey.global_window_title" = "Global Window Shortcuts";
@@ -576,18 +832,122 @@
 "storage.cleanup_options.title" = "Cleanup Options";
 "storage.clipboard_history" = "Clipboard History";
 "storage.image_cache" = "Image Cache";
-"storage.log_files" = "Log Files";
 "storage.all_data" = "All Data";
+
+// MARK: - Data Import/Export
+"storage.data_import_export" = "Data Import/Export";
+"storage.history_export" = "History Export";
+"storage.history_export_desc" = "Export clipboard history as JSON or CSV format";
+"storage.export_json" = "Export JSON";
+"storage.export_csv" = "Export CSV";
+"storage.history_record" = "History Records";
+"storage.history_record_desc" = "Backup or restore clipboard history records";
+"storage.import" = "Import";
+"storage.export" = "Export";
+"storage.app_settings" = "App Settings";
+"storage.app_settings_desc" = "Export or import all application configuration settings";
+"storage.export_settings" = "Export Settings";
+"storage.import_settings" = "Import Settings";
+"storage.export_success" = "Export Successful";
+"storage.export_failed" = "Export Failed";
+"storage.import_success" = "Import Successful";
+"storage.import_failed" = "Import Failed";
+"storage.history_exported_to" = "History exported to";
+"storage.settings_exported_to" = "Settings exported to";
+"storage.cannot_export_history" = "Cannot export history, please try again";
+"storage.cannot_export_settings" = "Cannot export settings, please try again";
+"storage.settings_imported_successfully" = "Settings imported successfully";
+"storage.cannot_import_check_format" = "Cannot import file, please check file format";
+"storage.select_import_file" = "Select Import File";
+"storage.select_exported_json" = "Select previously exported settings JSON file";
+"storage.keep_favorites" = "Keep Favorites";
+"storage.export_history_title" = "Export History";
+"storage.select_save_location" = "Select Save Location";
+"storage.export_settings_title" = "Export App Settings";
+"storage.exported_records_to" = "Exported %d records to:\n%@";
+"storage.settings_exported_to_file" = "Settings exported to:\n%@";
+"storage.export_failed_with_error" = "Export failed: %@";
+
+// MARK: - Database View
+"storage.database_view" = "Database View";
+"storage.database_view_desc" = "View and browse detailed clipboard database content";
+"storage.view_database" = "View Database";
+"storage.database_view_title" = "Clipboard Database";
+"storage.db.search_placeholder" = "Search content or title...";
+"storage.db.sort_by" = "Sort";
+"storage.db.sort_time_desc" = "Time Descending";
+"storage.db.sort_time_asc" = "Time Ascending";
+"storage.db.sort_length" = "Text Length";
+"storage.db.sort_type" = "Type";
+"storage.db.total_items" = "Total: %d";
+"storage.db.column_type" = "Type";
+"storage.db.column_content" = "Content";
+"storage.db.column_time" = "Time";
+"storage.db.column_length" = "Length";
+"storage.db.column_source" = "Source";
+"storage.db.column_category" = "Category";
+"storage.db.column_status" = "Status";
+"storage.db.select_item_hint" = "Select an item to view details";
+"storage.db.detail_title" = "Details";
+"storage.db.basic_info" = "Basic Information";
+"storage.db.type" = "Type";
+"storage.db.created_time" = "Created";
+"storage.db.updated_time" = "Updated";
+"storage.db.status_info" = "Status";
+"storage.db.is_favorite" = "Favorite";
+"storage.db.is_pinned" = "Pinned";
+"storage.db.custom_title" = "Custom Title";
+"storage.db.category" = "Category";
+"storage.db.source_info" = "Source";
+"storage.db.source_app" = "Source App";
+"storage.db.bundle_id" = "Bundle ID";
+"storage.db.content_info" = "Content";
+"storage.db.content_length" = "Content Length";
+"storage.db.data_size" = "Data Size";
+"storage.db.file_path" = "File Path";
+"storage.db.content_preview" = "Content Preview";
+"storage.db.records_count" = " records";
+"storage.db.filter_all_types" = "All Types";
+"storage.db.no_data_to_export" = "No data to export";
+"storage.db.export_count_hint" = "Export %d records";
+"storage.db.action.copy" = "Copy";
+"storage.db.action.favorite" = "Favorite";
+"storage.db.action.delete" = "Delete";
+"storage.db.detail.basic_info" = "Basic Information";
+"storage.db.detail.type" = "Type";
+"storage.db.detail.created_time" = "Created Time";
+"storage.db.detail.updated_time" = "Updated Time";
+"storage.db.detail.title" = "Title";
+"storage.db.detail.category" = "Category";
+"storage.db.detail.source_info" = "Source Information";
+"storage.db.detail.app" = "App";
+"storage.db.detail.bundle_id" = "Bundle ID";
+"storage.db.detail.content_info" = "Content Information";
+"storage.db.detail.content_length" = "Content Length";
+"storage.db.detail.characters_count" = "%d characters";
+"storage.db.detail.data_size" = "Data Size";
+"storage.db.detail.file_path" = "File Path";
+"storage.db.detail.content_preview" = "Content Preview";
+"storage.db.copied" = "Copied";
+"storage.db.copied_to_clipboard" = "Content copied to clipboard";
+"storage.db.deleted" = "Deleted";
+"storage.db.deleted_from_history" = "Item deleted from history";
+"storage.db.delete_confirm_title" = "Confirm Delete";
+"storage.db.delete_action" = "Delete";
+"storage.db.delete_confirm_message" = "Are you sure you want to delete this record? This action cannot be undone.";
+"storage.db.menu.copy_content" = "Copy Content";
+"storage.db.menu.copy_id" = "Copy ID";
+"storage.db.menu.toggle_favorite" = "Toggle Favorite";
+"storage.db.menu.toggle_pin" = "Toggle Pin";
+"storage.db.menu.delete" = "Delete";
+"storage.db.image_load_failed" = "Image Load Failed";
 "storage.cleanup_history_desc" = "Clean all clipboard history content";
 "storage.cleanup_cache_desc" = "Clean image cache files";
 "storage.cleanup_logs_desc" = "Clean application log files";
 "storage.cleanup_all_desc" = "Clean all types of data";
-"storage.storage_info" = "Storage Information";
-"storage.total_items" = "Total Items";
 "storage.cache_size" = "Cache Size";
 "storage.log_size" = "Log Size";
 "storage.cleanup_now" = "Clean Now";
-"storage.detailed_cleanup" = "Detailed Cleanup";
 "storage.auto_cleanup" = "Auto Cleanup";
 "storage.cleanup_interval" = "Cleanup Interval";
 "storage.refresh_info" = "Refresh Info";
@@ -595,7 +955,11 @@
 // Interface Settings
 "interface.show_in_dock.title" = "Show in Dock";
 "interface.show_in_dock.subtitle" = "Keep app icon always visible in Dock";
-"interface.show_in_dock.description" = "When enabled, the app icon will always be visible in the Dock, otherwise it only shows when in use.";
+"interface.show_in_dock.description" = "When enabled, the app icon will always be visible in the Dock, otherwise it only shows when in use. ⚠️ Not recommended, may affect window positioning.";
+
+// Drop Container
+"interface.drop_container.title" = "Enable Drop Container";
+"interface.drop_container.description" = "Temporarily store and batch drag files, images and other content (Shortcut: ⌃⇧D)";
 
 // Loading States
 "loading.initializing_oneclip" = "Initializing OneClip";
@@ -610,19 +974,21 @@
 "shortcut.enter.description" = "Copy selected item";
 "shortcut.cmd_numbers.description" = "Quick copy visible items (hold ⌘ to see labels)";
 "shortcut.cmd_f.description" = "Focus search field";
-"shortcut.cmd_k.description" = "Clear search";
 "shortcut.cmd_slash.description" = "Show keyboard shortcuts help";
 "shortcut.cmd_comma.description" = "Open settings";
 "shortcut.cmd_p.description" = "Toggle window pin";
 "shortcut.cmd_b.description" = "Toggle batch mode";
+"shortcut.cmd_delete.description" = "Delete selected item";
+"shortcut.cmd_z.description" = "Undo delete";
 "shortcut.cmd_shift_delete.description" = "Clear history";
-"shortcut.show_hide_window.description" = "Show/hide window (customizable)";
+"shortcut.show_hide_window.description" = "Show/hide main window";
+"shortcut.menubar_left_click" = "Copy selected item to clipboard (customizable)";
+"shortcut.menubar_right_click" = "Paste clipboard content (customizable)";
 "shortcut.show_hide_quick_reply.description" = "Show/hide quick reply (customizable)";
 "shortcut.quit_app.description" = "Quit application";
 "shortcut.close_window.description" = "Close window";
 
 // Common
-"common.close" = "Close";
 
 // Advanced Settings
 "advanced.license_id" = "License";
@@ -633,9 +999,7 @@
 "advanced.limited_time_active" = "Limited Time Free Trial";
 "advanced.all_features_unlocked" = "All premium features unlocked during promotional period";
 "advanced.other_payment_methods" = "Other Payment Methods";
-"advanced.limited_time_paused" = "Limited Time Trial Paused";
 "advanced.resume_or_activate_message" = "You can resume the limited time trial or activate premium version";
-"advanced.resume_limited_time" = "Resume Limited Time Trial";
 "advanced.activate_premium" = "Activate Premium";
 "advanced.trial_active" = "Trial Active";
 
@@ -658,18 +1022,21 @@
 "monitoring.total_log_usage" = "Total Log Usage";
 "monitoring.clean_logs" = "Clean Logs";
 "monitoring.compress_logs" = "Compress Logs";
-"monitoring.compress_and_cleanup" = "Compress & Clean";
+"monitoring.compress_and_cleanup" = "Clean Logs";
 "monitoring.view_logs" = "View Logs";
-"monitoring.log_rotation_info" = "Log files are automatically rotated and cleaned, files older than 7 days are automatically deleted";
+"monitoring.log_rotation_info" = "Log files are automatically rotated and cleaned, files older than 3 days are automatically deleted";
 "monitoring.cleanup_confirm_title" = "Confirm Log Cleanup";
-"monitoring.cleanup_confirm_message" = "This will compress old log files and delete expired logs older than 7 days. This action cannot be undone. Continue?";
-"monitoring.cleanup_confirm_button" = "Compress & Clean";
+"monitoring.cleanup_confirm_message" = "This will delete expired logs older than 3 days. This action cannot be undone. Continue?";
+"monitoring.cleanup_confirm_button" = "Clean Logs";
 "monitoring.cleanup_result_title" = "Cleanup Complete";
 "monitoring.cleanup_success_message" = "Cleaned up %d files, saved %@";
 "monitoring.cleanup_nothing_message" = "No files to clean up";
 "monitoring.exclusion_rules" = "Exclusion Rules";
 "monitoring.ignore_ios_clipboard" = "Ignore clipboard data from iOS devices";
 "monitoring.ignore_ios_clipboard.description" = "Clipboard content synced from iPhone, iPad and other iOS devices via Universal Clipboard will be ignored.";
+"monitoring.file_handling" = "File Handling";
+"monitoring.merge_multiple_files" = "Merge multiple files into one record";
+"monitoring.merge_multiple_files.description" = "When enabled, copying multiple files will merge them into one record (like Maccy); when disabled, files are saved separately (default behavior).";
 "monitoring.excluded_apps_list" = "Excluded Apps List";
 "monitoring.add_app" = "Add App";
 "monitoring.no_excluded_apps" = "No excluded apps";
@@ -679,15 +1046,13 @@
 "monitoring.log_level.info" = "Info+";
 "monitoring.log_level.debug" = "All Logs";
 "monitoring.log_level.description" = "Lower levels use less space. 'Warning+' is recommended to avoid excessive logs";
+"monitoring.interval_ultra_power_saving" = "Ultra Power Saving";
+"monitoring.interval_warning_large" = "Large monitoring interval may cause copy delays";
+"monitoring.interval_recommended_hint" = "Recommended: 0.3 seconds for optimal response speed";
 
 // Activation
-"activation.title" = "Activate OneClip Pro";
-"activation.email_label" = "Email Address";
-"activation.email_placeholder" = "Enter your email address";
 "activation.email_hint" = "Please enter email address";
-"activation.code_label" = "Activation Code";
 "activation.code_placeholder" = "Enter activation code";
-"activation.code_format" = "Code format: XXXXX-XXXXX-XXXXX";
 "activation.activate_button" = "Activate License";
 "activation.clear_button" = "Clear Authorization";
 "activation.status_pro" = "Current: Pro Unlocked";
@@ -703,9 +1068,7 @@
 // Dialog & Confirmation
 "dialog.total_items" = "Total %d items";
 "dialog.category_items" = "%@: %d items";
-"dialog.delete_all_warning" = "This will permanently delete all clipboard history and cannot be undone.";
-"dialog.delete_item_confirm" = "Are you sure you want to delete this clipboard item? This action cannot be undone.";
-"dialog.delete_items_confirm" = "Are you sure you want to delete the selected %d clipboard items? This action cannot be undone.";
+"dialog.delete_item_confirm" = "Are you sure you want to delete this clipboard item? You can undo within 5 seconds.";
 
 // About
 "about.developer_label" = "Developer:";
@@ -750,10 +1113,8 @@
 "rule.custom_value" = "Custom Value";
 "rule.advanced_options" = "Advanced Options";
 "rule.regex_label" = "Regex";
-"rule.case_sensitive" = "Case Sensitive";
 
 // Preset Rules
-"preset_rules.title" = "Select Preset Rule";
 "preset_rules.subtitle" = "Quickly add commonly used category rules";
 "preset_rules.hint" = "After selecting a preset rule, you can further customize it on the edit page";
 
@@ -770,6 +1131,9 @@
 "storage.optimization_suggestions" = "Optimization Suggestions";
 "storage.recommendation_prefix" = "Suggestion: %@";
 "storage.unlimited_storage" = "🔒 Unlimited storage (Recommended, protects user data)";
+"storage.unlimited" = "Unlimited";
+"storage.cleanup.estimated_space" = "Estimated Reclaimable Space";
+"storage.cleanup.selected_items" = "%d cleanup items selected";
 "storage.auto_cleanup_warning" = "⚠️ Auto-clean oldest data when storage exceeds %d MB";
 "storage.immediate_cleanup" = "Immediate Cleanup";
 "storage.quick_cleanup" = "Quick Cleanup";
@@ -793,6 +1157,13 @@
 "accessibility.after_authorization_description" = "After granting \"Accessibility\" permission, OneClip will be able to:";
 "accessibility.how_to_enable_permission" = "How to enable accessibility permission:";
 "accessibility.guide.enable_oneclip" = "Enable OneClip";
+"accessibility.faq.authorization_failed" = "Authorization Failed?";
+"accessibility.faq.no_response_desc" = "If there is no response after clicking the authorization button, or it still shows unauthorized after authorization, please follow these steps:";
+"accessibility.faq.step1" = "Open \"System Settings\" → \"Privacy & Security\" → \"Accessibility\"";
+"accessibility.faq.step2" = "Find OneClip, click the minus sign (-) to remove";
+"accessibility.faq.step3" = "Return to OneClip, click the authorization button";
+"accessibility.faq.step4" = "In the pop-up system authorization window, click \"Open System Settings\"";
+"accessibility.faq.step5" = "Find OneClip in the accessibility list and check it";
 "accessibility.guide.enable_oneclip_description" = "Find OneClip and turn on the switch";
 
 // MARK: - About Page Keys
@@ -813,6 +1184,13 @@
 "about.checking" = "Checking";
 "about.new_version_available" = "New version %@ available";
 "about.up_to_date" = "Up to date";
+"about.goto_download" = "Go to Download";
+"about.view_releases" = "View Releases";
+"about.goto_download_page" = "Go to download page";
+"about.view_releases_page" = "View releases page";
+"about.click_to_download" = "Click to download the latest version";
+"about.click_to_view_releases" = "Click to view app releases page";
+"about.new_version_available_short" = "New version available";
 "about.developer_info" = "Developer: Wcowin";
 "about.contact_info" = "Contact: vip@oneclip.cloud";
 "about.copyright" = "© 2025 OneClip. All rights reserved.";
@@ -931,6 +1309,7 @@
 "button.select_all" = "Select All";
 "button.deselect_all" = "Deselect All";
 "button.favorite" = "Favorite";
+"button.unfavorite" = "Unfavorite";
 "button.add" = "Add";
 "button.drag_export" = "Drag to Export";
 "button.done" = "Done";
@@ -944,7 +1323,6 @@
 "alert.quit.message" = "Quitting will stop clipboard monitoring. Are you sure you want to quit the application?";
 "alert.update_check.title" = "Check for Updates";
 "alert.update_check.message" = "The automatic update module could not be loaded in the current environment. You can click 'Go to Download' to open the latest version download page.";
-"alert.clear_history.title" = "Confirm Clear History";
 "alert.clear_history.message" = "This action will delete all clipboard history (except favorites) and cannot be undone. Are you sure you want to continue?";
 "alert.restore_premium.title" = "Confirm Restore to Premium?";
 "alert.restore_premium.message" = "This will attempt to restore to the premium version, and the trial entry will be hidden. You can try the trial version first. Do you want to continue?";
@@ -968,7 +1346,6 @@
 "help.preferences" = "Preferences";
 "help.copy_to_clipboard" = "Copy to clipboard";
 "help.edit_content" = "Edit content";
-"help.delete_item" = "Delete item";
 "help.remove_app" = "Remove this app";
 "help.add_to_exclusion_list" = "Add to exclusion list";
 
@@ -978,15 +1355,25 @@
 
 // MARK: - Context Menu (Right-click Menu)
 "context_menu.copy" = "Copy";
+"context_menu.copy_content" = "Copy Content";
+"context_menu.copy_id" = "Copy ID";
+"context_menu.toggle_favorite" = "Toggle Favorite";
+"context_menu.toggle_pin" = "Toggle Pin";
 "context_menu.direct_paste" = "Direct Paste";
 "context_menu.save_image" = "Save Image";
 "context_menu.preview" = "Preview";
 "context_menu.quick_preview" = "Quick Preview";
 "context_menu.edit_text" = "Edit Text";
 "context_menu.edit_code" = "Edit Code";
+"context_menu.edit_image" = "Edit Image";
 "context_menu.search" = "Search";
 "context_menu.open_link" = "Open Link";
-"context_menu.extract_domain" = "Extract Domain";
+"context_menu.sticky_note" = "Sticky Note";
+"context_menu.pin" = "Pin";
+"context_menu.unpin" = "Unpin";
+"context_menu.add_title" = "Add Title";
+"context_menu.edit_title" = "Edit Title";
+"context_menu.push_to_iphone" = "Push to iPhone";
 "context_menu.reveal_in_finder" = "Show in Finder";
 "context_menu.favorite" = "Favorite";
 "context_menu.unfavorite" = "Unfavorite";
@@ -996,10 +1383,77 @@
 "context_menu.copy_name" = "Copy Name";
 "context_menu.hide_category" = "Hide This Category";
 "context_menu.show_category" = "Show This Category";
+"context_menu.edit_category" = "Edit Category";
 "context_menu.delete_category" = "Delete Category";
 "context_menu.refresh_permission" = "Refresh Permission Status";
+
+// MARK: - AI Menu Items
+"ai.ocr_with_provider" = "Extract Text (%@)";
+"ai.translate_with_provider" = "Translate (%@)";
+"ai.translate_to_chinese" = "Translate to Chinese";
+"ai.translate_to_english" = "Translate to English";
+"ai.generate_summary" = "Generate Summary";
+"ai.format_text" = "Format Text";
 "context_menu.view_permission_help" = "View Permission Help";
 "context_menu.keyboard_diagnostics" = "Keyboard Diagnostics";
+"context_menu.add_to_quick_reply" = "Add to Quick Reply";
+"context_menu.add_to_stack" = "Add to Paste Stack";
+"context_menu.add_to_drop_container" = "Add to Drop Container";
+"context_menu.generate_qr_code" = "Generate QR Code";
+"context_menu.more" = "More...";
+"context_menu.batch_operations" = "Batch Operations";
+"context_menu.pin_image" = "Pin Image";
+
+// MARK: - Text Edit Window
+"text_edit.title" = "Edit Text Content";
+"text_edit.subtitle" = "Supports multiline editing and real-time preview";
+"text_edit.edit_area" = "Edit Area";
+"text_edit.editing" = "Editing";
+"text_edit.cancel" = "Cancel";
+"text_edit.replace_original" = "Replace Original";
+"text_edit.save_as_new" = "Save as New";
+"text_edit.replace_success" = "Replace Successful";
+"text_edit.replace_success_message" = "Original item content has been updated";
+"text_edit.edit_complete" = "Edit Complete";
+"text_edit.edit_complete_message" = "Text has been edited and copied to clipboard";
+
+// MARK: - Title Editor
+"title_editor.title" = "Edit Title";
+"title_editor.subtitle" = "Add a custom title for this item";
+"title_editor.placeholder" = "Enter title...";
+"title_editor.delete_title" = "Delete Title";
+"title_editor.cancel" = "Cancel";
+"title_editor.save" = "Save";
+"title_editor.cancel_hint" = "Cancel editing (Esc)";
+"title_editor.save_hint" = "Save title (⌘↩)";
+"title_editor.delete_hint" = "Delete current title";
+
+// MARK: - Text Edit Window Buttons
+"text_edit.save_and_copy" = "Save and Copy";
+"text_edit.save_and_copy_hint" = "Save and copy to clipboard (⌘S)";
+"text_edit.cancel_hint" = "Cancel editing (Esc)";
+"text_edit.replace_hint" = "Replace original (⌘R)";
+"text_edit.save_as_new_hint" = "Save as new (⌘N)";
+
+// MARK: - Quick Reply Window
+"quickreply.import_export" = "Import/Export";
+"quickreply.add_category" = "Add Category";
+"quickreply.manage" = "Manage";
+"quickreply.select_all" = "Select All";
+"quickreply.deselect_all" = "Deselect All";
+
+// MARK: - Keyboard Shortcut Descriptions
+"shortcut.toggle_layout" = "Toggle view layout (List/Card)";
+"shortcut.toggle_favorite" = "Favorite/Unfavorite selected item";
+"shortcut.text_selection" = "Text selection (Select partial text from item)";
+"shortcut.toggle_paste_stack" = "Show/Hide paste stack";
+"shortcut.toggle_drop_container" = "Show/Hide drop container";
+
+// MARK: - Feature Integration Feedback
+"feedback.added_to_stack" = "Added to Paste Stack";
+"feedback.stack_queue_count" = "Current queue: %d items";
+"feedback.added_to_drop_container" = "Added to Drop Container";
+"feedback.can_drag_to_apps" = "Can drag to other apps";
 "context_menu.check_permission_status" = "Check Permission Status";
 "context_menu.open_system_preferences" = "Open System Preferences";
 "context_menu.copy_text" = "Copy Text";
@@ -1018,6 +1472,7 @@
 "toast.image_copied" = "Image copied";
 "toast.file_copied" = "File copied";
 "toast.image_load_failed" = "Failed to load image";
+"toast.image_not_found" = "Image file not found";
 "toast.file_not_found" = "File not found";
 "toast.copied_need_permission" = "Copied (requires accessibility permission for auto-paste)";
 "toast.pasted_to_cursor" = "Pasted to cursor position";
@@ -1046,17 +1501,6 @@
 "onboarding.instruction_step_3" = "If authorization fails, wait 2-3 seconds and try again";
 
 // MARK: - Onboarding - Settings
-"onboarding.settings.title" = "Personalization";
-"onboarding.settings.subtitle" = "Let's customize some basic settings for your usage";
-"onboarding.settings.preview_size" = "Preview Size";
-"onboarding.settings.preview_size_subtitle" = "Content preview size";
-"onboarding.settings.tool_buttons" = "Tool Buttons";
-"onboarding.settings.tool_buttons_subtitle" = "Show action buttons";
-"onboarding.settings.animations" = "Animations";
-"onboarding.settings.animations_subtitle" = "UI animations";
-"onboarding.settings.size_small" = "Small";
-"onboarding.settings.size_medium" = "Medium";
-"onboarding.settings.size_large" = "Large";
 
 // MARK: - Advanced Settings - New Keys
 // Trial and Activation Status
@@ -1204,6 +1648,17 @@
 
 // Future Features
 "advanced.future_features" = "Future Features";
+"advanced.future_features_desc" = "We are polishing more capabilities, stay tuned:";
+"advanced.future.privacy_space" = "Privacy Space";
+"advanced.future.privacy_space_desc" = "Sensitive content encryption and hidden display";
+"advanced.future.ai_cloud_model" = "AI Cloud Model";
+"advanced.future.ai_cloud_model_desc" = "More powerful AI processing capabilities";
+"advanced.future.usage_statistics" = "Usage Statistics";
+"advanced.future.usage_statistics_desc" = "Understand your copy-paste habits";
+"advanced.future.shortcuts_integration" = "Shortcuts Integration";
+"advanced.future.shortcuts_integration_desc" = "Integrate with macOS Shortcuts";
+"advanced.future.contact_prefix" = "Feel free to email";
+"advanced.future.suggest_features" = "to suggest features you'd like";
 "advanced.more_features_coming_soon" = "We are polishing more enhanced capabilities, stay tuned:";
 "advanced.intelligent_deduplication" = "Intelligent Deduplication/Aggregation";
 "advanced.auto_merge_duplicate_content" = "Automatically merge duplicate content for efficiency";
@@ -1276,6 +1731,30 @@
 "quickreply.content_type_image" = "Image";
 "quickreply.content_type_file" = "File";
 "quickreply.default_welcome_message" = "Welcome to OneClip Quick Reply Feature";
+"quick_reply.add_button" = "Add";
+"quick_reply.add_help" = "Add quick reply to current category";
+"quick_reply.manage_button" = "Manage";
+"quick_reply.manage_categories_button" = "Manage Categories";
+"quick_reply.add_window_title" = "Add Quick Reply";
+"quick_reply.edit_window_title" = "Edit Quick Reply";
+"quick_reply.current_category" = "Current Category";
+"quick_reply.content_type" = "Content Type";
+"quick_reply.content" = "Content";
+"quick_reply.category" = "Category";
+"quick_reply.placeholder" = "Enter quick reply content...";
+"quick_reply.clear" = "Clear";
+"quick_reply.select_image" = "Select Image";
+"quick_reply.image_format_hint" = "Supports PNG, JPEG, GIF, WebP and more formats";
+"quick_reply.select_file" = "Select File";
+"quick_reply.file_format_hint" = "Supports any file type";
+"quick_reply.add_category_title" = "Add Category";
+"quick_reply.add_category_subtitle" = "Create a new quick reply category";
+"quick_reply.category_name" = "Category Name";
+"quick_reply.category_name_placeholder" = "Enter category name";
+"quick_reply.color_label" = "Color";
+"common.create" = "Create";
+"common.save" = "Save";
+"common.cancel" = "Cancel";
 
 // MARK: - Success Notifications
 "notification.copied_to_clipboard" = "Copied to clipboard";
@@ -1299,7 +1778,11 @@
 "feedback.merged_copy_text_multiple" = "Merged and copied %d text fragments";
 "feedback.cannot_merge_selected" = "Selected items cannot be merged";
 "feedback.cannot_read_selected_data" = "Cannot read selected data";
+"feedback.no_selected_item" = "No item selected";
 "feedback.no_selected_item_preview" = "No selected item to preview";
+"feedback.deleted_quick_reply" = "Quick reply deleted";
+"feedback.added_single_item" = "Added 1 item";
+"feedback.added_multiple_items" = "Added %d items";
 "feedback.window_pinned" = "📌 Window Pinned";
 "feedback.window_unpinned" = "📍 Window Unpinned";
 
@@ -1314,6 +1797,11 @@
 // MARK: - Monitoring Messages
 "monitoring.resumed" = "Monitoring resumed";
 "monitoring.paused" = "Monitoring paused";
+"monitoring.paused.15min" = "Monitoring paused for 15 minutes";
+"monitoring.paused.30min" = "Monitoring paused for 30 minutes";
+"monitoring.paused.1hour" = "Monitoring paused for 1 hour";
+"monitoring.paused.3hours" = "Monitoring paused for 3 hours";
+"monitoring.paused.8hours" = "Monitoring paused for 8 hours";
 
 // MARK: - Card Number Messages
 "card.copied_masked" = "Copied masked card number: ****%@";
@@ -1349,7 +1837,6 @@
 "error.duplicate_quick_reply_exists" = "Duplicate quick reply already exists";
 
 // MARK: - AI Features
-"ai.title" = "AI Features";
 "ai.enable_ai" = "Enable AI Features";
 "ai.description" = "Enhance clipboard with Zhipu AI";
 "ai.features_list" = "Features";
@@ -1362,12 +1849,6 @@
 "ai.feature.summary_desc" = "Extract key points from text";
 "ai.feature.format" = "Format Text";
 "ai.feature.format_desc" = "Organize text format and layout";
-"ai.feature.code_explain" = "Code Explanation";
-"ai.feature.code_explain_desc" = "Analyze and explain code functions";
-"ai.feature.spell_check" = "Spell Check";
-"ai.feature.spell_check_desc" = "Correct spelling and grammar errors";
-"ai.feature.keywords" = "Keyword Extraction";
-"ai.feature.keywords_desc" = "Extract text keywords";
 "ai.features_description" = "Enable OCR text extraction, translation, smart summary and more";
 
 // API Key Configuration
@@ -1389,8 +1870,6 @@
 // Model Configuration
 "ai.model_configuration" = "Model Configuration";
 "ai.model_description" = "Configure text and vision models separately";
-"ai.text_model" = "Text Model";
-"ai.vision_model" = "Vision Model";
 "ai.recommended_model" = "Recommended";
 
 // AI Features Description
@@ -1430,183 +1909,6 @@
 "ai.paid_model_warning_default" = "This model is a paid model and will consume your API account balance.";
 "ai.continue_use" = "Continue";
 
-// MARK: - Cloud Sync
-"cloud_sync.title" = "Cloud Sync";
-"cloud_sync.description" = "P2P Cloud Sync powered by Syncthing";
-"cloud_sync.enable" = "Enable Cloud Sync";
-"cloud_sync.enable_description" = "Sync clipboard history across multiple devices";
-
-// Sync Status
-"cloud_sync.status_title" = "Sync Status";
-"cloud_sync.status_running" = "Sync service is running";
-"cloud_sync.status_stopped" = "Sync service stopped";
-"cloud_sync.status_starting" = "Starting...";
-"cloud_sync.status_stopping" = "Stopping...";
-"cloud_sync.connected_devices" = "Connected Devices";
-"cloud_sync.last_sync_time" = "Last Sync";
-"cloud_sync.sync_ready" = "Ready";
-
-// Auto Pairing
-"cloud_sync.auto_pairing" = "Device pairing is fully automated";
-"cloud_sync.auto_pairing_description" = "No manual Web UI operation needed";
-"cloud_sync.pairing_info" = "Devices on the same network will auto-discover and pair";
-
-// Web Management
-"cloud_sync.web_management" = "Web Management Interface";
-"cloud_sync.web_management_description" = "Manage sync settings through browser";
-"cloud_sync.open_web_ui" = "Open Web UI";
-"cloud_sync.web_ui_address" = "Access Address";
-"cloud_sync.syncthing_version" = "Syncthing v%@";
-"cloud_sync.latest_version" = "Latest";
-
-// Device Configuration
-"cloud_sync.device_config" = "Device Configuration";
-"cloud_sync.device_name" = "Device Name";
-"cloud_sync.device_id" = "Device ID";
-"cloud_sync.device_id_description" = "Used for device identification";
-"cloud_sync.copy_device_id" = "Copy";
-"cloud_sync.device_id_copied" = "Device ID copied";
-
-// Syncthing Installation
-"cloud_sync.syncthing_not_installed" = "Syncthing not installed";
-"cloud_sync.syncthing_installing" = "Downloading and installing...";
-"cloud_sync.syncthing_installed" = "Syncthing installed";
-"cloud_sync.install_syncthing" = "Install Syncthing";
-"cloud_sync.install_description" = "OneClip uses Syncthing for P2P cloud sync";
-"cloud_sync.download_size" = "Download Size";
-"cloud_sync.architecture" = "Architecture";
-"cloud_sync.install_location" = "Install Location";
-"cloud_sync.start_install" = "Start Installation";
-"cloud_sync.installing_progress" = "Downloading and installing (%d%%)...";
-"cloud_sync.install_success" = "Installation successful";
-"cloud_sync.install_failed" = "Installation failed";
-
-// Advanced Options
-"cloud_sync.advanced_options" = "Advanced Options";
-"cloud_sync.quick_actions" = "Quick Actions";
-"cloud_sync.restart_service" = "Restart Sync Service";
-"cloud_sync.restart_description" = "Fix connection issues";
-"cloud_sync.open_data_folder" = "Open Data Folder";
-"cloud_sync.uninstall_component" = "Uninstall Sync Component";
-"cloud_sync.uninstall_description" = "Free up approx. %@ space";
-"cloud_sync.uninstall_warning" = "Reinstallation required after uninstalling";
-"cloud_sync.confirm_uninstall" = "Confirm Uninstall";
-"cloud_sync.uninstalling" = "Uninstalling...";
-"cloud_sync.uninstall_success" = "Uninstalled successfully";
-"cloud_sync.use_only_when_needed" = "Use only when encountering issues";
-
-// Features
-"cloud_sync.features_title" = "Features";
-"cloud_sync.feature_p2p" = "P2P Point-to-Point Sync";
-"cloud_sync.feature_p2p_desc" = "Direct device sync without central server";
-"cloud_sync.feature_auto_discover" = "Auto Device Discovery";
-"cloud_sync.feature_auto_discover_desc" = "Auto-discover and pair devices on LAN";
-"cloud_sync.feature_secure" = "Secure Encrypted Transfer";
-"cloud_sync.feature_secure_desc" = "TLS encryption for data security";
-"cloud_sync.feature_realtime" = "Real-time Sync";
-"cloud_sync.feature_realtime_desc" = "Instant sync when files change";
-
-// Settings
-"cloud_sync.settings_title" = "Sync Settings";
-"cloud_sync.auto_start" = "Auto Start";
-"cloud_sync.auto_start_description" = "Auto-start service when cloud sync enabled";
-"cloud_sync.show_notifications" = "Show Sync Notifications";
-"cloud_sync.show_notifications_description" = "Show notification when sync completes";
-
-// Time Format
-"cloud_sync.time_just_now" = "Just now";
-"cloud_sync.time_minutes_ago" = "%d min ago";
-"cloud_sync.time_hours_ago" = "%d hrs ago";
-"cloud_sync.time_days_ago" = "%d days ago";
-
-// Device Management
-"cloud_sync.add_device" = "Add Device";
-"cloud_sync.manage_devices" = "Manage Devices";
-"cloud_sync.first_device" = "This is the first device";
-"cloud_sync.generate_pairing_code" = "Generate pairing code to enter on another Mac";
-"cloud_sync.show_device_code" = "Show My Device Code";
-"cloud_sync.hide_device_code" = "Hide Device Code";
-"cloud_sync.send_code_to_other_mac" = "Send this device code to another Mac";
-"cloud_sync.copy_device_code" = "Copy Device Code";
-"cloud_sync.or" = "or";
-"cloud_sync.add_existing_device" = "Add Existing Device";
-"cloud_sync.paste_device_code_hint" = "If another Mac already has cloud sync enabled, paste its device code";
-"cloud_sync.paste_and_connect" = "Paste Device Code and Connect";
-"cloud_sync.auto_pairing_time" = "Auto-pairing completes in about 10 seconds";
-"cloud_sync.add_more_devices" = "Add More Devices";
-"cloud_sync.auto_pairing_in_progress" = "Auto-pairing in Progress";
-"cloud_sync.auto_pairing_subtitle" = "Will complete in about 10 seconds";
-"cloud_sync.estimated_completion" = "Estimated completion within 10 seconds";
-"cloud_sync.fully_automatic" = "Fully automatic, no action required";
-"cloud_sync.waiting_for_pairing" = "Waiting to add paired device";
-"cloud_sync.click_to_start" = "Click switch above to start";
-"cloud_sync.sync_with_devices" = "Syncing with %d devices";
-"cloud_sync.connected_devices_title" = "Connected Devices";
-"cloud_sync.connected_devices_subtitle" = "Sync clipboard with these devices";
-"cloud_sync.syncing" = "Syncing";
-"cloud_sync.sync_status_title" = "Sync Status";
-"cloud_sync.paste_device_code" = "Paste Device Code";
-"cloud_sync.paste_device_code_hint" = "Paste the device code shown on another Mac";
-"cloud_sync.device_code_label" = "Device Code";
-"cloud_sync.auto_pairing_folder_sharing" = "Auto-pairing and folder sharing completes in about 10 seconds";
-"cloud_sync.last_activity" = "Last activity: %@";
-"cloud_sync.sync_on_other_mac" = "Sync clipboard on another Mac";
-
-// Uninstall Related
-"cloud_sync.uninstall_title" = "Confirm Uninstall Sync Component";
-"cloud_sync.uninstall_message" = "This will:\n\n• Free up approx. %@ storage\n• Stop cloud sync\n• Remove Syncthing component\n\nCan be reinstalled anytime";
-"cloud_sync.uninstall_and_free_space" = "Uninstall and Free Space";
-
-// Web Management
-"cloud_sync.web_management" = "Web Management";
-"cloud_sync.web_management_description" = "Manage advanced features via browser";
-"cloud_sync.only_for_failed_pairing" = "Only use if auto-pairing fails";
-"cloud_sync.open_web_manual_confirm" = "Open web interface to manually confirm connection";
-"cloud_sync.open_web_interface" = "Open Web Interface";
-"cloud_sync.current_version" = "Current Version";
-"cloud_sync.latest_version" = "Latest";
-"cloud_sync.auto_system_complete" = "System will automatically complete device addition and folder sharing";
-"cloud_sync.manual_operation_not_recommended" = "Manual operation not recommended unless auto-pairing fails";
-"cloud_sync.pairing_fully_automated" = "Device pairing is fully automated";
-"cloud_sync.no_manual_web_needed" = "No manual web interface operation needed";
-"cloud_sync.open_in_browser" = "Open in Browser";
-
-// Advanced Options
-"cloud_sync.advanced_options" = "Advanced Options";
-"cloud_sync.advanced_options_description" = "Device ID and quick actions";
-"cloud_sync.device_id" = "Device ID";
-"cloud_sync.device_id_description" = "Unique identifier for device recognition";
-"cloud_sync.view_device_id" = "View Device ID";
-"cloud_sync.copy_device_id" = "Copy ID";
-"cloud_sync.open_config_folder" = "Open Config Folder";
-"cloud_sync.view_sync_logs" = "View Sync Logs";
-"cloud_sync.restart_service" = "Restart Service";
-"cloud_sync.restarting" = "Restarting...";
-"cloud_sync.show_advanced" = "Show Advanced Options";
-"cloud_sync.hide_advanced" = "Hide Advanced Options";
-"cloud_sync.paste_device_id_placeholder" = "Paste complete device ID...";
-"cloud_sync.for_advanced_users" = "For advanced users";
-"cloud_sync.quick_actions" = "Quick Actions";
-"cloud_sync.restart_sync_service" = "Restart Sync Service";
-"cloud_sync.restart_service_description" = "Fix connection issues";
-"cloud_sync.open_data_folder" = "Open Data Folder";
-"cloud_sync.free_space" = "Free up approx. %@ space";
-"cloud_sync.only_when_issues" = "Only use when encountering issues";
-
-// Download Mirror
-"cloud_sync.download_mirror" = "Download Mirror";
-"cloud_sync.mirror_official" = "Official";
-"cloud_sync.mirror_official_desc" = "GitHub Official";
-"cloud_sync.mirror_china" = "China Mirror";
-"cloud_sync.mirror_china_desc" = "Tsinghua Mirror (Recommended)";
-"cloud_sync.downloading" = "Downloading...";
-"cloud_sync.download_syncthing" = "Download Syncthing";
-"cloud_sync.download_failed" = "Download Failed";
-"cloud_sync.retry_download" = "Retry Download";
-"cloud_sync.mirror_ghproxy_desc" = "🚀 Recommended: Fastest in China";
-"cloud_sync.mirror_hkproxy_desc" = "⚡️ Alternative: Hong Kong node, fast in Asia";
-"cloud_sync.mirror_github_desc" = "🌐 Official: Stable but may be slower";
-
 // MARK: - Onboarding
 "onboarding.settings.title" = "Personalize Settings";
 "onboarding.settings.subtitle" = "Let us customize some basic settings for your usage habits";
@@ -1633,6 +1935,12 @@
 "premium.free.six_categories_desc" = "Personalized content management";
 "premium.free.quick_reply" = "Quick Reply Function";
 "premium.free.quick_reply_desc" = "Quickly reply with common content";
+"premium.free.clipboard_stack" = "Clipboard Stack";
+"premium.free.clipboard_stack_desc" = "Batch copy and paste";
+"premium.free.drop_container" = "Drop Container";
+"premium.free.drop_container_desc" = "Drag to collect content";
+"premium.free.ai_local_model" = "AI Local Model";
+"premium.free.ai_local_model_desc" = "Local AI intelligent processing";
 "premium.free.data_export" = "Data Import & Export";
 "premium.free.data_export_desc" = "Manage your data freely";
 "premium.free.smart_classification" = "Smart Content Classification";
@@ -1645,6 +1953,7 @@
 "premium.pro.unlimited_favorites" = "Unlimited Favorites";
 "premium.pro.unlimited_categories" = "Unlimited Custom Categories";
 "premium.pro.auto_cleanup" = "Auto Cleanup & Storage Optimization";
+"premium.pro.advanced_settings" = "Advanced Settings";
 "premium.pro.theme_customization" = "Full Theme Customization";
 "premium.pro.unlocked" = "Unlocked";
 "premium.pro.unlocked_trial" = "Trial";
@@ -1688,21 +1997,10 @@
 "window.position.center" = "Fixed Center";
 "window.position.center.description" = "Window always appears at screen center";
 
-// Window Style
-"window.style.title" = "Window Style";
-"window.style.subtitle" = "Choose the preferred interface layout mode";
-"window.style.mode.title" = "Interface Mode";
-"window.style.mode.description" = "Choose the display style of the main window";
-"window.style.standard" = "Standard Window";
-"window.style.panel" = "Floating Panel";
-"window.style.standard.description" = "Traditional window style with titlebar and traffic lights";
-"window.style.panel.description" = "HUD-style panel with borderless translucent design";
-
 // List Item Density
 "list.density.title" = "List Item Height";
 "list.density.subtitle" = "Adjust list item and image preview size";
 "list.density.compact" = "Compact";
-"list.density.compact.description" = "Tighter spacing, similar to Maccy style";
 "list.density.standard" = "Standard";
 "list.density.standard.description" = "Balanced display density (recommended)";
 "list.density.relaxed" = "Relaxed";
@@ -1713,10 +2011,661 @@
 "stack_active" = "Stack Mode Active";
 "stack_inactive" = "Stack Mode Inactive";
 "stack_items_count" = "%d items in queue";
-"stack_press_to_activate" = "Press Option+Shift+C to activate";
+"stack_press_to_activate" = "Press hotkey to activate";
 "stack_clear" = "Clear Stack";
 "stack_activate" = "Activate Stack Mode";
 "stack_deactivate" = "Deactivate Stack Mode";
 "stack_empty_active" = "Stack is empty, start copying content";
 "stack_empty_inactive" = "Stack is not active";
-"stack_hint" = "Use Option+Shift+C to activate stack mode\nCopied content will be added to queue\nUse Option+Shift+V to paste sequentially";
+"stack_hint" = "Use hotkey to activate stack mode\nThen use Cmd+C to copy content to queue\nUse Cmd+V to paste sequentially";
+"stack_press_to_activate_ctrl" = "Press hotkey to activate";
+"stack_hint_ctrl" = "Use hotkey to activate stack mode\nThen use Cmd+C to copy content to queue\nUse Cmd+V to paste sequentially";
+
+// Clipboard Stack Menu
+"statusbar.menu.stack_panel" = "Clipboard Stack";
+"statusbar.menu.show_stack_panel" = "Show Clipboard Stack";
+"statusbar.menu.hide_stack_panel" = "Hide Clipboard Stack";
+"statusbar.menu.stack_panel.tooltip" = "Activate/Deactivate Clipboard Stack (⌘⇧C)";
+
+// Drop Container Menu
+"statusbar.menu.drop_container" = "Drop Container";
+"statusbar.menu.show_drop_container" = "Show Drop Container";
+"statusbar.menu.hide_drop_container" = "Hide Drop Container";
+"statusbar.menu.toggle_drop_container" = "Show/Hide Drop Container";
+"statusbar.menu.drop_container.tooltip" = "Show/Hide Drop Container (⌘⇧D)";
+
+// AI History Menu
+"statusbar.menu.ai_history" = "AI History";
+"statusbar.menu.ai_history.empty" = "AI History (Empty)";
+"statusbar.menu.ai_history.count" = "AI History (%d)";
+"statusbar.menu.ai_history.tooltip" = "View AI processing history";
+
+// MARK: - Notifications
+"notification.sync_complete.title" = "Sync Complete";
+"notification.sync_complete.body" = "Synced %d new items";
+"notification.device_paired.title" = "Device Paired Successfully";
+"notification.device_paired.body" = "Successfully connected to %@, clipboard data will sync automatically";
+"notification.folder_shared.title" = "Folder Share Accepted";
+"notification.folder_shared.body" = "Automatically accepted %@ folder share, data will sync automatically";
+
+// MARK: - Drop Container
+"drop_container.title" = "Drop Container";
+"drop_container.window_title" = "Drop Container";
+"drop_container.header" = "Drop Container";
+"drop_container.item_count" = "%d items stored";
+"drop_container.empty_title" = "Drop Zone";
+"drop_container.empty_subtitle" = "Drag files, images or text here";
+"drop_container.clear_button" = "Clear";
+"drop_container.clear_confirm_title" = "Confirm Clear";
+"drop_container.clear_confirm_message" = "Are you sure you want to clear all items in the drop container? This action cannot be undone.";
+
+// MARK: - Quick Reply
+"quick_reply.batch_mode" = "Batch";
+"quick_reply.delete" = "Delete";
+"quick_reply.done" = "Done";
+"quick_reply.settings_title" = "Quick Reply · Preferences";
+"quick_reply.restore_default" = "Restore Default";
+"quick_reply.save" = "Save";
+"quick_reply.favorite" = "Favorite";
+"quick_reply.copy" = "Copy";
+"quick_reply.manage_categories" = "Manage Categories";
+"quick_reply.add_category" = "Add Category";
+"quick_reply.category_hint" = "Drag to reorder, system categories cannot be edited";
+"quick_reply.delete_category_confirm" = "Are you sure you want to delete category \"%@\"?\n\nAll quick replies in this category will be moved to \"Frequently Used\".\n\n⚠️ This action cannot be undone!";
+"quick_reply.system_category" = "System Category";
+"quick_reply.content_type" = "Content Type";
+"quick_reply.content" = "Content";
+"quick_reply.category" = "Category";
+
+// MARK: - Common Buttons and Dialogs
+"common.cancel" = "Cancel";
+"common.confirm" = "Confirm";
+"common.delete" = "Delete";
+"common.save" = "Save";
+"common.add" = "Add";
+"common.edit" = "Edit";
+"common.retry" = "Retry";
+"common.close" = "Close";
+"common.ok" = "OK";
+"common.export" = "Export";
+"common.import" = "Import";
+"common.reset_default" = "Reset to Default";
+
+// MARK: - Confirmation Dialogs
+"alert.clear_history.title" = "Clear all history?";
+"alert.clear_history.button" = "Clear All";
+"alert.delete_item.title" = "Confirm Delete";
+"alert.batch_delete.title" = "Confirm Batch Delete";
+"alert.delete_category.title" = "Delete Category";
+"alert.delete_category.message" = "Are you sure you want to delete 「%@」 category? This action cannot be undone.";
+"alert.cancel_activation.title" = "Cancel Device Activation";
+"alert.cancel_activation.confirm" = "Confirm Cancel";
+"alert.deactivate_device" = "Deactivate";
+"alert.cancel_activation.message" = "Are you sure you want to cancel activation for device \"%@\"?\n\nAfter cancellation, this device will no longer be able to use this license.";
+
+// MARK: - Dialog Messages
+"dialog.delete_all_warning" = "This will clear all history and cannot be undone.";
+"dialog.delete_item_warning" = "Are you sure you want to delete this clipboard item? You can undo within 5 seconds.";
+"dialog.delete_items_confirm" = "Are you sure you want to delete %d selected items? You can undo within 5 seconds.";
+"dialog.delete_quick_reply_warning" = "Are you sure you want to delete this quick reply item? This action cannot be undone.";
+
+// MARK: - Drop Container Extended
+"drop_container.clear_all_items" = "Clear all %d items";
+
+// MARK: - Rule Management
+"rule.add_title" = "Add Rule";
+"rule.edit_title" = "Edit Rule";
+
+// MARK: - Import Export
+"import_export.title" = "Import & Export";
+"import_export.export_csv" = "Export to CSV";
+"import_export.export_description" = "Export all quick replies to CSV file";
+"import_export.import_csv" = "Import from CSV";
+"import_export.import_description" = "Append entries from CSV file";
+"import_export.format_info" = "Format Info";
+
+// MARK: - Quick Reply Window
+"quick_reply.window_title" = "Quick Reply";
+"quick_reply.current_category" = "Current Category";
+"quick_reply.select" = "Select";
+"quick_reply.favorite_toggle" = "Favorite";
+"quick_reply.placeholder" = "Enter quick reply content...";
+"quick_reply.clear" = "Clear";
+"quick_reply.select_image" = "Select Image";
+"quick_reply.image_format_hint" = "Supports JPG, PNG, GIF formats";
+"quick_reply.select_file" = "Select File";
+"quick_reply.file_format_hint" = "Supports PDF, documents, archives, etc.";
+"quick_reply.add_category_title" = "Add Category";
+"quick_reply.add_category_subtitle" = "Create new category tag for quick replies";
+"quick_reply.category_name" = "Name";
+"quick_reply.image_label" = "Image";
+
+// MARK: - Undo Delete
+"undo.deleted" = "Deleted";
+"undo.undo" = "Undo";
+
+// MARK: - Batch Operation Feedback
+"feedback.favoriting" = "Favoriting";
+"feedback.favoriting_items" = "Favoriting %d items...";
+
+// MARK: - Device Management
+"device.not_set" = "Not Set";
+"device.cannot_deactivate" = "Cannot deactivate or delete";
+
+// MARK: - Stack Panel
+"stack.title" = "Clipboard Stack";
+"stack.empty_title" = "Stack is Empty";
+"stack.empty_subtitle" = "Copied content will be added to queue automatically";
+"stack.activate_shortcut" = "Activate/Deactivate Stack";
+"stack.paste_shortcut" = "Paste Sequentially";
+"stack.image" = "Image";
+"stack.pasted" = "Pasted";
+"stack.remaining_items" = "%d items remaining";
+"stack.clear" = "Clear";
+"stack.restart" = "Restart";
+"stack.paste_next" = "Paste Next (%d/%d)";
+"stack.all_pasted" = "All Items Pasted";
+"stack.skip" = "Skip";
+"stack.paste_all" = "Paste All";
+
+// MARK: - Trial Banner
+"trial.expiring_soon" = "Trial expiring soon, %d hours remaining";
+"trial.purchase_now" = "Purchase Now";
+
+// MARK: - Device Activation Info
+"device.current_activation" = "Current Activation Info";
+"device.refresh" = "Refresh";
+"device.email_address" = "Email Address";
+"device.activation_code" = "Activation Code";
+
+// MARK: - AI Features
+"ai.features" = "AI Features";
+"ai.enable" = "Enable AI Features";
+"ai.enable_subtitle" = "OCR, translation, summary and other smart features";
+"ai.use_cloud_service" = "Use Cloud AI Service";
+"ai.use_cloud_subtitle" = "Online API Service · Stable & Reliable";
+"ai.service_type" = "AI Service Type";
+"ai.service_type_subtitle" = "Choose cloud API or local model";
+"ai.cloud_service" = "Cloud AI Service";
+"ai.cloud_service_subtitle" = "Use online API (Zhipu AI, OpenAI, etc.)";
+"ai.cloud_features" = "Stable & Reliable, Powerful Performance, No Local Resources Required";
+"ai.local_model" = "Local AI Model";
+"ai.local_model_subtitle" = "Use Ollama or other local services";
+"ai.local_features" = "Completely Free, Privacy Protected, No Usage Limits";
+
+// MARK: - iOS Sync
+"ios_sync.title" = "iOS Sync";
+"ios_sync.enable" = "Enable iOS Sync";
+"ios_sync.enable_subtitle" = "Easily push content between Mac and iPhone";
+"ios_sync.enabled_status" = "Enabled, right-click to push content to iPhone";
+"ios_sync.feature_1" = "Mac text/link sent to iPhone with one key";
+"ios_sync.feature_2" = "Images auto-uploaded and link pushed to iPhone";
+"ios_sync.feature_3" = "iPhone auto-copies to clipboard after receiving push";
+"ios_sync.start" = "Start iOS Sync Now";
+"ios_sync.requirement" = "Requires free Bark App, completely free with no subscription";
+"ios_sync.help_title" = "Help Resources";
+"ios_sync.help_subtitle" = "Get more help information";
+"ios_sync.bark_docs" = "Bark Official Documentation";
+"ios_sync.enabled" = "iOS Sync Enabled";
+"ios_sync.enabled_hint" = "Right-click menu to push content to iPhone";
+"ios_sync.download_bark" = "Download Bark App";
+"ios_sync.download_hint" = "Please go to App Store on iPhone to download Bark";
+"ios_sync.input_url" = "Enter Bark Push URL";
+"ios_sync.test_push" = "Test Push";
+"ios_sync.url_hint" = "Open Bark App on iPhone, copy the push URL from homepage (format: https://api.day.app/YOUR_KEY/)";
+"ios_sync.test_hint" = "If configured correctly, iPhone will receive test push immediately";
+"ios_sync.image_host" = "Image Upload Service";
+"ios_sync.catbox_free" = "Free, No Configuration";
+"ios_sync.smms_stable" = "Stable in China";
+"ios_sync.catbox_hint" = "Catbox requires VPN";
+"ios_sync.catbox_desc" = "Supports up to 200MB, completely free, no configuration needed";
+"ios_sync.smms_hint" = "SM.MS direct connection in China";
+"ios_sync.smms_desc" = "Supports up to 5MB, fast access in China, requires API Token";
+
+// MARK: - Shortcut Configuration
+"shortcuts.direct_paste" = "Paste selected item to cursor position";
+"shortcuts.delete_selected" = "Delete the selected item";
+"shortcuts.undo_delete" = "Undo last deletion";
+"shortcuts.focus_search" = "Jump to search box";
+"shortcuts.clear_search" = "Clear search content";
+"shortcuts.toggle_window" = "Pin/Unpin window on top";
+"shortcuts.toggle_batch" = "Enter/Exit batch selection mode";
+"shortcuts.show_hide_stack" = "Open/Close clipboard stack";
+"shortcuts.show_hide_container" = "Open/Close drop container";
+"shortcuts.show_quick_help" = "View all shortcuts";
+"shortcuts.open_settings" = "Open settings window";
+
+// MARK: - Category Management
+"category.new" = "New Category";
+"category.name" = "Category Name";
+"category.name_placeholder" = "Enter category name";
+"category.icon" = "Icon";
+"category.color" = "Color";
+"category.select_icon" = "Select Icon";
+"category.select_color" = "Select Color";
+"category.rules" = "Category Rules";
+"category.rules_hint" = "Click \"Add Rule\" to set category conditions";
+"category.management_subtitle" = "Manage display name, visibility and order of all categories";
+"category.create" = "Create";
+"category.current_selection" = "Current Selection:";
+"category.current_color" = "Current Color: %@";
+"category.use_system_picker" = "Use System Color Picker...";
+"common.done" = "Done";
+"common.days" = "days";
+"common.hours" = "hours";
+"common.minutes" = "minutes";
+
+// MARK: - Preset Rules
+"preset_rules.title" = "Preset Rules";
+
+// MARK: - Embedded Web
+"web.open_in_browser" = "Open in Browser";
+"web.close" = "Close";
+
+// MARK: - Interface Settings
+"interface.show_rich_text" = "Show Rich Text (Experimental)";
+"interface.show_rich_text_subtitle" = "Display rich text format (colors, fonts, etc.) in main window and editor, show plain text when disabled";
+
+// MARK: - Cloud Sync
+"cloud_sync.uninstall_success" = "Uninstall Successful";
+"cloud_sync.uninstall_success_body" = "Sync component uninstalled, please re-download if needed";
+"cloud_sync.uninstall_failed" = "Uninstall Failed";
+"cloud_sync.connect" = "Connect";
+
+// MARK: - Activation Help
+"activation.help.title" = "Activation Instructions";
+"activation.help.subtitle" = "Learn about activation process and notes";
+"activation.help.code_format" = "Activation Code Format";
+"activation.help.email_binding" = "Email Binding";
+"activation.help.email_binding_desc" = "Activation code is bound to email address, please use the email from purchase";
+"activation.help.feature_unlock" = "Feature Unlock";
+"activation.help.feature_unlock_desc" = "All premium features automatically unlocked after activation";
+"activation.help.support" = "Technical Support";
+"activation.help.support_desc" = "Contact via email for help if you encounter issues";
+
+// MARK: - iOS Sync Settings Additional
+"ios_sync.usage_title" = "Usage Instructions";
+"ios_sync.usage_subtitle" = "How to push content to iPhone";
+"ios_sync.right_click_push" = "Right-click Push";
+"ios_sync.right_click_desc" = "Right-click on text or image in history, select 'Push to iPhone'";
+"ios_sync.image_host_title" = "Image Hosting Service";
+"ios_sync.image_host_subtitle" = "Choose image upload service";
+
+// MARK: - Rule Preview
+"rule.preview" = "Rule Preview";
+"rule.case_sensitive" = "Case Sensitive";
+"rule.regex" = "Regular Expression";
+
+// MARK: - Activation & Restore
+"activation.title" = "Activation & Restore";
+"activation.email_label" = "Email Address";
+"activation.email_placeholder" = "Enter your email address";
+"activation.email_hint" = "Please enter email address";
+"activation.code_label" = "Activation Code";
+"activation.code_placeholder" = "Enter activation code";
+"activation.code_format" = "Activation code format: XXXXX-XXXXX-XXXXX";
+"activation.activate_button" = "Activate License";
+"activation.clear_button" = "Clear Authorization";
+"activation.status_pro" = "Current: Pro Unlocked";
+"activation.status_free" = "Current: Free Version";
+"activation.success" = "Activation successful!";
+"activation.error.invalid_email" = "Invalid email format";
+"activation.error.invalid_signature" = "Invalid or expired activation code";
+"activation.error.revoked" = "Activation code has been revoked";
+"activation.error.expired" = "Activation code has expired";
+"activation.error.network" = "Network connection failed, please check and retry";
+"activation.error.failed" = "Activation failed: %@";
+"activation.subtitle" = "Restore your purchase or activate new device";
+"activation.activated" = "Activated";
+"activation.current_code" = "Current Activation Code";
+"activation.copy" = "Copy";
+"activation.reactivate" = "Reactivate with Current Code";
+"activation.local_restore" = "Local Restore";
+"activation.local_restore_subtitle" = "Restore previously saved activation info from local storage";
+"activation.auto_restore" = "Auto Restore Activation Info";
+"activation.auto_restore_hint" = "Auto restore will attempt to retrieve your previously saved email and activation code from local storage.";
+"activation.manual_input" = "Enter Activation Info";
+"activation.manual_input_subtitle" = "Already have activation code? Enter email and code to activate";
+"activation.email_label" = "Email Address";
+"activation.email_placeholder" = "Please enter email address";
+"activation.code_label" = "Activation Code";
+"activation.code_format" = "Code Format: XXXXX-XXXXX-XXXXX";
+"activation.paste" = "Paste";
+"activation.show" = "Show";
+"activation.hide" = "Hide";
+"activation.restoring" = "Restoring...";
+"activation.start_restore" = "Start Restore";
+"activation.purchase_title" = "Purchase Premium";
+"activation.purchase_subtitle" = "Don't have activation code? Choose a plan that suits you";
+"activation.monthly" = "Monthly";
+"activation.monthly_desc" = "Suitable for short-term use";
+"activation.lifetime" = "Lifetime";
+"activation.lifetime_desc" = "One-time purchase, use forever, best value";
+
+// MARK: - Test Features
+"test_features.refresh_status" = "Refresh Status";
+"test_features.drop_container" = "Drop Container";
+"test_features.drop_container_subtitle" = "Show temporary container when dragging items for easy storage and management";
+"test_features.feature_status" = "Feature Status";
+"test_features.status_enabled" = "Enabled";
+"test_features.status_disabled" = "Disabled";
+"test_features.toggle_disable_hint" = "Click to disable drop container";
+"test_features.toggle_enable_hint" = "Click to enable drop container";
+"test_features.offline_disable_hint" = "Click to disable offline verification";
+"test_features.offline_enable_hint" = "Click to enable offline verification";
+"test_features.drag_container_tip1" = "📝 Show temporary container when dragging items for easy storage and management";
+"test_features.drag_container_tip2" = "🎯 Use shortcut ⌃⇧D to quickly show/hide drop container";
+"test_features.cannot_enable_title" = "Cannot Enable Offline Verification";
+"test_features.cannot_enable_message" = "Unable to enable offline verification. Possible reasons:\n\n• Server is online, offline verification not needed\n• No valid activation information found\n• Please wait for server recovery or contact support";
+
+// MARK: - AI Features
+"ai.enable_ai" = "Enable AI Features";
+"ai.description" = "Enhance clipboard with Zhipu AI";
+"ai.features_list" = "Feature List";
+"ai.features_list_description" = "Available AI features";
+
+// API Key Configuration
+"ai.api_key_configuration" = "API Key Configuration";
+"ai.api_key_description" = "Configure Zhipu AI API Key to use AI features";
+"ai.api_key_required" = "API Key required";
+"ai.api_key_prompt" = "Please add Zhipu AI API Key below";
+"ai.api_key_configured" = "API Key configured";
+"ai.api_key_masked" = "API Key configured and saved";
+"ai.add_api_key" = "Add API Key";
+"ai.enter_api_key" = "Enter Zhipu AI API Key";
+"ai.save_api_key" = "Save";
+"ai.cancel" = "Cancel";
+"ai.modify_api_key" = "Modify";
+"ai.delete_api_key" = "Delete";
+"ai.how_to_get_api_key" = "How to get API Key?";
+"ai.visit_platform" = "Visit Zhipu AI Platform";
+
+// Model Configuration
+"ai.model_configuration" = "Model Configuration";
+"ai.model_description" = "Configure text and vision models separately";
+"ai.text_processing_model" = "Text Processing Model";
+"ai.image_recognition_model" = "Image Recognition Model";
+"ai.recommended_model" = "Recommended";
+
+// AI Feature Descriptions
+"ai.features_title" = "Available Features";
+"ai.feature.ocr" = "OCR Text Recognition";
+"ai.feature.ocr_desc" = "Extract text from images";
+"ai.feature.translate" = "Smart Translation";
+"ai.feature.translate_desc" = "Support Chinese-English translation";
+"ai.feature.summary" = "Smart Summary";
+"ai.feature.summary_desc" = "Extract key points from text";
+"ai.feature.format" = "Format Text";
+"ai.feature.format_desc" = "Organize text format and layout";
+"ai.feature.code_explain" = "Code Explanation";
+"ai.feature.code_explain_desc" = "Analyze and explain code functionality";
+"ai.feature.spell_check" = "Spell Check";
+"ai.feature.spell_check_desc" = "Correct spelling and grammar errors";
+"ai.feature.keywords" = "Keyword Extraction";
+"ai.feature.keywords_desc" = "Extract keywords from text";
+
+// Model Related
+"ai.model.glm4flash.desc" = "Fast text processing";
+"ai.model.glm4flashx.desc" = "Ultra-fast text processing";
+"ai.model.glm4vflash.desc" = "Image text recognition";
+"ai.model.glm45v.desc" = "Advanced visual understanding";
+"ai.model.rate_per_minute" = "%@ times/minute";
+"ai.model.limited_free" = "Limited time free";
+"ai.free_model" = "Free";
+"ai.paid_model" = "Paid";
+"ai.rate_limit" = "Rate limit: %@";
+
+// MARK: - AI Settings Page Details
+"ai.title" = "AI Features";
+"ai.subtitle" = "Enable smart clipboard enhancements";
+"ai.service_type_title" = "AI Service Type";
+"ai.ollama_config_title" = "Ollama Local Configuration";
+"ai.ollama_config_subtitle" = "Configure local AI model service and select models";
+"ai.view_guide" = "View Installation Guide";
+"ai.text_model" = "Text Processing Model";
+"ai.vision_model" = "Image Recognition Model";
+"ai.no_text_model" = "No text model detected";
+"ai.no_vision_model" = "No vision model detected";
+"ai.recommend_install_text" = "Recommended: qwen2.5:7b (2024 latest, best Chinese support)";
+"ai.recommend_install_vision" = "Recommended: llava:7b";
+"ai.refresh_models" = "Refresh Model List";
+"ai.quick_start" = "Quick Start (3 Steps)";
+"ai.download_ollama" = "Download and Install Ollama";
+"ai.go_to_website" = "Go to Official Website";
+"ai.download_model" = "Download Model (Recommended: qwen2.5:7b, ~4.7GB)";
+"ai.after_install" = "After installing Ollama, run in terminal:";
+"ai.complete_config" = "Complete Configuration";
+"ai.auto_run_hint" = "Ollama will run automatically in background, return to OneClip and enable the switch";
+"ai.more_models" = "More Model Options";
+"ai.reasoning_model" = "Reasoning Model:";
+"ai.image_recognition" = "Image Recognition:";
+"ai.lightweight_model" = "Lightweight Model:";
+"ai.browse_models" = "Browse Ollama Official Model Library";
+"ai.stable_reliable" = "Stable & Reliable";
+"ai.powerful_performance" = "Powerful Performance";
+"ai.no_local_resources" = "No Local Resources Required";
+"ai.fully_offline" = "Fully Offline";
+"ai.privacy_protected" = "Privacy Protected";
+"ai.no_usage_limits" = "No Usage Limits";
+
+// MARK: - Paste Window Behavior Settings
+"settings.copy_window_behavior" = "Window Behavior After Copy";
+"settings.copy_window_behavior.subtitle" = "Whether to hide window after copying content";
+"settings.copy_window_behavior.keep_window" = "Keep Window";
+"settings.copy_window_behavior.auto_hide" = "Auto Hide";
+
+"settings.paste_window_behavior" = "Window Behavior After Paste";
+"settings.paste_window_behavior.subtitle" = "Whether to hide window after direct paste";
+"settings.paste_window_behavior.keep_window" = "Keep Window";
+"settings.paste_window_behavior.auto_hide" = "Auto Hide";
+
+"settings.move_to_top_after_paste.title" = "Move to Top After Paste";
+"settings.move_to_top_after_paste.subtitle" = "Automatically move pasted content to the top of history";
+
+"settings.focus_search_on_open.title" = "Focus Search on Open";
+"settings.focus_search_on_open.subtitle" = "Automatically focus on search box when window opens for quick search";
+
+// MARK: - Advanced Settings Missing Localizations
+"advanced.trial_function_status" = "Trial Function Status";
+"advanced.trial_temporarily_unavailable" = "Trial function temporarily unavailable";
+"advanced.have_code_restore_here" = "Have an activation code? Click here to restore purchase";
+"advanced.pause_limited_time" = "Pause Limited Time Trial";
+"advanced.limited_time_management" = "Limited Time Trial Management";
+"advanced.can_pause_or_activate" = "You can pause the trial or activate premium";
+"advanced.purchase_activation_code" = "Purchase/Activation Code";
+"advanced.all_features_unlocked" = "All premium features unlocked";
+"advanced.already_premium_no_trial_text" = "You are already a premium user, no trial needed";
+"advanced.can_upgrade_during_trial" = "Can upgrade anytime during trial";
+"advanced.ending_soon" = "Ending soon";
+"advanced.experience_management" = "Experience Management";
+"advanced.license_id" = "License ID";
+"advanced.limited_time_active" = "Limited Time Trial Active";
+"advanced.limited_time_ended_message" = "Limited time trial has ended, please purchase full version";
+"advanced.limited_time_paused" = "Limited Time Trial Paused";
+"advanced.limited_time_paused_message" = "Limited time trial paused, you can resume anytime";
+"advanced.limited_time_resumed" = "Limited Time Trial Resumed";
+"advanced.limited_time_resumed_message" = "Limited time trial resumed, continue enjoying premium features";
+"advanced.limited_time_cancelled" = "Limited Time Trial Cancelled";
+"advanced.limited_time_cancelled_message" = "Returned to free version. You can restart limited trial or start 7-day trial anytime";
+"advanced.payment_methods" = "Payment Methods";
+"advanced.remaining" = "Remaining";
+"advanced.restore_limited_or_activate" = "Restore limited trial or activate premium";
+"advanced.resume_limited_time" = "Resume Limited Time Trial";
+"advanced.resume_or_activate_message" = "You can resume trial or activate premium";
+"advanced.resume_or_activate_trial" = "Resume or Activate Trial";
+"advanced.trial_already_active" = "Trial already active";
+"advanced.trial_expired_no_restart" = "Trial expired, cannot restart";
+"advanced.trial_paused_title" = "Trial Paused";
+"advanced.trial_resume_failed" = "Failed to resume trial";
+"advanced.upgrade_to_paid" = "Upgrade to Paid Version";
+
+// MARK: - AI Features Missing Localizations
+"ai.api_endpoint" = "API Endpoint";
+"ai.continue_use" = "Continue Using";
+"ai.model_name" = "Model Name";
+"ai.paid_model_warning_default" = "This is a paid model, usage will incur charges";
+"ai.paid_model_warning_flashx" = "GLM-4-FlashX is a paid model, usage will incur charges";
+"ai.paid_model_warning_title" = "Paid Model Warning";
+"ai.paid_model_warning_vision" = "GLM-4V is a paid vision model, usage will incur charges";
+"ai.supported_providers" = "Supported Providers";
+"ai.supported_vision_models" = "Supported Vision Models";
+
+// MARK: - Other Missing Localizations
+"onboarding.settings.auto_start" = "Auto Start on Login";
+"onboarding.settings.auto_start_subtitle" = "Automatically run OneClip when system starts";
+"rule.regex_label" = "Regular Expression";
+
+// MARK: - Onboarding Pages
+"onboarding.skip" = "Skip";
+"onboarding.welcome.title" = "Welcome to OneClip";
+"onboarding.welcome.subtitle" = "Never lose anything you copy";
+"onboarding.feature.auto_save" = "Auto Save";
+"onboarding.feature.auto_save_desc" = "All copied content\nautomatically saved";
+"onboarding.feature.fast_search" = "Fast Search";
+"onboarding.feature.fast_search_desc" = "Find any content\nin seconds";
+"onboarding.feature.smart_category" = "Smart Category";
+"onboarding.feature.smart_category_desc" = "Automatically detect\ncontent type";
+"onboarding.button.start" = "Get Started";
+"onboarding.button.continue" = "Continue";
+"onboarding.button.complete" = "Complete Setup";
+"onboarding.button.later" = "I'll authorize later in Settings";
+"onboarding.permission.title" = "Accessibility Permission Required";
+"onboarding.permission.title_granted" = "Authorization Successful!";
+"onboarding.permission.desc" = "OneClip needs this permission to monitor clipboard changes";
+"onboarding.permission.desc_granted" = "OneClip can now automatically save your clipboard content";
+"onboarding.permission.step1" = "Tap the button below";
+"onboarding.permission.step2" = "Check OneClip in System Settings";
+"onboarding.permission.step3" = "Automatically detected when you return";
+"onboarding.permission.tip" = "If already in the list, remove and re-add it";
+"onboarding.permission.button" = "Enable Permission";
+"onboarding.quickstart.title" = "Remember These Shortcuts";
+"onboarding.quickstart.subtitle" = "Double your efficiency";
+"onboarding.quickstart.shortcut1_keys" = "⌘ ⇧ V";
+"onboarding.quickstart.shortcut1_desc" = "Open OneClip main window";
+"onboarding.quickstart.shortcut2_keys" = "Space";
+"onboarding.quickstart.shortcut2_desc" = "Preview selected content";
+"onboarding.quickstart.shortcut3_keys" = "⌘ ↩︎";
+"onboarding.quickstart.shortcut3_desc" = "Paste selected item to current location";
+"onboarding.quickstart.tip" = "You can always view";
+"onboarding.quickstart.tip_link" = "complete shortcuts list";
+
+// MARK: - Context Menu - Extract Domain
+"context_menu.extract_domain" = "Extract Domain";
+
+// MARK: - Shortcut Drag Operations
+"shortcut.drag_to_desktop" = "Drag to Desktop";
+"shortcut.drag_to_desktop.description" = "Drag items to desktop or other apps";
+"shortcut.drag_to_window" = "Drag into Main Window";
+"shortcut.drag_to_window.description" = "Drag files/images into window to add";
+"shortcut.drag_to_menubar" = "Drag to menu bar icon";
+"shortcut.drag_to_menubar.description" = "Drag files/images/text to menu bar icon to quick save";
+
+// MARK: - List Density Description Update
+"list.density.compact.description" = "Tighter spacing";
+
+// MARK: - Menu Bar Trigger Panel
+"menubar.trigger.title" = "Menu Bar Trigger Panel";
+"menubar.trigger.subtitle" = "Scroll down or swipe down in menu bar to show panel";
+"menubar.trigger.enable" = "Enable Menu Bar Trigger";
+"menubar.trigger.description" = "Scroll down with mouse wheel or swipe down with two fingers in menu bar area to show panel";
+"menubar.trigger.how_to_use" = "How to Use";
+"menubar.trigger.step1" = "• Mouse Wheel: Scroll down in menu bar";
+"menubar.trigger.step2" = "• Trackpad: Swipe down with two fingers in menu bar";
+"menubar.trigger.step3" = "• Panel will appear below mouse position";
+"menubar.trigger.step4" = "• Scroll or swipe up to hide panel";
+
+// MARK: - Search Bar Button Configuration
+"search_bar.config.title" = "Search Bar Button Configuration";
+"search_bar.config.subtitle" = "Customize buttons displayed based on window width";
+"search_bar.config.enable_custom" = "Enable Custom Configuration";
+"search_bar.config.enable_custom.description" = "Use default configuration when disabled";
+"search_bar.config.wide_window" = "Wide Window";
+"search_bar.config.wide_window.description" = "Buttons to display when window width ≥ 600 pixels";
+"search_bar.config.narrow_window" = "Narrow Window";
+"search_bar.config.narrow_window.description" = "Buttons to display when window width < 600 pixels";
+"search_bar.config.reset" = "Reset to Default Configuration";
+"search_bar.config.reset_confirm_title" = "Confirm Reset";
+"search_bar.config.reset_confirm" = "Reset to Default Configuration";
+"search_bar.config.reset_confirm_message" = "This will restore all button configurations to default settings";
+"search_bar.config.drag_to_reorder" = "Use up/down arrows to adjust button order";
+"search_bar.config.preview_hint" = "Live Preview";
+"search_bar.config.preview_hint.description" = "Adjust window width to see button display effects in real-time";
+
+// MARK: - Search Bar Button Types
+"search_bar.button.view_layout" = "View Mode";
+"search_bar.button.view_layout.description" = "Switch between list and card views";
+"search_bar.button.batch_mode" = "Batch Mode";
+"search_bar.button.batch_mode.description" = "Enable batch selection mode";
+"search_bar.button.help" = "Help";
+"search_bar.button.help.description" = "Show keyboard shortcuts help";
+"search_bar.button.pin" = "Pin";
+"search_bar.button.pin.description" = "Keep window in front";
+"search_bar.button.clear" = "Clear";
+"search_bar.button.clear.description" = "Clear history";
+"search_bar.button.settings" = "Settings";
+"search_bar.button.settings.description" = "Open settings window";
+
+// MARK: - Menu Bar Click Behavior
+"menubar.click_behavior.title" = "Menu Bar Click Behavior";
+"menubar.click_behavior.description" = "Action when clicking menu bar items";
+"menubar.left_click" = "Left Click";
+"menubar.right_click" = "Right Click";
+
+// MARK: - Common Operations
+"common.copy" = "Copy";
+"common.paste" = "Paste";
+
+// MARK: - Content Categories
+"category.custom" = "Custom";
+
+// MARK: - Menu Bar Preview
+"menubar.preview.title" = "Menu Bar Preview Item Count";
+
+// MARK: - Finder Cut Paste Enhancement
+"finder.cut_paste.title" = "Finder Cut Paste Enhancement";
+"finder.cut_paste.description" = "Use ⌘X to cut files in Finder, ⌘V to paste and move";
+"finder.cut_paste.usage_method" = "How to Use";
+"finder.cut_paste.step1" = "Select files to move in Finder";
+"finder.cut_paste.step2" = "Press ⌘X to cut files";
+"finder.cut_paste.step3" = "Switch to target folder";
+"finder.cut_paste.step4" = "Press ⌘V to move files (automatically uses system cut and paste)";
+"finder.cut_paste.cancel_cut" = "Cancel cut (files stay in original location)";
+"finder.cut_paste.features" = "Features";
+"finder.cut_paste.feature1" = "Use native ⌘⌥V cut and paste functionality";
+"finder.cut_paste.feature2" = "Intelligently detect text editing scenarios (rename, search box, etc.)";
+"finder.cut_paste.feature3" = "Only works in Finder, does not affect other applications";
+"finder.cut_paste.feature4" = "Only requires accessibility permission, no automation permission needed";
+"finder.cut_paste.permission_status" = "Permission Status";
+"finder.cut_paste.shortcut_conflict" = "Keyboard Shortcut Conflict Warning";
+"finder.cut_paste.shortcut_conflict_desc" = "Detected that one of your global keyboard shortcuts is set to ⌘⌥V, which may conflict with Finder's cut and paste function. When using ⌘V to move files, the OneClip window may also appear. It is recommended to change the global shortcut to another combination (such as ⌘⇧V) to avoid conflicts.";
+"finder.cut_paste.authorization_steps" = "Authorization Steps:";
+"finder.cut_paste.step_open_settings" = "1. Click \"Go Authorize\" to open System Settings";
+"finder.cut_paste.step_check_oneclip" = "2. Check OneClip in the \"Accessibility\" list";
+"finder.cut_paste.go_authorize" = "Go Authorize";
+"finder.cut_paste.cancel" = "Cancel";
+
+// MARK: - Data Restore
+"data_restore.title" = "Data Restore";
+"data_restore.description" = "Create backups or restore favorites and history data from backups for testing or data recovery";
+"data_restore.backup_content_warning" = "Backups only contain item data and favorites information, not image files. Images need to be recopied after restore";
+"data_restore.available_backups" = "Available Backups";
+"data_restore.create_backup" = "Backup";
+"data_restore.refresh" = "Refresh";
+"data_restore.no_backups" = "No backups available";
+"data_restore.selected" = "Selected:";
+"data_restore.created_time" = "Created:";
+"data_restore.restore_backup" = "Restore This Backup";
+"data_restore.confirm_restore_title" = "Confirm Restore Backup";
+"data_restore.confirm_restore_message" = "Restoring a backup will import data from the backup into the current database. This operation will not delete existing data, but may create duplicate items. Are you sure you want to continue?";
+"data_restore.restore_success_title" = "Restore Successful";
+"data_restore.restore_success_message" = "Backup has been successfully restored! Data has been imported into the current database.";
+"data_restore.restore_failed_title" = "Restore Failed";
+"data_restore.restore_failed_message" = "Backup restore failed, please check the logs for details.";
+"data_restore.cancel" = "Cancel";
+"data_restore.restore" = "Restore";
+"data_restore.ok" = "OK";
+
+// MARK: - Horizontal Panel Direction
+"panel.direction.bottom" = "Bottom";
+"panel.direction.left" = "Left";
+"panel.direction.right" = "Right";
